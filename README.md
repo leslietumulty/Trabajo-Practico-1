@@ -1,4 +1,6 @@
 TRABAJO PRÁCTICO 1 DE LAS BEBECITAS
+
+-modelo: https://newbiz-master-uqgespkghu.now.sh
 - los iconos son fontawesome
 
 - fuente de los párrafos: font-family: “Open Sans”, sans-serif;
