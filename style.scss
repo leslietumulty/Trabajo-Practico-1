@@ -1,0 +1,41 @@
+@import "./variables.scss ";
+
+body {
+  margin: 0 0 0 0;
+}
+
+nav {
+  @include nav;
+
+  .contenedor-nav {
+    height: 80px;
+    @include flex;
+    @include centrar;
+    background-color: $fondo-ppal;
+    .contenedor-logo {
+      height: 20px;
+      width: 65px;
+      margin-right: 150px;
+      .logo {
+        @include height-auto;
+      }
+    }
+
+    .contenedor-botonera-nav {
+      width: 735px;
+      margin-left: 200px;
+
+      .botonera-nav {
+        @include listas;
+        @include flex;
+        justify-content: space-evenly;
+        :hover {
+          color: #007bff;
+        }
+        .home {
+          color: #007bff;
+        }
+      }
+    }
+  }
+}
