@@ -7,8 +7,12 @@ body {
 nav {
   @include nav;
 
+  a {
+    text-decoration: none;
+  }
+
   .contenedor-nav {
-    height: 80px;
+    height: 800px;
     @include flex;
     @include centrar;
     background-color: $fondo-ppal;
@@ -29,11 +33,22 @@ nav {
         @include listas;
         @include flex;
         justify-content: space-evenly;
+        font-weight: bold;
         :hover {
           color: #007bff;
         }
+
         .home {
           color: #007bff;
+        }
+
+        .desplegables {
+          display: block;
+          .submenu-1,
+          .submenu-2 {
+            @include listas;
+            display: none;
+          }
         }
       }
     }

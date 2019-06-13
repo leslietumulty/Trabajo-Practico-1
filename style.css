@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans&display=swap");
 /*titulos-secciones y descripciones-secciones sirven para los encabezados de casi todas las secciones*/
 /* titulos-iconos y texto-iconos sirve para About Us y Services (especificar color de titulo pq esto cambia segun la sección*/
 body {
@@ -9,8 +9,10 @@ nav {
   color: #003b7a;
   font-family: "Montserrat", sans-serif;
   font-size: 14px; }
+  nav a {
+    text-decoration: none; }
   nav .contenedor-nav {
-    height: 80px;
+    height: 800px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -30,8 +32,15 @@ nav {
         list-style: none;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly; }
+        justify-content: space-evenly;
+        font-weight: bold; }
         nav .contenedor-nav .contenedor-botonera-nav .botonera-nav :hover {
           color: #007bff; }
         nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .home {
           color: #007bff; }
+        nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .desplegables {
+          display: block; }
+          nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .desplegables .submenu-1,
+          nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .desplegables .submenu-2 {
+            list-style: none;
+            display: none; }
