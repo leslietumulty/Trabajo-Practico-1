@@ -1,12 +1,8 @@
-TRABAJO PRÁCTICO 1 DE LAS BEBECITAS
+TRABAJO PRÁCTICO 1 DE LAS BEBECITAS :sparkling_heart: </br>
+Fecha de entrega: 22 de junio </br>
+-Modelo: https://newbiz-master-uqgespkghu.now.sh
 
--modelo: https://newbiz-master-uqgespkghu.now.sh
-- los iconos son fontawesome
-
-- fuente de los párrafos: font-family: “Open Sans”, sans-serif;
-
-- fuente de los títulos: font-family: “Montserrat”, sans-serif;
-
-Próximamente tendremos el repo en github con todas las imágenes.
-
-Fecha de entrega: 22 de junio
+<ul>
+  <li><a href="https://github.com/melinaariana/Trabajo-Practico-1/tree/master/Imagenes">Imagenes<a></li>
+    <li><a href="https://github.com/melinaariana/Trabajo-Practico-1/blob/master/pag1.pdf">Croquis<a></li>
+</ul>
