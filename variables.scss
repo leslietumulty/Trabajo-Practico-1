@@ -51,6 +51,11 @@ $fondo-chooseus: #004a99;
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
 }
+
+@mixin imagenes-porfolio {
+  width: 350px;
+  height: 250px;
+}
 @mixin iconos-aboutus {
   background-color: transparent;
   border-radius: 50px;

@@ -9,17 +9,18 @@ nav {
 
   a {
     text-decoration: none;
+    color: #003b7a;
   }
 
   .contenedor-nav {
-    height: 800px;
+    height: 80px;
     @include flex;
     @include centrar;
     background-color: $fondo-ppal;
     .contenedor-logo {
       height: 20px;
       width: 65px;
-      margin-right: 150px;
+      margin-right: 130px;
       .logo {
         @include height-auto;
       }
@@ -43,14 +44,131 @@ nav {
         }
 
         .desplegables {
-          display: block;
           .submenu-1,
           .submenu-2 {
             @include listas;
-            display: none;
           }
         }
       }
     }
+  }
+}
+
+.contenedor-porfolio {
+  .contenedor-titulo-botones {
+    @include flex;
+    @include columnas;
+    @include centrar;
+    .titulo-porfolio {
+      @include titulos-secciones;
+    }
+
+    .contenedor-botonera-porfolio {
+      width: 400px;
+
+      .botonera-porfolio {
+        padding: 0 0 0 0;
+        @include listas;
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        @include flex;
+        justify-content: space-evenly;
+        color: #007bff;
+        :hover {
+          color: white;
+        }
+        .botones-porfolio {
+          background-color: rgb(187, 247, 255);
+          transition: transform;
+
+          &:hover {
+            background-color: #003b7a;
+            transition: all 0.5s ease-in-out;
+          }
+          line-height: 20px;
+          border-radius: 50px;
+          width: 60px;
+          height: 30px;
+          @include flex;
+          @include columnas;
+          @include centrar;
+        }
+      }
+    }
+  }
+}
+
+.contenedor-imagenes-porfolio {
+  @include flex;
+  @include columnas;
+  @include centrar;
+  height: 900px;
+}
+
+.tres-imagenes-porfolio-1,
+.tres-imagenes-porfolio-2,
+.tres-imagenes-porfolio-3 {
+  @include flex;
+  @include centrar;
+  justify-content: space-evenly;
+  width: 1140px;
+  margin-bottom: 30px;
+}
+
+.porfolio-imagen-1,
+.porfolio-imagen-2,
+.porfolio-imagen-3,
+.porfolio-imagen-4,
+.porfolio-imagen-5,
+.porfolio-imagen-6,
+.porfolio-imagen-7,
+.porfolio-imagen-8,
+.porfolio-imagen-9 {
+  @include imagenes-porfolio;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.imagenes-porfolio {
+  @include height-auto;
+}
+
+.transparencia-imagenes {
+  background-color: rgba(255, 0, 9, 0.5);
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+  display: none;
+}
+
+.porfolio-imagen-1:hover .transparencia-imagenes {
+  display: block;
+}
+
+.datos {
+  background-color: #003b7a;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  @include flex;
+  @include centrar;
+
+  .wayne {
+    width: 350px;
+    .titulo {
+    }
+    .texto-wayne {
+    }
+  }
+
+  .links-utiles {
+    width: 160px;
+  }
+
+  .contacto-chico {
+    width: 255px;
+  }
+
+  .noticias {
+    width: 255px;
   }
 }
