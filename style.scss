@@ -3,7 +3,7 @@
 body {
   margin: 0 0 0 0;
 }
-
+/* inicio botonera */
 nav {
   @include nav;
 
@@ -53,6 +53,10 @@ nav {
     }
   }
 }
+
+/* fin botonera */
+
+/* inicio portfolio */
 
 .contenedor-porfolio {
   .contenedor-titulo-botones {
@@ -115,6 +119,12 @@ nav {
   margin-bottom: 30px;
 }
 
+.porfolio-imagen-1 {
+  background-image: url(\Imagenes\Section4-Portfolio\portfolio-1img.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
 .porfolio-imagen-1,
 .porfolio-imagen-2,
 .porfolio-imagen-3,
@@ -133,17 +143,116 @@ nav {
   @include height-auto;
 }
 
+.porfolio-imagen-1 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-1img.jpg);
+  @include imagenes-fondo;
+}
+
+.porfolio-imagen-2 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-2img.jpg);
+  @include imagenes-fondo;
+}
+
+.porfolio-imagen-3 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-3img.jpg);
+  @include imagenes-fondo;
+}
+
+.porfolio-imagen-4 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-4img.jpg);
+  @include imagenes-fondo;
+}
+
+.porfolio-imagen-5 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-5img.jpg);
+  @include imagenes-fondo;
+}
+
+.porfolio-imagen-6 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-6img.jpg);
+  @include imagenes-fondo;
+}
+
+.porfolio-imagen-7 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-7img.jpg);
+  @include imagenes-fondo;
+}
+
+.porfolio-imagen-8 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-8img.jpg);
+  @include imagenes-fondo;
+}
+
+.porfolio-imagen-9 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-9img.jpg);
+  @include imagenes-fondo;
+}
+
 .transparencia-imagenes {
-  background-color: rgba(255, 0, 9, 0.5);
+  background-color: rgba(#003b7a, 0.5);
+  /*margin-top: 0;*/
   width: 350px;
   height: 250px;
-  overflow: hidden;
   display: none;
 }
 
-.porfolio-imagen-1:hover .transparencia-imagenes {
-  display: block;
+.titulos-porfolio,
+.porfolio-subtitulos,
+.links-porfolio {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-decoration: none;
 }
+
+.titulos-porfolio {
+  /*margin-top: 0;*/
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.porfolio-imagen-1:hover .transparencia-imagenes,
+.porfolio-imagen-2:hover .transparencia-imagenes,
+.porfolio-imagen-3:hover .transparencia-imagenes,
+.porfolio-imagen-4:hover .transparencia-imagenes,
+.porfolio-imagen-5:hover .transparencia-imagenes,
+.porfolio-imagen-6:hover .transparencia-imagenes,
+.porfolio-imagen-7:hover .transparencia-imagenes,
+.porfolio-imagen-8:hover .transparencia-imagenes,
+.porfolio-imagen-9:hover .transparencia-imagenes {
+  display: flex;
+  @include centrar;
+  @include columnas;
+}
+
+.fondo-link {
+  @include flex;
+  @include centrar;
+  width: 36px;
+  height: 36px;
+  background: #007bff;
+  border-radius: 50%;
+  transform: transition;
+  &:hover {
+    background-color: #449fff;
+    transition: 0.5s;
+  }
+}
+
+.links-porfolio {
+  @include flex;
+  @include centrar;
+  width: 90px;
+  justify-content: space-between;
+}
+
+.ojo,
+.link {
+  @include iconos-porfolio;
+}
+
+/* fin portfolio */
+
+/* footer botonera */
 
 .datos {
   background-color: #003b7a;
@@ -172,3 +281,5 @@ nav {
     width: 255px;
   }
 }
+
+/* fin footer */

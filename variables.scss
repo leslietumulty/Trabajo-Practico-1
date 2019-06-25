@@ -56,6 +56,18 @@ $fondo-chooseus: #004a99;
   width: 350px;
   height: 250px;
 }
+
+@mixin imagenes-fondo {
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin iconos-porfolio {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
 @mixin iconos-aboutus {
   background-color: transparent;
   border-radius: 50px;

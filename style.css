@@ -5,6 +5,7 @@
 body {
   margin: 0 0 0 0; }
 
+/* inicio botonera */
 nav {
   color: #003b7a;
   font-family: "Montserrat", sans-serif;
@@ -43,6 +44,8 @@ nav {
         nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .desplegables .submenu-2 {
           list-style: none; }
 
+/* fin botonera */
+/* inicio portfolio */
 .contenedor-porfolio .contenedor-titulo-botones {
   display: flex;
   flex-direction: row;
@@ -100,6 +103,11 @@ nav {
   width: 1140px;
   margin-bottom: 30px; }
 
+.porfolio-imagen-1 {
+  background-image: url(\Imagenes\Section4-Portfolio\portfolio-1img.jpg);
+  background-position: center;
+  background-size: cover; }
+
 .porfolio-imagen-1,
 .porfolio-imagen-2,
 .porfolio-imagen-3,
@@ -118,16 +126,114 @@ nav {
   width: 100%;
   height: auto; }
 
+.porfolio-imagen-1 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-1img.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.porfolio-imagen-2 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-2img.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.porfolio-imagen-3 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-3img.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.porfolio-imagen-4 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-4img.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.porfolio-imagen-5 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-5img.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.porfolio-imagen-6 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-6img.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.porfolio-imagen-7 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-7img.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.porfolio-imagen-8 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-8img.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.porfolio-imagen-9 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-9img.jpg);
+  background-size: cover;
+  background-position: center; }
+
 .transparencia-imagenes {
-  background-color: rgba(255, 0, 9, 0.5);
+  background-color: rgba(0, 59, 122, 0.5);
+  /*margin-top: 0;*/
   width: 350px;
   height: 250px;
-  overflow: hidden;
   display: none; }
 
-.porfolio-imagen-1:hover .transparencia-imagenes {
-  display: block; }
+.titulos-porfolio,
+.porfolio-subtitulos,
+.links-porfolio {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-decoration: none; }
 
+.titulos-porfolio {
+  /*margin-top: 0;*/
+  font-size: 22px;
+  font-weight: 700; }
+
+.porfolio-imagen-1:hover .transparencia-imagenes,
+.porfolio-imagen-2:hover .transparencia-imagenes,
+.porfolio-imagen-3:hover .transparencia-imagenes,
+.porfolio-imagen-4:hover .transparencia-imagenes,
+.porfolio-imagen-5:hover .transparencia-imagenes,
+.porfolio-imagen-6:hover .transparencia-imagenes,
+.porfolio-imagen-7:hover .transparencia-imagenes,
+.porfolio-imagen-8:hover .transparencia-imagenes,
+.porfolio-imagen-9:hover .transparencia-imagenes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.fondo-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: #007bff;
+  border-radius: 50%;
+  transform: transition; }
+  .fondo-link:hover {
+    background-color: #449fff;
+    transition: 0.5s; }
+
+.links-porfolio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  justify-content: space-between; }
+
+.ojo,
+.link {
+  width: 20px;
+  height: 20px;
+  color: white; }
+
+/* fin portfolio */
+/* footer botonera */
 .datos {
   background-color: #003b7a;
   color: white;
@@ -144,3 +250,5 @@ nav {
     width: 255px; }
   .datos .noticias {
     width: 255px; }
+
+/* fin footer */
