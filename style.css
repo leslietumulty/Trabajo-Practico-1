@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans&display=swap");
 /*titulos-secciones y descripciones-secciones sirven para los encabezados de casi todas las secciones*/
 /* titulos-iconos y texto-iconos sirve para About Us y Services (especificar color de titulo pq esto cambia segun la sección*/
+<<<<<<< HEAD
 html {
   scroll-behavior: smooth; }
   html body {
@@ -566,3 +567,299 @@ html {
             font-size: 14px;
             color: white;
             margin-top: 8px; }
+=======
+body {
+  margin: 0 0 0 0; }
+
+/* inicio botonera */
+nav {
+  color: #003b7a;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px; }
+  nav .botones-nav {
+    text-decoration: none;
+    color: #003b7a; }
+  nav .contenedor-nav {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff; }
+    nav .contenedor-nav .contenedor-logo {
+      height: 20px;
+      width: 65px;
+      margin-right: 130px; }
+      nav .contenedor-nav .contenedor-logo .logo {
+        width: 100%;
+        height: auto; }
+    nav .contenedor-nav .contenedor-botonera-nav {
+      width: 735px;
+      margin-left: 200px; }
+      nav .contenedor-nav .contenedor-botonera-nav .botonera-nav {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-weight: bold; }
+        nav .contenedor-nav .contenedor-botonera-nav .botonera-nav :hover {
+          color: #007bff; }
+        nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .home {
+          color: #007bff; }
+        nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .desplegables .submenu-1,
+        nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .desplegables .submenu-2 {
+          list-style: none; }
+
+/* fin botonera */
+/* inicio portfolio */
+.contenedor-porfolio .contenedor-titulo-botones {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .contenedor-porfolio .contenedor-titulo-botones .titulo-porfolio {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px; }
+  .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio {
+    width: 400px; }
+    .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio {
+      padding: 0 0 0 0;
+      list-style: none;
+      font-family: "Open Sans", sans-serif;
+      font-size: 12px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      color: #007bff; }
+      .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio :hover {
+        color: white; }
+      .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio .botones-porfolio {
+        background-color: #bbf7ff;
+        transition: transform;
+        line-height: 20px;
+        border-radius: 50px;
+        width: 60px;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio .botones-porfolio:hover {
+          background-color: #003b7a;
+          transition: all 0.5s ease-in-out; }
+
+.contenedor-imagenes-porfolio {
+  display: flex;
+  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 900px; }
+
+.tres-imagenes-porfolio-1,
+.tres-imagenes-porfolio-2,
+.tres-imagenes-porfolio-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: 1140px;
+  margin-bottom: 30px; }
+
+.porfolio-imagen-1 {
+  background-image: url(\Imagenes\Section4-Portfolio\portfolio-1img.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.porfolio-imagen-1,
+.porfolio-imagen-2,
+.porfolio-imagen-3,
+.porfolio-imagen-4,
+.porfolio-imagen-5,
+.porfolio-imagen-6,
+.porfolio-imagen-7,
+.porfolio-imagen-8,
+.porfolio-imagen-9 {
+  width: 350px;
+  height: 250px;
+  border-radius: 5px;
+  overflow: hidden; }
+
+.imagenes-porfolio {
+  width: 100%;
+  height: auto; }
+
+.porfolio-imagen-1 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-1img.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.porfolio-imagen-2 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-2img.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.porfolio-imagen-3 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-3img.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.porfolio-imagen-4 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-4img.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.porfolio-imagen-5 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-5img.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.porfolio-imagen-6 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-6img.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.porfolio-imagen-7 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-7img.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.porfolio-imagen-8 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-8img.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.porfolio-imagen-9 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-9img.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.transparencia-imagenes {
+  background-color: rgba(0, 59, 122, 0.5);
+  /*margin-top: 0;*/
+  width: 350px;
+  height: 250px;
+  display: none;
+  transform: transition;
+  transition: 0.2s linear; }
+
+.titulos-porfolio,
+.porfolio-subtitulos,
+.links-porfolio {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-decoration: none; }
+
+.links-porfolio-2 {
+  text-decoration: none;
+  color: white; }
+
+.titulos-porfolio {
+  /*margin-top: 0;*/
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 0; }
+
+.porfolio-subtitulos {
+  margin-top: 5px; }
+
+.porfolio-imagen-1:hover .transparencia-imagenes,
+.porfolio-imagen-2:hover .transparencia-imagenes,
+.porfolio-imagen-3:hover .transparencia-imagenes,
+.porfolio-imagen-4:hover .transparencia-imagenes,
+.porfolio-imagen-5:hover .transparencia-imagenes,
+.porfolio-imagen-6:hover .transparencia-imagenes,
+.porfolio-imagen-7:hover .transparencia-imagenes,
+.porfolio-imagen-8:hover .transparencia-imagenes,
+.porfolio-imagen-9:hover .transparencia-imagenes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.fondo-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: #007bff;
+  border-radius: 50%;
+  transform: transition; }
+  .fondo-link:hover {
+    background-color: #449fff;
+    transition: 0.5s; }
+
+.links-porfolio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  justify-content: space-between; }
+
+.ojo,
+.link {
+  width: 20px;
+  height: 20px;
+  color: white; }
+
+/* fin portfolio */
+/* footer botonera */
+.datos {
+  background-color: #003b7a;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+  .datos .wayne {
+    width: 350px; }
+    .datos .wayne .titulo .datos-titulo {
+      font-size: 34px;
+      margin: 0 0 20px 0;
+      padding: 2px 0 2px 0;
+      line-height: 1;
+      font-family: "Montserrat", sans-serif;
+      color: #fff;
+      font-weight: 400;
+      letter-spacing: 3px;
+      text-transform: uppercase; }
+    .datos .wayne .texto-wayne .datos-texto-wayne {
+      font-size: 13px;
+      line-height: 24px;
+      margin-bottom: 0;
+      font-family: "Montserrat", sans-serif;
+      color: #ecf5ff; }
+  .datos .links-utiles {
+    width: 242px;
+    margin-left: 30px; }
+    .datos .links-utiles .titulo-links .links-titulo-texto {
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      text-transform: uppercase;
+      position: relative;
+      padding-bottom: 10px; }
+    .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne {
+      list-style: none;
+      padding-left: 0; }
+      .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne .wayne-lista {
+        padding: 8px 0; }
+        .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne .wayne-lista .botones-wayne {
+          text-decoration: none;
+          color: #ecf5ff; }
+          .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne .wayne-lista .botones-wayne:hover {
+            color: #007bff; }
+  .datos .contacto-chico {
+    width: 255px; }
+  .datos .noticias {
+    width: 255px; }
+
+/* fin footer */
+>>>>>>> sheldon

@@ -359,6 +359,55 @@ body {
               width: 325px;
               line-height: 24px;
             }
+
+
+body {
+  margin: 0 0 0 0;
+}
+/* inicio botonera */
+nav {
+  @include nav;
+
+  .botones-nav {
+    text-decoration: none;
+    color: #003b7a;
+  }
+
+  .contenedor-nav {
+    height: 80px;
+    @include flex;
+    @include centrar;
+    background-color: $fondo-ppal;
+    .contenedor-logo {
+      height: 20px;
+      width: 65px;
+      margin-right: 130px;
+      .logo {
+        @include height-auto;
+      }
+    }
+
+    .contenedor-botonera-nav {
+      width: 735px;
+      margin-left: 200px;
+
+      .botonera-nav {
+        @include listas;
+        @include flex;
+        justify-content: space-evenly;
+        font-weight: bold;
+        :hover {
+          color: #007bff;
+        }
+
+        .home {
+          color: #007bff;
+        }
+
+        .desplegables {
+          .submenu-1,
+          .submenu-2 {
+            @include listas;
           }
         }
       }
@@ -598,6 +647,280 @@ body {
           font-size: 14px;
           color: white;
           margin-top:8px;
+}
+
+/* fin botonera */
+
+/* inicio portfolio */
+
+.contenedor-porfolio {
+  .contenedor-titulo-botones {
+    @include flex;
+    @include columnas;
+    @include centrar;
+    .titulo-porfolio {
+      @include titulos-secciones;
+    }
+
+    .contenedor-botonera-porfolio {
+      width: 400px;
+
+      .botonera-porfolio {
+        padding: 0 0 0 0;
+        @include listas;
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        @include flex;
+        justify-content: space-evenly;
+        color: #007bff;
+        :hover {
+          color: white;
+        }
+        .botones-porfolio {
+          background-color: rgb(187, 247, 255);
+          transition: transform;
+
+          &:hover {
+            background-color: #003b7a;
+            transition: all 0.5s ease-in-out;
+          }
+          line-height: 20px;
+          border-radius: 50px;
+          width: 60px;
+          height: 30px;
+          @include flex;
+          @include columnas;
+          @include centrar;
+        }
+      }
+    }
+  }
+}
+
+.contenedor-imagenes-porfolio {
+  @include flex;
+  @include columnas;
+  @include centrar;
+  height: 900px;
+}
+
+.tres-imagenes-porfolio-1,
+.tres-imagenes-porfolio-2,
+.tres-imagenes-porfolio-3 {
+  @include flex;
+  @include centrar;
+  justify-content: space-evenly;
+  width: 1140px;
+  margin-bottom: 30px;
+}
+
+.porfolio-imagen-1 {
+  background-image: url(\Imagenes\Section4-Portfolio\portfolio-1img.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.porfolio-imagen-1,
+.porfolio-imagen-2,
+.porfolio-imagen-3,
+.porfolio-imagen-4,
+.porfolio-imagen-5,
+.porfolio-imagen-6,
+.porfolio-imagen-7,
+.porfolio-imagen-8,
+.porfolio-imagen-9 {
+  @include imagenes-porfolio;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.imagenes-porfolio {
+  @include height-auto;
+}
+
+.porfolio-imagen-1 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-1img.jpg);
+  @include imagenes-fondo;
+}
+
+.porfolio-imagen-2 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-2img.jpg);
+  @include imagenes-fondo;
+}
+
+.porfolio-imagen-3 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-3img.jpg);
+  @include imagenes-fondo;
+}
+
+.porfolio-imagen-4 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-4img.jpg);
+  @include imagenes-fondo;
+}
+
+.porfolio-imagen-5 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-5img.jpg);
+  @include imagenes-fondo;
+}
+
+.porfolio-imagen-6 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-6img.jpg);
+  @include imagenes-fondo;
+}
+
+.porfolio-imagen-7 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-7img.jpg);
+  @include imagenes-fondo;
+}
+
+.porfolio-imagen-8 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-8img.jpg);
+  @include imagenes-fondo;
+}
+
+.porfolio-imagen-9 {
+  background-image: url(./Imagenes/Section4-Portfolio/portfolio-9img.jpg);
+  @include imagenes-fondo;
+}
+
+.transparencia-imagenes {
+  background-color: rgba(#003b7a, 0.5);
+  /*margin-top: 0;*/
+  width: 350px;
+  height: 250px;
+  display: none;
+  transform: transition;
+  transition: 0.2s linear;
+}
+
+.titulos-porfolio,
+.porfolio-subtitulos,
+.links-porfolio {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.links-porfolio-2 {
+  text-decoration: none;
+  color: white;
+}
+
+.titulos-porfolio {
+  /*margin-top: 0;*/
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.porfolio-subtitulos {
+  margin-top: 5px;
+}
+
+.porfolio-imagen-1:hover .transparencia-imagenes,
+.porfolio-imagen-2:hover .transparencia-imagenes,
+.porfolio-imagen-3:hover .transparencia-imagenes,
+.porfolio-imagen-4:hover .transparencia-imagenes,
+.porfolio-imagen-5:hover .transparencia-imagenes,
+.porfolio-imagen-6:hover .transparencia-imagenes,
+.porfolio-imagen-7:hover .transparencia-imagenes,
+.porfolio-imagen-8:hover .transparencia-imagenes,
+.porfolio-imagen-9:hover .transparencia-imagenes {
+  display: flex;
+  @include centrar;
+  @include columnas;
+}
+
+.fondo-link {
+  @include flex;
+  @include centrar;
+  width: 36px;
+  height: 36px;
+  background: #007bff;
+  border-radius: 50%;
+  transform: transition;
+  &:hover {
+    background-color: #449fff;
+    transition: 0.5s;
+  }
+}
+
+.links-porfolio {
+  @include flex;
+  @include centrar;
+  width: 90px;
+  justify-content: space-between;
+}
+
+.ojo,
+.link {
+  @include iconos-porfolio;
+}
+
+/* fin portfolio */
+
+/* footer botonera */
+
+.datos {
+  background-color: #003b7a;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  @include flex;
+  @include centrar;
+
+  .wayne {
+    width: 350px;
+    .titulo {
+      .datos-titulo {
+        font-size: 34px;
+        margin: 0 0 20px 0;
+        padding: 2px 0 2px 0;
+        line-height: 1;
+        font-family: "Montserrat", sans-serif;
+        color: #fff;
+        font-weight: 400;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+      }
+    }
+    .texto-wayne {
+      .datos-texto-wayne {
+        font-size: 13px;
+        line-height: 24px;
+        margin-bottom: 0;
+        font-family: "Montserrat", sans-serif;
+        color: #ecf5ff;
+      }
+    }
+  }
+
+  .links-utiles {
+    width: 242px;
+    margin-left: 30px;
+    .titulo-links {
+      .links-titulo-texto {
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 10px;
+      }
+    }
+
+    .contenedor-botonera-wayne {
+      .botonera-wayne {
+        list-style: none;
+        padding-left: 0;
+        .wayne-lista {
+          padding: 8px 0;
+          .botones-wayne {
+            text-decoration: none;
+            color: #ecf5ff;
+            &:hover {
+              color: #007bff;
+            }
+          }
         }
       }
     }
@@ -605,3 +928,14 @@ body {
 }
 }
 
+
+  .contacto-chico {
+    width: 255px;
+  }
+
+  .noticias {
+    width: 255px;
+  }
+}
+
+/* fin footer */
