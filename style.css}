@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans&display=swap");
+/*titulos-secciones y descripciones-secciones sirven para los encabezados de casi todas las secciones*/
+/* titulos-iconos y texto-iconos sirve para About Us y Services (especificar color de titulo pq esto cambia segun la sección*/
+.contenedor-about {
+  background-color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center; }
+  .contenedor-about .header-about h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    color: #283d50;
+    font-weight: 500;
+    margin: 40px 0 20px 0; }
+  .contenedor-about .header-about p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: #556877;
+    width: 555px;
+    height: 50px;
+    padding-bottom: 60px; }
+  .contenedor-about .contenido-about {
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap; }
+    .contenedor-about .contenido-about .contenido-iconos-about {
+      max-width: 50%;
+      padding-left: 15px; }
+      .contenedor-about .contenido-about .contenido-iconos-about p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        text-align: left;
+        color: #444;
+        font-size: 16px;
+        line-height: 26px; }
+      .contenedor-about .contenido-about .contenido-iconos-about .caja-about {
+        text-align: left; }
+        .contenedor-about .contenido-about .contenido-iconos-about .caja-about .icono-about {
+          float: left;
+          height: 60px;
+          width: 60px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          background-color: transparent;
+          border-radius: 50px;
+          border: 2px solid #007bff;
+          transition: all 0.2s;
+          cursor: pointer; }
+          .contenedor-about .contenido-about .contenido-iconos-about .caja-about .icono-about:hover {
+            background-color: #007bff;
+            fill: white; }
+          .contenedor-about .contenido-about .contenido-iconos-about .caja-about .icono-about svg {
+            width: 24px;
+            height: 24px; }
+        .contenedor-about .contenido-about .contenido-iconos-about .caja-about h4 {
+          font-family: "Montserrat", sans-serif;
+          font-size: 18px;
+          color: #283d50;
+          padding-left: 80px;
+          margin-bottom: 2px;
+          font-weight: 800; }
+          .contenedor-about .contenido-about .contenido-iconos-about .caja-about h4 a {
+            text-decoration: none;
+            color: #283d50;
+            font-weight: 800; }
+        .contenedor-about .contenido-about .contenido-iconos-about .caja-about p {
+          font-family: "Open Sans", sans-serif;
+          font-size: 14px;
+          color: #444444;
+          padding-left: 80px;
+          margin: 0; }
+    .contenedor-about .contenido-about .contenido-img-about {
+      width: 540px;
+      height: 408px; }
+      .contenedor-about .contenido-about .contenido-img-about img {
+        width: 100%;
+        height: auto; }
+  .contenedor-about .text-about {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    width: 1440px;
+    height: 310px; }
+    .contenedor-about .text-about .text-img-about {
+      width: 540px;
+      height: 295px;
+      padding: 0 15px 0 15px; }
+      .contenedor-about .text-about .text-img-about img {
+        width: 100%;
+        height: auto; }
+    .contenedor-about .text-about .text-contenido-about {
+      width: 570px;
+      height: 330px;
+      text-align: left;
+      padding: 0 15px 0 15px; }
+      .contenedor-about .text-about .text-contenido-about h4 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 24px;
+        color: #444444;
+        margin-top: 0; }
+      .contenedor-about .text-about .text-contenido-about p {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        color: #444444;
+        line-height: 1.5;
+        padding-top: 10px; }
