@@ -7,7 +7,7 @@ body {
 nav {
   @include nav;
 
-  a {
+  .botones-nav {
     text-decoration: none;
     color: #003b7a;
   }
@@ -194,6 +194,8 @@ nav {
   width: 350px;
   height: 250px;
   display: none;
+  transform: transition;
+  transition: 0.2s linear;
 }
 
 .titulos-porfolio,
@@ -204,10 +206,20 @@ nav {
   text-decoration: none;
 }
 
+.links-porfolio-2 {
+  text-decoration: none;
+  color: white;
+}
+
 .titulos-porfolio {
   /*margin-top: 0;*/
   font-size: 22px;
   font-weight: 700;
+  margin-bottom: 0;
+}
+
+.porfolio-subtitulos {
+  margin-top: 5px;
 }
 
 .porfolio-imagen-1:hover .transparencia-imagenes,
@@ -264,13 +276,59 @@ nav {
   .wayne {
     width: 350px;
     .titulo {
+      .datos-titulo {
+        font-size: 34px;
+        margin: 0 0 20px 0;
+        padding: 2px 0 2px 0;
+        line-height: 1;
+        font-family: "Montserrat", sans-serif;
+        color: #fff;
+        font-weight: 400;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+      }
     }
     .texto-wayne {
+      .datos-texto-wayne {
+        font-size: 13px;
+        line-height: 24px;
+        margin-bottom: 0;
+        font-family: "Montserrat", sans-serif;
+        color: #ecf5ff;
+      }
     }
   }
 
   .links-utiles {
-    width: 160px;
+    width: 242px;
+    margin-left: 30px;
+    .titulo-links {
+      .links-titulo-texto {
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 10px;
+      }
+    }
+
+    .contenedor-botonera-wayne {
+      .botonera-wayne {
+        list-style: none;
+        padding-left: 0;
+        .wayne-lista {
+          padding: 8px 0;
+          .botones-wayne {
+            text-decoration: none;
+            color: #ecf5ff;
+            &:hover {
+              color: #007bff;
+            }
+          }
+        }
+      }
+    }
   }
 
   .contacto-chico {
