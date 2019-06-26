@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans&display=swap");
 $fondo-ppal:#ffff;
 $fondo-header: #1445b3;
 $fondo-secundario: #ecf5ff;
 $fondo-chooseus:#004a99;
 @mixin nav {
-    color:#004829;
+    color:#003b7a;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
 }
@@ -62,12 +62,11 @@ border: 2px solid #007bff;
 background-color: #ffffff;
 height:168px;
 width:425px;
-border-radius:50px;
+border-radius:10px;
 }
 @mixin caja-why-choose{
-    background-color: #003b7a;
+    background-color: #00458f;
     height:295px;
     width:320px;
-    border-radius:50px;
+    border-radius:10px;
 }
-
