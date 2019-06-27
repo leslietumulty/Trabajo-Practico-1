@@ -2,11 +2,14 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans&display=swap");
 /*titulos-secciones y descripciones-secciones sirven para los encabezados de casi todas las secciones*/
 /* titulos-iconos y texto-iconos sirve para About Us y Services (especificar color de titulo pq esto cambia segun la sección*/
-<<<<<<< HEAD
 html {
   scroll-behavior: smooth; }
   html body {
-    margin: 0; }
+    margin: 0;
+    /* inicio botonera */
+    /* inicio botonera */
+    /* fin portfolio */
+    /* footer botonera */ }
     html body header {
       background-color: #1445b3;
       height: 635px;
@@ -28,7 +31,7 @@ html {
           padding: 12px 40px 12px 40px;
           background-color: #007bff;
           color: white;
-          font-family: 'Montserrat', sans-serif;
+          font-family: "Montserrat", sans-serif;
           font-size: 14px;
           border: 2px solid #007bff;
           border-radius: 50px;
@@ -58,7 +61,7 @@ html {
           html body header .texto-header .botones .our-services:hover {
             background-color: #007bff;
             color: white;
-            font-family: 'Montserrat', sans-serif;
+            font-family: "Montserrat", sans-serif;
             font-size: 14px;
             border: 2px solid #007bff;
             border-radius: 50px; }
@@ -80,7 +83,7 @@ html {
         height: 220px;
         text-align: center; }
         html body #services .encabezado-services .titulo-services {
-          font-family: 'Montserrat', sans-serif;
+          font-family: "Montserrat", sans-serif;
           font-size: 36px;
           color: #283d50;
           margin-top: 60px; }
@@ -88,7 +91,7 @@ html {
           text-align: center;
           height: 80px;
           width: 555px;
-          font-family: 'Open Sans', sans-serif;
+          font-family: "Open Sans", sans-serif;
           font-size: 15px;
           color: #556877;
           margin-top: 20px; }
@@ -108,7 +111,7 @@ html {
           background-color: #ffffff;
           height: 168px;
           width: 425px;
-          border-radius: 10px;
+          border-radius: 50px;
           transition: all 0.3s; }
           html body #services .columnas-services .columna-iconos-1 .lorem-services:hover {
             transform: translateY(-6px); }
@@ -128,12 +131,12 @@ html {
             margin-right: 25px; }
             html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services .titulo-lorem {
               text-decoration: none;
-              font-family: 'Montserrat', sans-serif;
+              font-family: "Montserrat", sans-serif;
               font-size: 18px;
               color: black;
               font-weight: bold; }
             html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services .descr-lorem {
-              font-family: 'Open Sans', sans-serif;
+              font-family: "Open Sans", sans-serif;
               font-size: 14px;
               color: #444444;
               margin-top: 15px;
@@ -150,7 +153,7 @@ html {
           background-color: #ffffff;
           height: 168px;
           width: 425px;
-          border-radius: 10px;
+          border-radius: 50px;
           transition: all 0.3s; }
           html body #services .columnas-services .columna-iconos-1 .sed-services:hover {
             transform: translateY(-6px); }
@@ -168,14 +171,14 @@ html {
             margin-right: 25px; }
             html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed .titulo-sed {
               text-decoration: none;
-              font-family: 'Montserrat', sans-serif;
+              font-family: "Montserrat", sans-serif;
               font-size: 18px;
               color: black;
               font-weight: bold; }
               html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed .titulo-sed:hover {
                 color: #007bff; }
             html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed .descr-sed {
-              font-family: 'Open Sans', sans-serif;
+              font-family: "Open Sans", sans-serif;
               font-size: 14px;
               color: #444444;
               margin-top: 15px;
@@ -192,7 +195,7 @@ html {
           background-color: #ffffff;
           height: 168px;
           width: 425px;
-          border-radius: 10px;
+          border-radius: 50px;
           transition: all 0.3s; }
           html body #services .columnas-services .columna-iconos-1 .nemo-services:hover {
             transform: translateY(-6px); }
@@ -210,14 +213,14 @@ html {
             margin-right: 25px; }
             html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo .titulo-nemo {
               text-decoration: none;
-              font-family: 'Montserrat', sans-serif;
+              font-family: "Montserrat", sans-serif;
               font-size: 18px;
               color: black;
               font-weight: bold; }
               html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo .titulo-nemo:hover {
                 color: #007bff; }
             html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo .descr-nemo {
-              font-family: 'Open Sans', sans-serif;
+              font-family: "Open Sans", sans-serif;
               font-size: 14px;
               color: #444444;
               margin-top: 15px;
@@ -234,7 +237,7 @@ html {
           background-color: #ffffff;
           height: 168px;
           width: 425px;
-          border-radius: 10px;
+          border-radius: 50px;
           transition: all 0.3s; }
           html body #services .columnas-services .columna-iconos-2 .dolor-services:hover {
             transform: translateY(-6px); }
@@ -252,14 +255,14 @@ html {
             margin-right: 25px; }
             html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor .titulo-dolor {
               text-decoration: none;
-              font-family: 'Montserrat', sans-serif;
+              font-family: "Montserrat", sans-serif;
               font-size: 18px;
               color: black;
               font-weight: bold; }
               html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor .titulo-dolor:hover {
                 color: #007bff; }
             html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor .descr-dolor {
-              font-family: 'Open Sans', sans-serif;
+              font-family: "Open Sans", sans-serif;
               font-size: 14px;
               color: #444444;
               margin-top: 15px;
@@ -276,7 +279,7 @@ html {
           background-color: #ffffff;
           height: 168px;
           width: 425px;
-          border-radius: 10px;
+          border-radius: 50px;
           transition: all 0.3s; }
           html body #services .columnas-services .columna-iconos-2 .magni-services:hover {
             transform: translateY(-6px); }
@@ -294,14 +297,14 @@ html {
             margin-right: 25px; }
             html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni .titulo-magni {
               text-decoration: none;
-              font-family: 'Montserrat', sans-serif;
+              font-family: "Montserrat", sans-serif;
               font-size: 18px;
               color: black;
               font-weight: bold; }
               html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni .titulo-magni:hover {
                 color: #007bff; }
             html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni .descr-magni {
-              font-family: 'Open Sans', sans-serif;
+              font-family: "Open Sans", sans-serif;
               font-size: 14px;
               color: #444444;
               margin-top: 15px;
@@ -318,7 +321,7 @@ html {
           background-color: #ffffff;
           height: 168px;
           width: 425px;
-          border-radius: 10px;
+          border-radius: 50px;
           transition: all 0.3s; }
           html body #services .columnas-services .columna-iconos-2 .eiusmod-services:hover {
             transform: translateY(-6px); }
@@ -336,20 +339,57 @@ html {
             margin-right: 25px; }
             html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod .titulo-eiusmod {
               text-decoration: none;
-              font-family: 'Montserrat', sans-serif;
+              font-family: "Montserrat", sans-serif;
               font-size: 18px;
               color: black;
               font-weight: bold; }
               html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod .titulo-eiusmod:hover {
                 color: #007bff; }
             html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod .descr-eiusmod {
-              font-family: 'Open Sans', sans-serif;
+              font-family: "Open Sans", sans-serif;
               font-size: 14px;
               color: #444444;
               margin-top: 15px;
               height: 72px;
               width: 325px;
               line-height: 24px; }
+    html body nav {
+      color: #003b7a;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px; }
+      html body nav .botones-nav {
+        text-decoration: none;
+        color: #003b7a; }
+      html body nav .contenedor-nav {
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffff; }
+        html body nav .contenedor-nav .contenedor-logo {
+          height: 20px;
+          width: 65px;
+          margin-right: 130px; }
+          html body nav .contenedor-nav .contenedor-logo .logo {
+            width: 100%;
+            height: auto; }
+        html body nav .contenedor-nav .contenedor-botonera-nav {
+          width: 735px;
+          margin-left: 200px; }
+          html body nav .contenedor-nav .contenedor-botonera-nav .botonera-nav {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            font-weight: bold; }
+            html body nav .contenedor-nav .contenedor-botonera-nav .botonera-nav :hover {
+              color: #007bff; }
+            html body nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .home {
+              color: #007bff; }
+            html body nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .desplegables .submenu-1,
+            html body nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .desplegables .submenu-2 {
+              list-style: none; }
     html body .why-choose-us {
       height: 750px;
       background-color: #004a99;
@@ -361,7 +401,7 @@ html {
         height: 220px;
         text-align: center; }
         html body .why-choose-us .encabezado-why .titulo-why {
-          font-family: 'Montserrat', sans-serif;
+          font-family: "Montserrat", sans-serif;
           font-size: 36px;
           color: white;
           margin-top: 60px;
@@ -370,496 +410,461 @@ html {
           text-align: center;
           height: 80px;
           width: 555px;
-          font-family: 'Open Sans', sans-serif;
+          font-family: "Open Sans", sans-serif;
           font-size: 15px;
           color: white;
           margin-top: 20px; }
-      html body .why-choose-us .contenedor-cajas {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        width: 1200px;
-        height: 350px; }
-        html body .why-choose-us .contenedor-cajas .caja-corporis {
-          display: flex;
-          align-items: center;
-          text-align: center;
-          line-height: 22.5px;
-          justify-content: space-evenly;
-          flex-direction: column;
-          background-color: #00458f;
-          height: 295px;
-          width: 320px;
-          border-radius: 10px; }
-          html body .why-choose-us .contenedor-cajas .caja-corporis:hover {
-            background-color: #003b7a; }
-          html body .why-choose-us .contenedor-cajas .caja-corporis .icono-corporis {
-            width: 55px;
-            height: 55px;
-            margin-top: 20px; }
-            html body .why-choose-us .contenedor-cajas .caja-corporis .icono-corporis img {
-              width: 100%;
-              height: auto; }
-          html body .why-choose-us .contenedor-cajas .caja-corporis .titulo-corporis {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 18px;
-            color: #ffffff;
-            font-weight: 600;
-            font-size: 22px; }
-          html body .why-choose-us .contenedor-cajas .caja-corporis .descr-corporis {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 14px;
-            color: #444444;
-            height: 66px;
-            width: 268px;
-            color: #d8eafe; }
-          html body .why-choose-us .contenedor-cajas .caja-corporis .read-more {
-            font-family: "Open Sans", sans-serif;
-            font-size: 16px;
-            color: #ffffff;
-            font-weight: 600;
-            text-decoration: none;
-            border-bottom: 2px solid #00458f;
-            line-height: 24px;
-            margin-bottom: 20px; }
-            html body .why-choose-us .contenedor-cajas .caja-corporis .read-more:hover {
-              border-bottom: 2px solid white; }
-        html body .why-choose-us .contenedor-cajas .caja-voluptates {
-          display: flex;
-          align-items: center;
-          text-align: center;
-          justify-content: space-evenly;
-          flex-direction: column;
-          line-height: 22.5px;
-          background-color: #00458f;
-          height: 295px;
-          width: 320px;
-          border-radius: 10px; }
-          html body .why-choose-us .contenedor-cajas .caja-voluptates:hover {
-            background-color: #003b7a; }
-          html body .why-choose-us .contenedor-cajas .caja-voluptates .icono-voluptates {
-            width: 43px;
-            height: 43px;
-            margin-top: 20px; }
-            html body .why-choose-us .contenedor-cajas .caja-voluptates .icono-voluptates img {
-              width: 100%;
-              height: auto; }
-          html body .why-choose-us .contenedor-cajas .caja-voluptates .titulo-voluptates {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 18px;
-            color: #ffffff;
-            font-weight: 600;
-            font-size: 22px; }
-          html body .why-choose-us .contenedor-cajas .caja-voluptates .descr-voluptates {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 14px;
-            color: #444444;
-            height: 66px;
-            width: 268px;
-            color: #d8eafe; }
-          html body .why-choose-us .contenedor-cajas .caja-voluptates .read-more-2 {
-            font-family: "Open Sans", sans-serif;
-            font-size: 16px;
-            color: #ffffff;
-            font-weight: 600;
-            text-decoration: none;
-            border-bottom: 2px solid #00458f;
-            line-height: 24px;
-            margin-bottom: 20px; }
-            html body .why-choose-us .contenedor-cajas .caja-voluptates .read-more-2:hover {
-              border-bottom: 2px solid white; }
-        html body .why-choose-us .contenedor-cajas .caja-eum {
-          display: flex;
-          align-items: center;
-          text-align: center;
-          justify-content: space-evenly;
-          flex-direction: column;
-          line-height: 22.5px;
-          background-color: #00458f;
-          height: 295px;
-          width: 320px;
-          border-radius: 10px; }
-          html body .why-choose-us .contenedor-cajas .caja-eum:hover {
-            background-color: #003b7a; }
-          html body .why-choose-us .contenedor-cajas .caja-eum .icono-eum {
-            width: 50px;
-            height: 50px;
-            margin-top: 20px; }
-            html body .why-choose-us .contenedor-cajas .caja-eum .icono-eum img {
-              width: 100%;
-              height: auto; }
-          html body .why-choose-us .contenedor-cajas .caja-eum .titulo-eum {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 18px;
-            color: #ffffff;
-            font-weight: 600;
-            font-size: 22px; }
-          html body .why-choose-us .contenedor-cajas .caja-eum .descr-eum {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 14px;
-            color: #444444;
-            height: 66px;
-            width: 268px;
-            color: #d8eafe; }
-          html body .why-choose-us .contenedor-cajas .caja-eum .read-more-3 {
-            font-family: "Open Sans", sans-serif;
-            font-size: 16px;
-            color: #ffffff;
-            font-weight: 600;
-            text-decoration: none;
-            border-bottom: 2px solid #00458f;
-            line-height: 24px;
-            margin-bottom: 20px; }
-            html body .why-choose-us .contenedor-cajas .caja-eum .read-more-3:hover {
-              border-bottom: 2px solid white; }
-      html body .why-choose-us .contador {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 940px;
-        height: 90px;
-        margin-bottom: 40px; }
-        html body .why-choose-us .contador .clients {
-          text-align: center; }
-          html body .why-choose-us .contador .clients .clients-nro {
-            font-family: "Montserrat", sans-serif;
-            font-size: 48px;
-            font-weight: bold;
-            color: white; }
-          html body .why-choose-us .contador .clients .clients-texto {
-            font-family: "Montserrat", sans-serif;
-            font-size: 14px;
-            color: white;
-            margin-top: 8px; }
-        html body .why-choose-us .contador .projects {
-          text-align: center; }
-          html body .why-choose-us .contador .projects .projects-nro {
-            font-family: "Montserrat", sans-serif;
-            font-size: 48px;
-            font-weight: bold;
-            color: white; }
-          html body .why-choose-us .contador .projects .projects-texto {
-            font-family: "Montserrat", sans-serif;
-            font-size: 14px;
-            color: white;
-            margin-top: 8px; }
-        html body .why-choose-us .contador .hours {
-          text-align: center; }
-          html body .why-choose-us .contador .hours .hours-nro {
-            font-family: "Montserrat", sans-serif;
-            font-size: 48px;
-            font-weight: bold;
-            color: white; }
-          html body .why-choose-us .contador .hours .hours-texto {
-            font-family: "Montserrat", sans-serif;
-            font-size: 14px;
-            color: white;
-            margin-top: 8px; }
-        html body .why-choose-us .contador .workers {
-          text-align: center; }
-          html body .why-choose-us .contador .workers .workers-nro {
-            font-family: "Montserrat", sans-serif;
-            font-size: 48px;
-            font-weight: bold;
-            color: white; }
-          html body .why-choose-us .contador .workers .workers-texto {
-            font-family: "Montserrat", sans-serif;
-            font-size: 14px;
-            color: white;
-            margin-top: 8px; }
-=======
-body {
-  margin: 0 0 0 0; }
-
-/* inicio botonera */
-nav {
-  color: #003b7a;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px; }
-  nav .botones-nav {
-    text-decoration: none;
-    color: #003b7a; }
-  nav .contenedor-nav {
-    height: 80px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffff; }
-    nav .contenedor-nav .contenedor-logo {
-      height: 20px;
-      width: 65px;
-      margin-right: 130px; }
-      nav .contenedor-nav .contenedor-logo .logo {
-        width: 100%;
-        height: auto; }
-    nav .contenedor-nav .contenedor-botonera-nav {
-      width: 735px;
-      margin-left: 200px; }
-      nav .contenedor-nav .contenedor-botonera-nav .botonera-nav {
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        font-weight: bold; }
-        nav .contenedor-nav .contenedor-botonera-nav .botonera-nav :hover {
-          color: #007bff; }
-        nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .home {
-          color: #007bff; }
-        nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .desplegables .submenu-1,
-        nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .desplegables .submenu-2 {
-          list-style: none; }
-
-/* fin botonera */
-/* inicio portfolio */
-.contenedor-porfolio .contenedor-titulo-botones {
-  display: flex;
-  flex-direction: row;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
-  .contenedor-porfolio .contenedor-titulo-botones .titulo-porfolio {
-    font-family: "Montserrat", sans-serif;
-    font-size: 36px; }
-  .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio {
-    width: 400px; }
-    .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio {
-      padding: 0 0 0 0;
-      list-style: none;
-      font-family: "Open Sans", sans-serif;
-      font-size: 12px;
+    html body .contenedor-cajas {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
-      color: #007bff; }
-      .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio :hover {
-        color: white; }
-      .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio .botones-porfolio {
-        background-color: #bbf7ff;
-        transition: transform;
-        line-height: 20px;
-        border-radius: 50px;
-        width: 60px;
-        height: 30px;
+      width: 1200px;
+      height: 350px; }
+      html body .contenedor-cajas .caja-corporis {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        line-height: 22.5px;
+        justify-content: space-evenly;
+        flex-direction: column;
+        background-color: #003b7a;
+        height: 295px;
+        width: 320px;
+        border-radius: 50px; }
+        html body .contenedor-cajas .caja-corporis:hover {
+          background-color: #003b7a; }
+        html body .contenedor-cajas .caja-corporis .icono-corporis {
+          width: 55px;
+          height: 55px;
+          margin-top: 20px; }
+          html body .contenedor-cajas .caja-corporis .icono-corporis img {
+            width: 100%;
+            height: auto; }
+        html body .contenedor-cajas .caja-corporis .titulo-corporis {
+          font-family: "Montserrat", sans-serif;
+          font-size: 18px;
+          color: #ffffff;
+          font-weight: 600;
+          font-size: 22px; }
+        html body .contenedor-cajas .caja-corporis .descr-corporis {
+          font-family: "Open Sans", sans-serif;
+          font-size: 14px;
+          color: #444444;
+          height: 66px;
+          width: 268px;
+          color: #d8eafe; }
+        html body .contenedor-cajas .caja-corporis .read-more {
+          font-family: "Open Sans", sans-serif;
+          font-size: 16px;
+          color: #ffffff;
+          font-weight: 600;
+          text-decoration: none;
+          border-bottom: 2px solid #00458f;
+          line-height: 24px;
+          margin-bottom: 20px; }
+          html body .contenedor-cajas .caja-corporis .read-more:hover {
+            border-bottom: 2px solid white; }
+    html body .caja-voluptates {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      line-height: 22.5px;
+      background-color: #003b7a;
+      height: 295px;
+      width: 320px;
+      border-radius: 50px; }
+      html body .caja-voluptates:hover {
+        background-color: #003b7a; }
+      html body .caja-voluptates .icono-voluptates {
+        width: 43px;
+        height: 43px;
+        margin-top: 20px; }
+        html body .caja-voluptates .icono-voluptates img {
+          width: 100%;
+          height: auto; }
+      html body .caja-voluptates .titulo-voluptates {
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 22px; }
+      html body .caja-voluptates .descr-voluptates {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        color: #444444;
+        height: 66px;
+        width: 268px;
+        color: #d8eafe; }
+      html body .caja-voluptates .read-more-2 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 600;
+        text-decoration: none;
+        border-bottom: 2px solid #00458f;
+        line-height: 24px;
+        margin-bottom: 20px; }
+        html body .caja-voluptates .read-more-2:hover {
+          border-bottom: 2px solid white; }
+    html body .caja-eum {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      line-height: 22.5px;
+      background-color: #003b7a;
+      height: 295px;
+      width: 320px;
+      border-radius: 50px; }
+      html body .caja-eum:hover {
+        background-color: #003b7a; }
+      html body .caja-eum .icono-eum {
+        width: 50px;
+        height: 50px;
+        margin-top: 20px; }
+        html body .caja-eum .icono-eum img {
+          width: 100%;
+          height: auto; }
+      html body .caja-eum .titulo-eum {
+        font-family: "Montserrat", sans-serif;
+        font-size: 18px;
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 22px; }
+      html body .caja-eum .descr-eum {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        color: #444444;
+        height: 66px;
+        width: 268px;
+        color: #d8eafe; }
+      html body .caja-eum .read-more-3 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 600;
+        text-decoration: none;
+        border-bottom: 2px solid #00458f;
+        line-height: 24px;
+        margin-bottom: 20px; }
+        html body .caja-eum .read-more-3:hover {
+          border-bottom: 2px solid white; }
+    html body nav {
+      color: #003b7a;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px; }
+      html body nav .botones-nav {
+        text-decoration: none;
+        color: #003b7a; }
+      html body nav .contenedor-nav {
+        height: 80px;
         display: flex;
         flex-direction: row;
-        flex-direction: column;
         align-items: center;
-        justify-content: center; }
-        .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio .botones-porfolio:hover {
-          background-color: #003b7a;
-          transition: all 0.5s ease-in-out; }
-
-.contenedor-imagenes-porfolio {
-  display: flex;
-  flex-direction: row;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 900px; }
-
-.tres-imagenes-porfolio-1,
-.tres-imagenes-porfolio-2,
-.tres-imagenes-porfolio-3 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  justify-content: space-evenly;
-  width: 1140px;
-  margin-bottom: 30px; }
-
-.porfolio-imagen-1 {
-  background-image: url(\Imagenes\Section4-Portfolio\portfolio-1img.jpg);
-  background-position: center;
-  background-size: cover; }
-
-.porfolio-imagen-1,
-.porfolio-imagen-2,
-.porfolio-imagen-3,
-.porfolio-imagen-4,
-.porfolio-imagen-5,
-.porfolio-imagen-6,
-.porfolio-imagen-7,
-.porfolio-imagen-8,
-.porfolio-imagen-9 {
-  width: 350px;
-  height: 250px;
-  border-radius: 5px;
-  overflow: hidden; }
-
-.imagenes-porfolio {
-  width: 100%;
-  height: auto; }
-
-.porfolio-imagen-1 {
-  background-image: url(./Imagenes/Section4-Portfolio/portfolio-1img.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.porfolio-imagen-2 {
-  background-image: url(./Imagenes/Section4-Portfolio/portfolio-2img.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.porfolio-imagen-3 {
-  background-image: url(./Imagenes/Section4-Portfolio/portfolio-3img.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.porfolio-imagen-4 {
-  background-image: url(./Imagenes/Section4-Portfolio/portfolio-4img.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.porfolio-imagen-5 {
-  background-image: url(./Imagenes/Section4-Portfolio/portfolio-5img.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.porfolio-imagen-6 {
-  background-image: url(./Imagenes/Section4-Portfolio/portfolio-6img.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.porfolio-imagen-7 {
-  background-image: url(./Imagenes/Section4-Portfolio/portfolio-7img.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.porfolio-imagen-8 {
-  background-image: url(./Imagenes/Section4-Portfolio/portfolio-8img.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.porfolio-imagen-9 {
-  background-image: url(./Imagenes/Section4-Portfolio/portfolio-9img.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.transparencia-imagenes {
-  background-color: rgba(0, 59, 122, 0.5);
-  /*margin-top: 0;*/
-  width: 350px;
-  height: 250px;
-  display: none;
-  transform: transition;
-  transition: 0.2s linear; }
-
-.titulos-porfolio,
-.porfolio-subtitulos,
-.links-porfolio {
-  font-family: "Montserrat", sans-serif;
-  color: white;
-  text-decoration: none; }
-
-.links-porfolio-2 {
-  text-decoration: none;
-  color: white; }
-
-.titulos-porfolio {
-  /*margin-top: 0;*/
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 0; }
-
-.porfolio-subtitulos {
-  margin-top: 5px; }
-
-.porfolio-imagen-1:hover .transparencia-imagenes,
-.porfolio-imagen-2:hover .transparencia-imagenes,
-.porfolio-imagen-3:hover .transparencia-imagenes,
-.porfolio-imagen-4:hover .transparencia-imagenes,
-.porfolio-imagen-5:hover .transparencia-imagenes,
-.porfolio-imagen-6:hover .transparencia-imagenes,
-.porfolio-imagen-7:hover .transparencia-imagenes,
-.porfolio-imagen-8:hover .transparencia-imagenes,
-.porfolio-imagen-9:hover .transparencia-imagenes {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column; }
-
-.fondo-link {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  background: #007bff;
-  border-radius: 50%;
-  transform: transition; }
-  .fondo-link:hover {
-    background-color: #449fff;
-    transition: 0.5s; }
-
-.links-porfolio {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 90px;
-  justify-content: space-between; }
-
-.ojo,
-.link {
-  width: 20px;
-  height: 20px;
-  color: white; }
-
-/* fin portfolio */
-/* footer botonera */
-.datos {
-  background-color: #003b7a;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center; }
-  .datos .wayne {
-    width: 350px; }
-    .datos .wayne .titulo .datos-titulo {
-      font-size: 34px;
-      margin: 0 0 20px 0;
-      padding: 2px 0 2px 0;
-      line-height: 1;
+        justify-content: center;
+        background-color: #ffff;
+        /* fin botonera */
+        /* inicio portfolio */ }
+        html body nav .contenedor-nav .contenedor-logo {
+          height: 20px;
+          width: 65px;
+          margin-right: 130px; }
+          html body nav .contenedor-nav .contenedor-logo .logo {
+            width: 100%;
+            height: auto; }
+        html body nav .contenedor-nav .contenedor-botonera-nav {
+          width: 735px;
+          margin-left: 200px; }
+          html body nav .contenedor-nav .contenedor-botonera-nav .botonera-nav {
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            font-weight: bold; }
+            html body nav .contenedor-nav .contenedor-botonera-nav .botonera-nav :hover {
+              color: #007bff; }
+            html body nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .home {
+              color: #007bff; }
+            html body nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .desplegables .submenu-1,
+            html body nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .desplegables .submenu-2 {
+              list-style: none; }
+          html body nav .contenedor-nav .contenedor-botonera-nav .contador {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 940px;
+            height: 90px;
+            margin-bottom: 40px; }
+            html body nav .contenedor-nav .contenedor-botonera-nav .contador .clients {
+              text-align: center; }
+              html body nav .contenedor-nav .contenedor-botonera-nav .contador .clients .clients-nro {
+                font-family: "Montserrat", sans-serif;
+                font-size: 48px;
+                font-weight: bold;
+                color: white; }
+              html body nav .contenedor-nav .contenedor-botonera-nav .contador .clients .clients-texto {
+                font-family: "Montserrat", sans-serif;
+                font-size: 14px;
+                color: white;
+                margin-top: 8px; }
+            html body nav .contenedor-nav .contenedor-botonera-nav .contador .projects {
+              text-align: center; }
+              html body nav .contenedor-nav .contenedor-botonera-nav .contador .projects .projects-nro {
+                font-family: "Montserrat", sans-serif;
+                font-size: 48px;
+                font-weight: bold;
+                color: white; }
+              html body nav .contenedor-nav .contenedor-botonera-nav .contador .projects .projects-texto {
+                font-family: "Montserrat", sans-serif;
+                font-size: 14px;
+                color: white;
+                margin-top: 8px; }
+            html body nav .contenedor-nav .contenedor-botonera-nav .contador .hours {
+              text-align: center; }
+              html body nav .contenedor-nav .contenedor-botonera-nav .contador .hours .hours-nro {
+                font-family: "Montserrat", sans-serif;
+                font-size: 48px;
+                font-weight: bold;
+                color: white; }
+              html body nav .contenedor-nav .contenedor-botonera-nav .contador .hours .hours-texto {
+                font-family: "Montserrat", sans-serif;
+                font-size: 14px;
+                color: white;
+                margin-top: 8px; }
+            html body nav .contenedor-nav .contenedor-botonera-nav .contador .workers {
+              text-align: center; }
+              html body nav .contenedor-nav .contenedor-botonera-nav .contador .workers .workers-nro {
+                font-family: "Montserrat", sans-serif;
+                font-size: 48px;
+                font-weight: bold;
+                color: white; }
+              html body nav .contenedor-nav .contenedor-botonera-nav .contador .workers .workers-texto {
+                font-family: "Montserrat", sans-serif;
+                font-size: 14px;
+                color: white;
+                margin-top: 8px; }
+        html body nav .contenedor-nav .contenedor-porfolio .contenedor-titulo-botones {
+          display: flex;
+          flex-direction: row;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center; }
+          html body nav .contenedor-nav .contenedor-porfolio .contenedor-titulo-botones .titulo-porfolio {
+            font-family: "Montserrat", sans-serif;
+            font-size: 36px; }
+          html body nav .contenedor-nav .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio {
+            width: 400px; }
+            html body nav .contenedor-nav .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio {
+              padding: 0 0 0 0;
+              list-style: none;
+              font-family: "Open Sans", sans-serif;
+              font-size: 12px;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-evenly;
+              color: #007bff; }
+              html body nav .contenedor-nav .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio :hover {
+                color: white; }
+              html body nav .contenedor-nav .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio .botones-porfolio {
+                background-color: #bbf7ff;
+                transition: transform;
+                line-height: 20px;
+                border-radius: 50px;
+                width: 60px;
+                height: 30px;
+                display: flex;
+                flex-direction: row;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center; }
+                html body nav .contenedor-nav .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio .botones-porfolio:hover {
+                  background-color: #003b7a;
+                  transition: all 0.5s ease-in-out; }
+    html body .contenedor-imagenes-porfolio {
+      display: flex;
+      flex-direction: row;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 900px; }
+    html body .tres-imagenes-porfolio-1,
+    html body .tres-imagenes-porfolio-2,
+    html body .tres-imagenes-porfolio-3 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-evenly;
+      width: 1140px;
+      margin-bottom: 30px; }
+    html body .porfolio-imagen-1 {
+      background-image: url(\Imagenes\Section4-Portfolio\portfolio-1img.jpg);
+      background-position: center;
+      background-size: cover; }
+    html body .porfolio-imagen-1,
+    html body .porfolio-imagen-2,
+    html body .porfolio-imagen-3,
+    html body .porfolio-imagen-4,
+    html body .porfolio-imagen-5,
+    html body .porfolio-imagen-6,
+    html body .porfolio-imagen-7,
+    html body .porfolio-imagen-8,
+    html body .porfolio-imagen-9 {
+      width: 350px;
+      height: 250px;
+      border-radius: 5px;
+      overflow: hidden; }
+    html body .imagenes-porfolio {
+      width: 100%;
+      height: auto; }
+    html body .porfolio-imagen-1 {
+      background-image: url(./Imagenes/Section4-Portfolio/portfolio-1img.jpg);
+      background-size: cover;
+      background-position: center; }
+    html body .porfolio-imagen-2 {
+      background-image: url(./Imagenes/Section4-Portfolio/portfolio-2img.jpg);
+      background-size: cover;
+      background-position: center; }
+    html body .porfolio-imagen-3 {
+      background-image: url(./Imagenes/Section4-Portfolio/portfolio-3img.jpg);
+      background-size: cover;
+      background-position: center; }
+    html body .porfolio-imagen-4 {
+      background-image: url(./Imagenes/Section4-Portfolio/portfolio-4img.jpg);
+      background-size: cover;
+      background-position: center; }
+    html body .porfolio-imagen-5 {
+      background-image: url(./Imagenes/Section4-Portfolio/portfolio-5img.jpg);
+      background-size: cover;
+      background-position: center; }
+    html body .porfolio-imagen-6 {
+      background-image: url(./Imagenes/Section4-Portfolio/portfolio-6img.jpg);
+      background-size: cover;
+      background-position: center; }
+    html body .porfolio-imagen-7 {
+      background-image: url(./Imagenes/Section4-Portfolio/portfolio-7img.jpg);
+      background-size: cover;
+      background-position: center; }
+    html body .porfolio-imagen-8 {
+      background-image: url(./Imagenes/Section4-Portfolio/portfolio-8img.jpg);
+      background-size: cover;
+      background-position: center; }
+    html body .porfolio-imagen-9 {
+      background-image: url(./Imagenes/Section4-Portfolio/portfolio-9img.jpg);
+      background-size: cover;
+      background-position: center; }
+    html body .transparencia-imagenes {
+      background-color: rgba(0, 59, 122, 0.5);
+      /*margin-top: 0;*/
+      width: 350px;
+      height: 250px;
+      display: none;
+      transform: transition;
+      transition: 0.2s linear; }
+    html body .titulos-porfolio,
+    html body .porfolio-subtitulos,
+    html body .links-porfolio {
       font-family: "Montserrat", sans-serif;
-      color: #fff;
-      font-weight: 400;
-      letter-spacing: 3px;
-      text-transform: uppercase; }
-    .datos .wayne .texto-wayne .datos-texto-wayne {
-      font-size: 13px;
-      line-height: 24px;
-      margin-bottom: 0;
+      color: white;
+      text-decoration: none; }
+    html body .links-porfolio-2 {
+      text-decoration: none;
+      color: white; }
+    html body .titulos-porfolio {
+      /*margin-top: 0;*/
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 0; }
+    html body .porfolio-subtitulos {
+      margin-top: 5px; }
+    html body .porfolio-imagen-1:hover .transparencia-imagenes,
+    html body .porfolio-imagen-2:hover .transparencia-imagenes,
+    html body .porfolio-imagen-3:hover .transparencia-imagenes,
+    html body .porfolio-imagen-4:hover .transparencia-imagenes,
+    html body .porfolio-imagen-5:hover .transparencia-imagenes,
+    html body .porfolio-imagen-6:hover .transparencia-imagenes,
+    html body .porfolio-imagen-7:hover .transparencia-imagenes,
+    html body .porfolio-imagen-8:hover .transparencia-imagenes,
+    html body .porfolio-imagen-9:hover .transparencia-imagenes {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+    html body .fondo-link {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: #007bff;
+      border-radius: 50%;
+      transform: transition; }
+      html body .fondo-link:hover {
+        background-color: #449fff;
+        transition: 0.5s; }
+    html body .links-porfolio {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 90px;
+      justify-content: space-between; }
+    html body .ojo,
+    html body .link {
+      width: 20px;
+      height: 20px;
+      color: white; }
+    html body .datos {
+      background-color: #003b7a;
+      color: white;
       font-family: "Montserrat", sans-serif;
-      color: #ecf5ff; }
-  .datos .links-utiles {
-    width: 242px;
-    margin-left: 30px; }
-    .datos .links-utiles .titulo-links .links-titulo-texto {
-      font-size: 14px;
-      font-weight: bold;
-      color: #fff;
-      text-transform: uppercase;
-      position: relative;
-      padding-bottom: 10px; }
-    .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne {
-      list-style: none;
-      padding-left: 0; }
-      .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne .wayne-lista {
-        padding: 8px 0; }
-        .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne .wayne-lista .botones-wayne {
-          text-decoration: none;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center; }
+      html body .datos .wayne {
+        width: 350px; }
+        html body .datos .wayne .titulo .datos-titulo {
+          font-size: 34px;
+          margin: 0 0 20px 0;
+          padding: 2px 0 2px 0;
+          line-height: 1;
+          font-family: "Montserrat", sans-serif;
+          color: #fff;
+          font-weight: 400;
+          letter-spacing: 3px;
+          text-transform: uppercase; }
+        html body .datos .wayne .texto-wayne .datos-texto-wayne {
+          font-size: 13px;
+          line-height: 24px;
+          margin-bottom: 0;
+          font-family: "Montserrat", sans-serif;
           color: #ecf5ff; }
-          .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne .wayne-lista .botones-wayne:hover {
-            color: #007bff; }
-  .datos .contacto-chico {
-    width: 255px; }
-  .datos .noticias {
-    width: 255px; }
-
-/* fin footer */
->>>>>>> sheldon
+      html body .datos .links-utiles {
+        width: 242px;
+        margin-left: 30px; }
+        html body .datos .links-utiles .titulo-links .links-titulo-texto {
+          font-size: 14px;
+          font-weight: bold;
+          color: #fff;
+          text-transform: uppercase;
+          position: relative;
+          padding-bottom: 10px; }
+        html body .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne {
+          list-style: none;
+          padding-left: 0; }
+          html body .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne .wayne-lista {
+            padding: 8px 0; }
+            html body .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne .wayne-lista .botones-wayne {
+              text-decoration: none;
+              color: #ecf5ff; }
+              html body .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne .wayne-lista .botones-wayne:hover {
+                color: #007bff; }
+    html body .contacto-chico {
+      width: 255px; }
+    html body .noticias {
+      width: 255px; }

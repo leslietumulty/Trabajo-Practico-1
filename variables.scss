@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans&display=swap");
-<<<<<<< HEAD
-$fondo-ppal:#ffff;
-=======
 $fondo-ppal: #ffff;
->>>>>>> sheldon
+$fondo-ppal: #ffff;
 $fondo-header: #1445b3;
 $fondo-secundario: #ecf5ff;
 $fondo-chooseus: #004a99;
@@ -22,27 +19,25 @@ $fondo-chooseus: #004a99;
   justify-content: center;
 }
 @mixin nav {
-<<<<<<< HEAD
-    color:#003b7a;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+  color: #003b7a;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
 }
-@mixin height-auto{
-    width: 100%;
-    height:auto;
+@mixin height-auto {
+  width: 100%;
+  height: auto;
 }
-@mixin botonera-header{
-background-color: #007bff;
-color: white;
-font-family: 'Montserrat', sans-serif;
-font-size: 14px;
-border: 2px solid #007bff;
-border-radius: 50px;
+@mixin botonera-header {
+  background-color: #007bff;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  border: 2px solid #007bff;
+  border-radius: 50px;
 }
-@mixin botonera-header-hover{
-    background-color: transparent;
-    border: 2px solid white;
-=======
+@mixin botonera-header-hover {
+  background-color: transparent;
+  border: 2px solid white;
   color: #003b7a;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
@@ -66,7 +61,6 @@ border-radius: 50px;
 @mixin botonera-header-hover {
   background-color: transparent;
   border: 2px solid white;
->>>>>>> sheldon
 }
 /*titulos-secciones y descripciones-secciones sirven para los encabezados de casi todas las secciones*/
 @mixin titulos-secciones {
@@ -115,23 +109,21 @@ border-radius: 50px;
   color: #444444;
 }
 @mixin texto-imagenes-aboutus {
-<<<<<<< HEAD
-    font-family: 'Open Sans', sans-serif;
-     font-size: 16px;
-    color: #444444;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #444444;
 }
-@mixin cajas-services{
-background-color: #ffffff;
-height:168px;
-width:425px;
-border-radius:10px;
+@mixin cajas-services {
+  background-color: #ffffff;
+  height: 168px;
+  width: 425px;
+  border-radius: 10px;
 }
-@mixin caja-why-choose{
-    background-color: #00458f;
-    height:295px;
-    width:320px;
-    border-radius:10px;
-=======
+@mixin caja-why-choose {
+  background-color: #00458f;
+  height: 295px;
+  width: 320px;
+  border-radius: 10px;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #444444;
@@ -147,5 +139,4 @@ border-radius:10px;
   height: 295px;
   width: 320px;
   border-radius: 50px;
->>>>>>> sheldon
 }
