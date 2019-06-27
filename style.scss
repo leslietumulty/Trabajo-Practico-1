@@ -1054,4 +1054,27 @@ html {
     text-align: center;
     color: #fff;
   }
+
+  .footer-fondo {
+    background: #002f61;
+    padding: 0 0 30px 0;
+    color: #eee;
+    font-size: 14px;
+    @include flex;
+    @include centrar;
+    .footer-contenedor {
+      width: 1140px;
+      font-family: "Montserrat", sans-serif;
+      .copy {
+        text-align: center;
+        padding-top: 30px;
+      }
+
+      .diseño {
+        text-align: center;
+        font-size: 13px;
+        color: #f1f7ff;
+      }
+    }
+  }
 }
