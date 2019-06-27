@@ -88,6 +88,12 @@ $fondo-chooseus: #004a99;
   color: white;
 }
 
+@mixin iconos-footer {
+  width: 16.7px;
+  height: 18px;
+  color: white;
+}
+
 @mixin iconos-aboutus {
   background-color: transparent;
   border-radius: 50px;
