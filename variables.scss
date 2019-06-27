@@ -167,3 +167,9 @@ $p-about: #556877;
   overflow: hidden;
   border-radius: 130px;
 }
+@mixin testimonials-nombre {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #111;
+}

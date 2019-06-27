@@ -28,6 +28,17 @@ html {
           }
         }
 
+        .nav-hamburguesa {
+          width: 71px;
+          height: 74px;
+          display: none;
+
+          .nav-hamburguesa-img {
+            width: 100%;
+            height: auto;
+          }
+        }
+
         .contenedor-botonera-nav {
           width: 735px;
           margin-left: 200px;
@@ -1041,144 +1052,7 @@ html {
                 color: #fff;
               }
             }
-            .social-member {
-              margin-top: 20px;
-              .social-member-icon {
-                .google-team {
-                  width: 25px;
-                  height: 20px;
-                  color: white;
-                }
-                .social-member-svg {
-                  width: 18px;
-                  height: 18px;
-                  color: white;
-                  &:hover {
-                    color: #007bff;
-                  }
-                }
-              }
-            }
-          }
-        }
-        .card-batman2 {
-          background-image: url(./Imagenes/Section5Team/team-02.jpg);
-          @include card-batman;
-          .member {
-            @include flex-center;
-            text-align: center;
-            width: 255px;
-            height: 255px;
-            &:hover {
-              background-color: rgba(0, 62, 128, 0.7);
-              opacity: 1;
-              transition: 0.4s;
-            }
-            .info-member {
-              .info-member-title {
-                @include titulos-iconos;
-                color: #fff;
-                margin-bottom: 0;
-              }
-              .info-member-description {
-                font-family: "Open Sans", sans-serif;
-                font-style: italic;
-                font-size: 13px;
-                color: #fff;
-              }
-            }
-            .social-member {
-              margin-top: 20px;
-              .social-member-icon {
-                .google-team {
-                  width: 25px;
-                  height: 20px;
-                  color: white;
-                }
-                .social-member-svg {
-                  width: 18px;
-                  height: 18px;
-                  color: white;
-                  &:hover {
-                    color: #007bff;
-                  }
-                }
-              }
-            }
-          }
-        }
-        .card-batman3 {
-          background-image: url(./Imagenes/Section5Team/team-03.jpg);
-          @include card-batman;
-          .member {
-            @include flex-center;
-            text-align: center;
-            width: 255px;
-            height: 255px;
-            &:hover {
-              background-color: rgba(0, 62, 128, 0.7);
-              opacity: 1;
-              transition: 0.4s;
-            }
-            .info-member {
-              .info-member-title {
-                @include titulos-iconos;
-                color: #fff;
-                margin-bottom: 0;
-              }
-              .info-member-description {
-                font-family: "Open Sans", sans-serif;
-                font-style: italic;
-                font-size: 13px;
-                color: #fff;
-              }
-            }
-            .social-member {
-              margin-top: 20px;
-              .social-member-icon {
-                .google-team {
-                  width: 25px;
-                  height: 20px;
-                  color: white;
-                }
-                .social-member-svg {
-                  width: 18px;
-                  height: 18px;
-                  color: white;
-                  &:hover {
-                    color: #007bff;
-                  }
-                }
-              }
-            }
-          }
-        }
-        .card-batman4 {
-          background-image: url(./Imagenes/Section5Team/team-04.jpg);
-          @include card-batman;
-          .member {
-            @include flex-center;
-            text-align: center;
-            width: 255px;
-            height: 255px;
-            &:hover {
-              background-color: rgba(0, 62, 128, 0.7);
-              opacity: 1;
-              transition: 0.4s;
-            }
-            .info-member {
-              .info-member-title {
-                @include titulos-iconos;
-                color: #fff;
-                margin-bottom: 0;
-              }
-              .info-member-description {
-                font-family: "Open Sans", sans-serif;
-                font-style: italic;
-                font-size: 13px;
-                color: #fff;
-              }
-            }
+
             .social-member {
               margin-top: 20px;
               .social-member-icon {
@@ -1200,255 +1074,557 @@ html {
           }
         }
       }
-    }
-    // Fin de Team
-
-    // Contact Us
-    .contact-us-section {
-      height: 550px;
-      .contact-us-title {
-        @include flex-center;
-        @include titulos-secciones;
-        font-weight: 500;
-      }
-      .map-and-info {
-        display: flex;
-        padding: 0 15px 0 15px;
-        .contact-contenedor {
-          .contact-info {
-            width: 674px;
-            height: 96px;
-            display: flex;
-            justify-content: space-around;
-            .contact-info-data {
-              display: flex;
-              .contact-info-data-icon {
-                height: 32px;
-                width: 25px;
-                color: #007bff;
-              }
-              .contact-info-data-decription {
-                margin-top: 6px;
-                padding-left: 5px;
-                font-size: 14px;
-                color: #283d50;
-                font-family: "Open Sans", sans-serif;
-              }
-            }
-          }
-          .contact-form-container {
-            max-width: 644.5px;
-            padding: 0 15px 0 26px;
-            .contact-form {
-              .contact-button-container {
-                display: flex;
-                justify-content: center;
-                .contact-button {
-                  @include botonera-header;
-                  padding: 8px 30px;
-                }
-              }
-              .contact-input {
-                font-size: 14px;
-                border: 1px solid #ced4da;
-                padding-left: 7px;
-                &:focus {
-                  border-color: #80bdff;
-                }
-              }
-              .contact-row {
-                width: 308px;
-                height: 30px;
-                font-size: 14px;
-                margin-bottom: 16px;
-              }
-              .contact-subject {
-                width: 632px;
-                height: 30px;
-                font-size: 14px;
-                margin-bottom: 16px;
-              }
-              .contact-message {
-                width: 632px;
-                height: 136px;
-                font-size: 14px;
-                margin-bottom: 16px;
-              }
-            }
-          }
+      // Testimonials
+      .testimonials-section {
+        background-color: #ecf5ff;
+        box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+        .testimonials-title {
+          @include titulos-secciones;
+          @include flex-center;
+          color: #283d50;
+          font-weight: 500;
         }
-      }
-    }
-    // Fin de Contact Us
-
-    // Footer Botonera
-    .datos {
-      background-color: #003b7a;
-      color: white;
-      font-family: "Montserrat", sans-serif;
-      padding: 60px 0 30px 0;
-      @include flex;
-      @include centrar;
-
-      .wayne {
-        width: 350px;
-        .titulo {
-          .datos-titulo {
-            font-size: 34px;
-            margin: 0 0 20px 0;
-            padding: 2px 0 2px 0;
-            line-height: 1;
-            font-family: "Montserrat", sans-serif;
-            color: #fff;
-            font-weight: 400;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-          }
-        }
-        .texto-wayne {
-          .datos-texto-wayne {
-            font-size: 13px;
-            line-height: 24px;
-            margin-bottom: 0;
-            font-family: "Montserrat", sans-serif;
-            color: #ecf5ff;
-          }
-        }
-      }
-
-      .links-utiles {
-        width: 242px;
-        margin-left: 30px;
-        .titulo-links {
-          .links-titulo-texto {
-            font-size: 14px;
-            font-weight: bold;
-            color: #fff;
-            text-transform: uppercase;
-            position: relative;
-            padding-bottom: 10px;
-          }
-        }
-
-        .contenedor-botonera-wayne {
-          .botonera-wayne {
+        .testimonials-cards {
+          ul {
             list-style: none;
-            padding-left: 0;
-            .wayne-lista {
-              padding: 8px 0;
-              .botones-wayne {
-                text-decoration: none;
-                color: #ecf5ff;
+            display: flex;
+            li {
+              .testimonials-img-client {
+                width: 120px;
+                border: 4px solid #fff;
+                float: left;
+                border-radius: 50%;
+                img {
+                  @include height-auto;
+                  border-radius: 50%;
+                }
+              }
+              .testimonials-name-client {
+                @include testimonials-nombre;
+              }
+              .testimonials-data-client {
+                font-family: "Montserrat", sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                color: #999;
+              }
+              .testimonials-description-client {
+                font-style: italic;
+                font-family: "Open Sans", sans-serif;
+              }
+            }
+          }
+          .card-batman2 {
+            background-image: url(./Imagenes/Section5Team/team-02.jpg);
+            @include card-batman;
+            .member {
+              @include flex-center;
+              text-align: center;
+              width: 255px;
+              height: 255px;
+              &:hover {
+                background-color: rgba(0, 62, 128, 0.7);
+                opacity: 1;
+                transition: 0.4s;
+              }
+              .info-member {
+                .info-member-title {
+                  @include titulos-iconos;
+                  color: #fff;
+                  margin-bottom: 0;
+                }
+                .info-member-description {
+                  font-family: "Open Sans", sans-serif;
+                  font-style: italic;
+                  font-size: 13px;
+                  color: #fff;
+                }
+              }
+              .social-member {
+                margin-top: 20px;
+                .social-member-icon {
+                  .google-team {
+                    width: 25px;
+                    height: 20px;
+                    color: white;
+                  }
+                  .social-member-svg {
+                    width: 18px;
+                    height: 18px;
+                    color: white;
+                    &:hover {
+                      color: #007bff;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          .card-batman3 {
+            background-image: url(./Imagenes/Section5Team/team-03.jpg);
+          }
+        }
+
+        // Team
+        .team-section {
+          height: 563px;
+          .header-team {
+            @include flex-center;
+            .header-team-title {
+              @include titulos-secciones;
+              font-weight: 500;
+              margin-bottom: 0;
+            }
+            .header-team-description {
+              @include descripciones-secciones;
+              width: 555px;
+              text-align: center;
+              padding-bottom: 60px;
+            }
+          }
+          .member {
+            display: none;
+          }
+          .contenedor-team {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            .card-batman1 {
+              background-image: url(./Imagenes/Section5Team/team-01.jpg);
+              @include card-batman;
+              &:hover .member {
+                display: flex;
+                background-color: rgba(0, 62, 128, 0.7);
+                opacity: 1;
+                @include flex-center;
+                text-align: center;
+                width: 255px;
+                height: 110%;
+              }
+              .member {
+                .info-member {
+                  .info-member-title {
+                    @include titulos-iconos;
+                    color: #fff;
+                    margin-bottom: 0;
+                  }
+                  .info-member-description {
+                    font-family: "Open Sans", sans-serif;
+                    font-style: italic;
+                    font-size: 13px;
+                    color: #fff;
+                  }
+                }
+                .social-member {
+                  margin-top: 20px;
+                  .social-member-icon {
+                    .google-team {
+                      width: 25px;
+                      height: 20px;
+                      color: white;
+                    }
+                    .social-member-svg {
+                      width: 18px;
+                      height: 18px;
+                      color: white;
+                      &:hover {
+                        color: #007bff;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .card-batman2 {
+              background-image: url(./Imagenes/Section5Team/team-02.jpg);
+              @include card-batman;
+              .member {
+                @include flex-center;
+                text-align: center;
+                width: 255px;
+                height: 255px;
                 &:hover {
-                  color: #007bff;
+                  background-color: rgba(0, 62, 128, 0.7);
+                  opacity: 1;
+                  transition: 0.4s;
+                }
+                .info-member {
+                  .info-member-title {
+                    @include titulos-iconos;
+                    color: #fff;
+                    margin-bottom: 0;
+                  }
+                  .info-member-description {
+                    font-family: "Open Sans", sans-serif;
+                    font-style: italic;
+                    font-size: 13px;
+                    color: #fff;
+                  }
+                }
+                .social-member {
+                  margin-top: 20px;
+                  .social-member-icon {
+                    .google-team {
+                      width: 25px;
+                      height: 20px;
+                      color: white;
+                    }
+                    .social-member-svg {
+                      width: 18px;
+                      height: 18px;
+                      color: white;
+                      &:hover {
+                        color: #007bff;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .card-batman3 {
+              background-image: url(./Imagenes/Section5Team/team-03.jpg);
+              @include card-batman;
+              .member {
+                @include flex-center;
+                text-align: center;
+                width: 255px;
+                height: 255px;
+                &:hover {
+                  background-color: rgba(0, 62, 128, 0.7);
+                  opacity: 1;
+                  transition: 0.4s;
+                }
+                .info-member {
+                  .info-member-title {
+                    @include titulos-iconos;
+                    color: #fff;
+                    margin-bottom: 0;
+                  }
+                  .info-member-description {
+                    font-family: "Open Sans", sans-serif;
+                    font-style: italic;
+                    font-size: 13px;
+                    color: #fff;
+                  }
+                }
+                .social-member {
+                  margin-top: 20px;
+                  .social-member-icon {
+                    .google-team {
+                      width: 25px;
+                      height: 20px;
+                      color: white;
+                    }
+                    .social-member-svg {
+                      width: 18px;
+                      height: 18px;
+                      color: white;
+                      &:hover {
+                        color: #007bff;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            .card-batman4 {
+              background-image: url(./Imagenes/Section5Team/team-04.jpg);
+              @include card-batman;
+              .member {
+                @include flex-center;
+                text-align: center;
+                width: 255px;
+                height: 255px;
+                &:hover {
+                  background-color: rgba(0, 62, 128, 0.7);
+                  opacity: 1;
+                  transition: 0.4s;
+                }
+                .info-member {
+                  .info-member-title {
+                    @include titulos-iconos;
+                    color: #fff;
+                    margin-bottom: 0;
+                  }
+                  .info-member-description {
+                    font-family: "Open Sans", sans-serif;
+                    font-style: italic;
+                    font-size: 13px;
+                    color: #fff;
+                  }
+                }
+                .social-member {
+                  margin-top: 20px;
+                  .social-member-icon {
+                    .google-team {
+                      width: 25px;
+                      height: 20px;
+                      color: white;
+                    }
+                    .social-member-svg {
+                      width: 18px;
+                      height: 18px;
+                      color: white;
+                      &:hover {
+                        color: #007bff;
+                      }
+                    }
+                  }
                 }
               }
             }
           }
         }
-      }
-    }
+        // Fin de Team
 
-    .contacto-chico {
-      width: 255px;
-      .titulo-contacto-chico {
-        .contacto-chico-titulo {
-          font-size: 14px;
-          font-weight: bold;
-          color: #fff;
-          text-transform: uppercase;
-          position: relative;
-          padding-bottom: 10px;
+        // Contact Us
+        .contact-us-section {
+          height: 550px;
+          .contact-us-title {
+            @include flex-center;
+            @include titulos-secciones;
+            font-weight: 500;
+          }
+          .map-and-info {
+            display: flex;
+            padding: 0 15px 0 15px;
+            .contact-contenedor {
+              .contact-info {
+                width: 674px;
+                height: 96px;
+                display: flex;
+                justify-content: space-around;
+                .contact-info-data {
+                  display: flex;
+                  .contact-info-data-icon {
+                    height: 32px;
+                    width: 25px;
+                    color: #007bff;
+                  }
+                  .contact-info-data-decription {
+                    margin-top: 6px;
+                    padding-left: 5px;
+                    font-size: 14px;
+                    color: #283d50;
+                    font-family: "Open Sans", sans-serif;
+                  }
+                }
+              }
+              .contact-form-container {
+                max-width: 644.5px;
+                padding: 0 15px 0 26px;
+                .contact-form {
+                  .contact-button-container {
+                    display: flex;
+                    justify-content: center;
+                    .contact-button {
+                      @include botonera-header;
+                      padding: 8px 30px;
+                    }
+                  }
+                  .contact-input {
+                    font-size: 14px;
+                    border: 1px solid #ced4da;
+                    padding-left: 7px;
+                    &:focus {
+                      border-color: #80bdff;
+                    }
+                  }
+                  .contact-row {
+                    width: 308px;
+                    height: 30px;
+                    font-size: 14px;
+                    margin-bottom: 16px;
+                  }
+                  .contact-subject {
+                    width: 632px;
+                    height: 30px;
+                    font-size: 14px;
+                    margin-bottom: 16px;
+                  }
+                  .contact-message {
+                    width: 632px;
+                    height: 136px;
+                    font-size: 14px;
+                    margin-bottom: 16px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        // Fin de Contact Us
+
+        // Footer Botonera
+        .datos {
+          background-color: #003b7a;
+          color: white;
+          font-family: "Montserrat", sans-serif;
+          padding: 60px 0 30px 0;
+          @include flex;
+          @include centrar;
+
+          .wayne {
+            width: 350px;
+            .titulo {
+              .datos-titulo {
+                font-size: 34px;
+                margin: 0 0 20px 0;
+                padding: 2px 0 2px 0;
+                line-height: 1;
+                font-family: "Montserrat", sans-serif;
+                color: #fff;
+                font-weight: 400;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+              }
+            }
+            .texto-wayne {
+              .datos-texto-wayne {
+                font-size: 13px;
+                line-height: 24px;
+                margin-bottom: 0;
+                font-family: "Montserrat", sans-serif;
+                color: #ecf5ff;
+              }
+            }
+          }
+
+          .links-utiles {
+            width: 242px;
+            margin-left: 30px;
+            .titulo-links {
+              .links-titulo-texto {
+                font-size: 14px;
+                font-weight: bold;
+                color: #fff;
+                text-transform: uppercase;
+                position: relative;
+                padding-bottom: 10px;
+              }
+            }
+
+            .contenedor-botonera-wayne {
+              .botonera-wayne {
+                list-style: none;
+                padding-left: 0;
+                .wayne-lista {
+                  padding: 8px 0;
+                  .botones-wayne {
+                    text-decoration: none;
+                    color: #ecf5ff;
+                    &:hover {
+                      color: #007bff;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .contacto-chico {
+          width: 255px;
+          .titulo-contacto-chico {
+            .contacto-chico-titulo {
+              font-size: 14px;
+              font-weight: bold;
+              color: #fff;
+              text-transform: uppercase;
+              position: relative;
+              padding-bottom: 10px;
+            }
+          }
+          .texto-contacto-chico {
+            .contacto-chico-texto {
+              line-height: 26px;
+              font-size: 14px;
+              padding: 0;
+              margin: 0 0 30px 0;
+            }
+          }
+        }
+        .redes-sociales {
+          @include flex;
+          justify-content: space-between;
+          width: 205px;
+        }
+        .redes-sociales-contenedores-foot {
+          width: 36px;
+          height: 36px;
+          background-color: #007bff;
+          &:hover {
+            background-color: #004997;
+          }
+          border-radius: 50px;
+          @include flex;
+          @include centrar;
+
+          .redes-sociales-svg-foot {
+            @include iconos-footer;
+          }
         }
       }
-      .texto-contacto-chico {
-        .contacto-chico-texto {
-          line-height: 26px;
-          font-size: 14px;
-          padding: 0;
-          margin: 0 0 30px 0;
-        }
-      }
-    }
-    .redes-sociales {
-      @include flex;
-      justify-content: space-between;
-      width: 205px;
-    }
-    .redes-sociales-contenedores-foot {
-      width: 36px;
-      height: 36px;
-      background-color: #007bff;
-      &:hover {
-        background-color: #004997;
-      }
-      border-radius: 50px;
-      @include flex;
-      @include centrar;
 
-      .redes-sociales-svg-foot {
-        @include iconos-footer;
+      .noticias {
+        width: 255px;
+      }
+
+      .noticias-titulo {
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+        text-transform: uppercase;
+        position: relative;
+        padding-bottom: 40px;
+      }
+
+      .noticias-texto {
+        font-size: 14px;
+        padding: 0px;
+        margin: 0px 0px 20px;
       }
     }
   }
 
-  .noticias {
-    width: 255px;
+  .footer-email-sub {
+    @include flex;
   }
 
-  .noticias-titulo {
-    font-size: 14px;
-    font-weight: bold;
+  .email {
+    border: 0;
+    padding: 6px 8px;
+    width: 65%;
+  }
+  .sub {
+    background: #007bff;
+    border: 0;
+    width: 35%;
+    padding: 6px 0;
+    text-align: center;
     color: #fff;
-    text-transform: uppercase;
-    position: relative;
-    padding-bottom: 40px;
   }
 
-  .noticias-texto {
+  .footer-fondo {
+    background: #002f61;
+    padding: 0 0 30px 0;
+    color: #eee;
     font-size: 14px;
-    padding: 0px;
-    margin: 0px 0px 20px;
-  }
-}
+    @include flex;
+    @include centrar;
+    .footer-contenedor {
+      width: 1140px;
+      font-family: "Montserrat", sans-serif;
+      .copy {
+        text-align: center;
+        padding-top: 30px;
+      }
 
-.footer-email-sub {
-  @include flex;
-}
-
-.email {
-  border: 0;
-  padding: 6px 8px;
-  width: 65%;
-}
-.sub {
-  background: #007bff;
-  border: 0;
-  width: 35%;
-  padding: 6px 0;
-  text-align: center;
-  color: #fff;
-}
-
-.footer-fondo {
-  background: #002f61;
-  padding: 0 0 30px 0;
-  color: #eee;
-  font-size: 14px;
-  @include flex;
-  @include centrar;
-  .footer-contenedor {
-    width: 1140px;
-    font-family: "Montserrat", sans-serif;
-    .copy {
-      text-align: center;
-      padding-top: 30px;
-    }
-
-    .diseño {
-      text-align: center;
-      font-size: 13px;
-      color: #f1f7ff;
+      .diseño {
+        text-align: center;
+        font-size: 13px;
+        color: #f1f7ff;
+      }
     }
   }
 }

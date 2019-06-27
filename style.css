@@ -28,6 +28,13 @@ html {
           html body nav .contenedor-nav .contenedor-logo .logo {
             width: 100%;
             height: auto; }
+        html body nav .contenedor-nav .nav-hamburguesa {
+          width: 71px;
+          height: 74px;
+          display: none; }
+          html body nav .contenedor-nav .nav-hamburguesa .nav-hamburguesa-img {
+            width: 100%;
+            height: auto; }
         html body nav .contenedor-nav .contenedor-botonera-nav {
           width: 735px;
           margin-left: 200px; }
@@ -962,7 +969,44 @@ html {
               color: white; }
               html body .team-section .contenedor-team .card-batman1 .member .social-member .social-member-icon .social-member-svg:hover {
                 color: #007bff; }
-        html body .team-section .contenedor-team .card-batman2 {
+      html body .team-section .testimonials-section {
+        background-color: #ecf5ff;
+        box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1); }
+        html body .team-section .testimonials-section .testimonials-title {
+          font-family: "Montserrat", sans-serif;
+          font-size: 36px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          color: #283d50;
+          font-weight: 500; }
+        html body .team-section .testimonials-section .testimonials-cards ul {
+          list-style: none;
+          display: flex; }
+          html body .team-section .testimonials-section .testimonials-cards ul li .testimonials-img-client {
+            width: 120px;
+            border: 4px solid #fff;
+            float: left;
+            border-radius: 50%; }
+            html body .team-section .testimonials-section .testimonials-cards ul li .testimonials-img-client img {
+              width: 100%;
+              height: auto;
+              border-radius: 50%; }
+          html body .team-section .testimonials-section .testimonials-cards ul li .testimonials-name-client {
+            font-family: "Montserrat", sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: #111; }
+          html body .team-section .testimonials-section .testimonials-cards ul li .testimonials-data-client {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: #999; }
+          html body .team-section .testimonials-section .testimonials-cards ul li .testimonials-description-client {
+            font-style: italic;
+            font-family: "Open Sans", sans-serif; }
+        html body .team-section .testimonials-section .testimonials-cards .card-batman2 {
           background-image: url(./Imagenes/Section5Team/team-02.jpg);
           background-position: center;
           background-size: cover;
@@ -970,7 +1014,7 @@ html {
           height: 255px;
           overflow: hidden;
           border-radius: 130px; }
-          html body .team-section .contenedor-team .card-batman2 .member {
+          html body .team-section .testimonials-section .testimonials-cards .card-batman2 .member {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -978,309 +1022,414 @@ html {
             text-align: center;
             width: 255px;
             height: 255px; }
-            html body .team-section .contenedor-team .card-batman2 .member:hover {
+            html body .team-section .testimonials-section .testimonials-cards .card-batman2 .member:hover {
               background-color: rgba(0, 62, 128, 0.7);
               opacity: 1;
               transition: 0.4s; }
-            html body .team-section .contenedor-team .card-batman2 .member .info-member .info-member-title {
+            html body .team-section .testimonials-section .testimonials-cards .card-batman2 .member .info-member .info-member-title {
               font-family: "Montserrat", sans-serif;
               font-size: 18px;
               color: #fff;
               margin-bottom: 0; }
-            html body .team-section .contenedor-team .card-batman2 .member .info-member .info-member-description {
+            html body .team-section .testimonials-section .testimonials-cards .card-batman2 .member .info-member .info-member-description {
               font-family: "Open Sans", sans-serif;
               font-style: italic;
               font-size: 13px;
               color: #fff; }
-            html body .team-section .contenedor-team .card-batman2 .member .social-member {
+            html body .team-section .testimonials-section .testimonials-cards .card-batman2 .member .social-member {
               margin-top: 20px; }
-              html body .team-section .contenedor-team .card-batman2 .member .social-member .social-member-icon .google-team {
+              html body .team-section .testimonials-section .testimonials-cards .card-batman2 .member .social-member .social-member-icon .google-team {
                 width: 25px;
                 height: 20px;
                 color: white; }
-              html body .team-section .contenedor-team .card-batman2 .member .social-member .social-member-icon .social-member-svg {
+              html body .team-section .testimonials-section .testimonials-cards .card-batman2 .member .social-member .social-member-icon .social-member-svg {
                 width: 18px;
                 height: 18px;
                 color: white; }
-                html body .team-section .contenedor-team .card-batman2 .member .social-member .social-member-icon .social-member-svg:hover {
+                html body .team-section .testimonials-section .testimonials-cards .card-batman2 .member .social-member .social-member-icon .social-member-svg:hover {
                   color: #007bff; }
-        html body .team-section .contenedor-team .card-batman3 {
-          background-image: url(./Imagenes/Section5Team/team-03.jpg);
-          background-position: center;
-          background-size: cover;
-          width: 255px;
-          height: 255px;
-          overflow: hidden;
-          border-radius: 130px; }
-          html body .team-section .contenedor-team .card-batman3 .member {
+        html body .team-section .testimonials-section .testimonials-cards .card-batman3 {
+          background-image: url(./Imagenes/Section5Team/team-03.jpg); }
+        html body .team-section .testimonials-section .team-section {
+          height: 563px; }
+          html body .team-section .testimonials-section .team-section .header-team {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; }
+            html body .team-section .testimonials-section .team-section .header-team .header-team-title {
+              font-family: "Montserrat", sans-serif;
+              font-size: 36px;
+              font-weight: 500;
+              margin-bottom: 0; }
+            html body .team-section .testimonials-section .team-section .header-team .header-team-description {
+              font-family: "Open Sans", sans-serif;
+              font-size: 15px;
+              width: 555px;
+              text-align: center;
+              padding-bottom: 60px; }
+          html body .team-section .testimonials-section .team-section .member {
+            display: none; }
+          html body .team-section .testimonials-section .team-section .contenedor-team {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center; }
+            html body .team-section .testimonials-section .team-section .contenedor-team .card-batman1 {
+              background-image: url(./Imagenes/Section5Team/team-01.jpg);
+              background-position: center;
+              background-size: cover;
+              width: 255px;
+              height: 255px;
+              overflow: hidden;
+              border-radius: 130px; }
+              html body .team-section .testimonials-section .team-section .contenedor-team .card-batman1:hover .member {
+                display: flex;
+                background-color: rgba(0, 62, 128, 0.7);
+                opacity: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                width: 255px;
+                height: 110%; }
+              html body .team-section .testimonials-section .team-section .contenedor-team .card-batman1 .member .info-member .info-member-title {
+                font-family: "Montserrat", sans-serif;
+                font-size: 18px;
+                color: #fff;
+                margin-bottom: 0; }
+              html body .team-section .testimonials-section .team-section .contenedor-team .card-batman1 .member .info-member .info-member-description {
+                font-family: "Open Sans", sans-serif;
+                font-style: italic;
+                font-size: 13px;
+                color: #fff; }
+              html body .team-section .testimonials-section .team-section .contenedor-team .card-batman1 .member .social-member {
+                margin-top: 20px; }
+                html body .team-section .testimonials-section .team-section .contenedor-team .card-batman1 .member .social-member .social-member-icon .google-team {
+                  width: 25px;
+                  height: 20px;
+                  color: white; }
+                html body .team-section .testimonials-section .team-section .contenedor-team .card-batman1 .member .social-member .social-member-icon .social-member-svg {
+                  width: 18px;
+                  height: 18px;
+                  color: white; }
+                  html body .team-section .testimonials-section .team-section .contenedor-team .card-batman1 .member .social-member .social-member-icon .social-member-svg:hover {
+                    color: #007bff; }
+            html body .team-section .testimonials-section .team-section .contenedor-team .card-batman2 {
+              background-image: url(./Imagenes/Section5Team/team-02.jpg);
+              background-position: center;
+              background-size: cover;
+              width: 255px;
+              height: 255px;
+              overflow: hidden;
+              border-radius: 130px; }
+              html body .team-section .testimonials-section .team-section .contenedor-team .card-batman2 .member {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                width: 255px;
+                height: 255px; }
+                html body .team-section .testimonials-section .team-section .contenedor-team .card-batman2 .member:hover {
+                  background-color: rgba(0, 62, 128, 0.7);
+                  opacity: 1;
+                  transition: 0.4s; }
+                html body .team-section .testimonials-section .team-section .contenedor-team .card-batman2 .member .info-member .info-member-title {
+                  font-family: "Montserrat", sans-serif;
+                  font-size: 18px;
+                  color: #fff;
+                  margin-bottom: 0; }
+                html body .team-section .testimonials-section .team-section .contenedor-team .card-batman2 .member .info-member .info-member-description {
+                  font-family: "Open Sans", sans-serif;
+                  font-style: italic;
+                  font-size: 13px;
+                  color: #fff; }
+                html body .team-section .testimonials-section .team-section .contenedor-team .card-batman2 .member .social-member {
+                  margin-top: 20px; }
+                  html body .team-section .testimonials-section .team-section .contenedor-team .card-batman2 .member .social-member .social-member-icon .google-team {
+                    width: 25px;
+                    height: 20px;
+                    color: white; }
+                  html body .team-section .testimonials-section .team-section .contenedor-team .card-batman2 .member .social-member .social-member-icon .social-member-svg {
+                    width: 18px;
+                    height: 18px;
+                    color: white; }
+                    html body .team-section .testimonials-section .team-section .contenedor-team .card-batman2 .member .social-member .social-member-icon .social-member-svg:hover {
+                      color: #007bff; }
+            html body .team-section .testimonials-section .team-section .contenedor-team .card-batman3 {
+              background-image: url(./Imagenes/Section5Team/team-03.jpg);
+              background-position: center;
+              background-size: cover;
+              width: 255px;
+              height: 255px;
+              overflow: hidden;
+              border-radius: 130px; }
+              html body .team-section .testimonials-section .team-section .contenedor-team .card-batman3 .member {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                width: 255px;
+                height: 255px; }
+                html body .team-section .testimonials-section .team-section .contenedor-team .card-batman3 .member:hover {
+                  background-color: rgba(0, 62, 128, 0.7);
+                  opacity: 1;
+                  transition: 0.4s; }
+                html body .team-section .testimonials-section .team-section .contenedor-team .card-batman3 .member .info-member .info-member-title {
+                  font-family: "Montserrat", sans-serif;
+                  font-size: 18px;
+                  color: #fff;
+                  margin-bottom: 0; }
+                html body .team-section .testimonials-section .team-section .contenedor-team .card-batman3 .member .info-member .info-member-description {
+                  font-family: "Open Sans", sans-serif;
+                  font-style: italic;
+                  font-size: 13px;
+                  color: #fff; }
+                html body .team-section .testimonials-section .team-section .contenedor-team .card-batman3 .member .social-member {
+                  margin-top: 20px; }
+                  html body .team-section .testimonials-section .team-section .contenedor-team .card-batman3 .member .social-member .social-member-icon .google-team {
+                    width: 25px;
+                    height: 20px;
+                    color: white; }
+                  html body .team-section .testimonials-section .team-section .contenedor-team .card-batman3 .member .social-member .social-member-icon .social-member-svg {
+                    width: 18px;
+                    height: 18px;
+                    color: white; }
+                    html body .team-section .testimonials-section .team-section .contenedor-team .card-batman3 .member .social-member .social-member-icon .social-member-svg:hover {
+                      color: #007bff; }
+            html body .team-section .testimonials-section .team-section .contenedor-team .card-batman4 {
+              background-image: url(./Imagenes/Section5Team/team-04.jpg);
+              background-position: center;
+              background-size: cover;
+              width: 255px;
+              height: 255px;
+              overflow: hidden;
+              border-radius: 130px; }
+              html body .team-section .testimonials-section .team-section .contenedor-team .card-batman4 .member {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+                width: 255px;
+                height: 255px; }
+                html body .team-section .testimonials-section .team-section .contenedor-team .card-batman4 .member:hover {
+                  background-color: rgba(0, 62, 128, 0.7);
+                  opacity: 1;
+                  transition: 0.4s; }
+                html body .team-section .testimonials-section .team-section .contenedor-team .card-batman4 .member .info-member .info-member-title {
+                  font-family: "Montserrat", sans-serif;
+                  font-size: 18px;
+                  color: #fff;
+                  margin-bottom: 0; }
+                html body .team-section .testimonials-section .team-section .contenedor-team .card-batman4 .member .info-member .info-member-description {
+                  font-family: "Open Sans", sans-serif;
+                  font-style: italic;
+                  font-size: 13px;
+                  color: #fff; }
+                html body .team-section .testimonials-section .team-section .contenedor-team .card-batman4 .member .social-member {
+                  margin-top: 20px; }
+                  html body .team-section .testimonials-section .team-section .contenedor-team .card-batman4 .member .social-member .social-member-icon .google-team {
+                    width: 25px;
+                    height: 20px;
+                    color: white; }
+                  html body .team-section .testimonials-section .team-section .contenedor-team .card-batman4 .member .social-member .social-member-icon .social-member-svg {
+                    width: 18px;
+                    height: 18px;
+                    color: white; }
+                    html body .team-section .testimonials-section .team-section .contenedor-team .card-batman4 .member .social-member .social-member-icon .social-member-svg:hover {
+                      color: #007bff; }
+        html body .team-section .testimonials-section .contact-us-section {
+          height: 550px; }
+          html body .team-section .testimonials-section .contact-us-section .contact-us-title {
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            text-align: center;
-            width: 255px;
-            height: 255px; }
-            html body .team-section .contenedor-team .card-batman3 .member:hover {
-              background-color: rgba(0, 62, 128, 0.7);
-              opacity: 1;
-              transition: 0.4s; }
-            html body .team-section .contenedor-team .card-batman3 .member .info-member .info-member-title {
-              font-family: "Montserrat", sans-serif;
-              font-size: 18px;
-              color: #fff;
-              margin-bottom: 0; }
-            html body .team-section .contenedor-team .card-batman3 .member .info-member .info-member-description {
-              font-family: "Open Sans", sans-serif;
-              font-style: italic;
-              font-size: 13px;
-              color: #fff; }
-            html body .team-section .contenedor-team .card-batman3 .member .social-member {
-              margin-top: 20px; }
-              html body .team-section .contenedor-team .card-batman3 .member .social-member .social-member-icon .google-team {
-                width: 25px;
-                height: 20px;
-                color: white; }
-              html body .team-section .contenedor-team .card-batman3 .member .social-member .social-member-icon .social-member-svg {
-                width: 18px;
-                height: 18px;
-                color: white; }
-                html body .team-section .contenedor-team .card-batman3 .member .social-member .social-member-icon .social-member-svg:hover {
-                  color: #007bff; }
-        html body .team-section .contenedor-team .card-batman4 {
-          background-image: url(./Imagenes/Section5Team/team-04.jpg);
-          background-position: center;
-          background-size: cover;
-          width: 255px;
-          height: 255px;
-          overflow: hidden;
-          border-radius: 130px; }
-          html body .team-section .contenedor-team .card-batman4 .member {
+            font-family: "Montserrat", sans-serif;
+            font-size: 36px;
+            font-weight: 500; }
+          html body .team-section .testimonials-section .contact-us-section .map-and-info {
             display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            text-align: center;
-            width: 255px;
-            height: 255px; }
-            html body .team-section .contenedor-team .card-batman4 .member:hover {
-              background-color: rgba(0, 62, 128, 0.7);
-              opacity: 1;
-              transition: 0.4s; }
-            html body .team-section .contenedor-team .card-batman4 .member .info-member .info-member-title {
-              font-family: "Montserrat", sans-serif;
-              font-size: 18px;
-              color: #fff;
-              margin-bottom: 0; }
-            html body .team-section .contenedor-team .card-batman4 .member .info-member .info-member-description {
-              font-family: "Open Sans", sans-serif;
-              font-style: italic;
-              font-size: 13px;
-              color: #fff; }
-            html body .team-section .contenedor-team .card-batman4 .member .social-member {
-              margin-top: 20px; }
-              html body .team-section .contenedor-team .card-batman4 .member .social-member .social-member-icon .google-team {
-                width: 25px;
-                height: 20px;
-                color: white; }
-              html body .team-section .contenedor-team .card-batman4 .member .social-member .social-member-icon .social-member-svg {
-                width: 18px;
-                height: 18px;
-                color: white; }
-                html body .team-section .contenedor-team .card-batman4 .member .social-member .social-member-icon .social-member-svg:hover {
+            padding: 0 15px 0 15px; }
+            html body .team-section .testimonials-section .contact-us-section .map-and-info .contact-contenedor .contact-info {
+              width: 674px;
+              height: 96px;
+              display: flex;
+              justify-content: space-around; }
+              html body .team-section .testimonials-section .contact-us-section .map-and-info .contact-contenedor .contact-info .contact-info-data {
+                display: flex; }
+                html body .team-section .testimonials-section .contact-us-section .map-and-info .contact-contenedor .contact-info .contact-info-data .contact-info-data-icon {
+                  height: 32px;
+                  width: 25px;
                   color: #007bff; }
-    html body .contact-us-section {
-      height: 550px; }
-      html body .contact-us-section .contact-us-title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        font-family: "Montserrat", sans-serif;
-        font-size: 36px;
-        font-weight: 500; }
-      html body .contact-us-section .map-and-info {
-        display: flex;
-        padding: 0 15px 0 15px; }
-        html body .contact-us-section .map-and-info .contact-contenedor .contact-info {
-          width: 674px;
-          height: 96px;
+                html body .team-section .testimonials-section .contact-us-section .map-and-info .contact-contenedor .contact-info .contact-info-data .contact-info-data-decription {
+                  margin-top: 6px;
+                  padding-left: 5px;
+                  font-size: 14px;
+                  color: #283d50;
+                  font-family: "Open Sans", sans-serif; }
+            html body .team-section .testimonials-section .contact-us-section .map-and-info .contact-contenedor .contact-form-container {
+              max-width: 644.5px;
+              padding: 0 15px 0 26px; }
+              html body .team-section .testimonials-section .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-button-container {
+                display: flex;
+                justify-content: center; }
+                html body .team-section .testimonials-section .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-button-container .contact-button {
+                  background-color: #007bff;
+                  color: white;
+                  font-family: "Montserrat", sans-serif;
+                  font-size: 14px;
+                  border: 2px solid #007bff;
+                  border-radius: 50px;
+                  padding: 8px 30px; }
+              html body .team-section .testimonials-section .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-input {
+                font-size: 14px;
+                border: 1px solid #ced4da;
+                padding-left: 7px; }
+                html body .team-section .testimonials-section .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-input:focus {
+                  border-color: #80bdff; }
+              html body .team-section .testimonials-section .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-row {
+                width: 308px;
+                height: 30px;
+                font-size: 14px;
+                margin-bottom: 16px; }
+              html body .team-section .testimonials-section .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-subject {
+                width: 632px;
+                height: 30px;
+                font-size: 14px;
+                margin-bottom: 16px; }
+              html body .team-section .testimonials-section .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-message {
+                width: 632px;
+                height: 136px;
+                font-size: 14px;
+                margin-bottom: 16px; }
+        html body .team-section .testimonials-section .datos {
+          background-color: #003b7a;
+          color: white;
+          font-family: "Montserrat", sans-serif;
+          padding: 60px 0 30px 0;
           display: flex;
-          justify-content: space-around; }
-          html body .contact-us-section .map-and-info .contact-contenedor .contact-info .contact-info-data {
-            display: flex; }
-            html body .contact-us-section .map-and-info .contact-contenedor .contact-info .contact-info-data .contact-info-data-icon {
-              height: 32px;
-              width: 25px;
-              color: #007bff; }
-            html body .contact-us-section .map-and-info .contact-contenedor .contact-info .contact-info-data .contact-info-data-decription {
-              margin-top: 6px;
-              padding-left: 5px;
-              font-size: 14px;
-              color: #283d50;
-              font-family: "Open Sans", sans-serif; }
-        html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container {
-          max-width: 644.5px;
-          padding: 0 15px 0 26px; }
-          html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-button-container {
-            display: flex;
-            justify-content: center; }
-            html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-button-container .contact-button {
-              background-color: #007bff;
-              color: white;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center; }
+          html body .team-section .testimonials-section .datos .wayne {
+            width: 350px; }
+            html body .team-section .testimonials-section .datos .wayne .titulo .datos-titulo {
+              font-size: 34px;
+              margin: 0 0 20px 0;
+              padding: 2px 0 2px 0;
+              line-height: 1;
               font-family: "Montserrat", sans-serif;
-              font-size: 14px;
-              border: 2px solid #007bff;
-              border-radius: 50px;
-              padding: 8px 30px; }
-          html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-input {
-            font-size: 14px;
-            border: 1px solid #ced4da;
-            padding-left: 7px; }
-            html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-input:focus {
-              border-color: #80bdff; }
-          html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-row {
-            width: 308px;
-            height: 30px;
-            font-size: 14px;
-            margin-bottom: 16px; }
-          html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-subject {
-            width: 632px;
-            height: 30px;
-            font-size: 14px;
-            margin-bottom: 16px; }
-          html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-message {
-            width: 632px;
-            height: 136px;
-            font-size: 14px;
-            margin-bottom: 16px; }
-    html body .datos {
-      background-color: #003b7a;
-      color: white;
-      font-family: "Montserrat", sans-serif;
-      padding: 60px 0 30px 0;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center; }
-      html body .datos .wayne {
-        width: 350px; }
-        html body .datos .wayne .titulo .datos-titulo {
-          font-size: 34px;
-          margin: 0 0 20px 0;
-          padding: 2px 0 2px 0;
-          line-height: 1;
-          font-family: "Montserrat", sans-serif;
-          color: #fff;
-          font-weight: 400;
-          letter-spacing: 3px;
-          text-transform: uppercase; }
-        html body .datos .wayne .texto-wayne .datos-texto-wayne {
-          font-size: 13px;
-          line-height: 24px;
-          margin-bottom: 0;
-          font-family: "Montserrat", sans-serif;
-          color: #ecf5ff; }
-      html body .datos .links-utiles {
-        width: 242px;
-        margin-left: 30px; }
-        html body .datos .links-utiles .titulo-links .links-titulo-texto {
-          font-size: 14px;
-          font-weight: bold;
-          color: #fff;
-          text-transform: uppercase;
-          position: relative;
-          padding-bottom: 10px; }
-        html body .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne {
-          list-style: none;
-          padding-left: 0; }
-          html body .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne .wayne-lista {
-            padding: 8px 0; }
-            html body .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne .wayne-lista .botones-wayne {
-              text-decoration: none;
+              color: #fff;
+              font-weight: 400;
+              letter-spacing: 3px;
+              text-transform: uppercase; }
+            html body .team-section .testimonials-section .datos .wayne .texto-wayne .datos-texto-wayne {
+              font-size: 13px;
+              line-height: 24px;
+              margin-bottom: 0;
+              font-family: "Montserrat", sans-serif;
               color: #ecf5ff; }
-              html body .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne .wayne-lista .botones-wayne:hover {
-                color: #007bff; }
-    html body .contacto-chico {
-      width: 255px; }
-      html body .contacto-chico .titulo-contacto-chico .contacto-chico-titulo {
+          html body .team-section .testimonials-section .datos .links-utiles {
+            width: 242px;
+            margin-left: 30px; }
+            html body .team-section .testimonials-section .datos .links-utiles .titulo-links .links-titulo-texto {
+              font-size: 14px;
+              font-weight: bold;
+              color: #fff;
+              text-transform: uppercase;
+              position: relative;
+              padding-bottom: 10px; }
+            html body .team-section .testimonials-section .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne {
+              list-style: none;
+              padding-left: 0; }
+              html body .team-section .testimonials-section .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne .wayne-lista {
+                padding: 8px 0; }
+                html body .team-section .testimonials-section .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne .wayne-lista .botones-wayne {
+                  text-decoration: none;
+                  color: #ecf5ff; }
+                  html body .team-section .testimonials-section .datos .links-utiles .contenedor-botonera-wayne .botonera-wayne .wayne-lista .botones-wayne:hover {
+                    color: #007bff; }
+        html body .team-section .testimonials-section .contacto-chico {
+          width: 255px; }
+          html body .team-section .testimonials-section .contacto-chico .titulo-contacto-chico .contacto-chico-titulo {
+            font-size: 14px;
+            font-weight: bold;
+            color: #fff;
+            text-transform: uppercase;
+            position: relative;
+            padding-bottom: 10px; }
+          html body .team-section .testimonials-section .contacto-chico .texto-contacto-chico .contacto-chico-texto {
+            line-height: 26px;
+            font-size: 14px;
+            padding: 0;
+            margin: 0 0 30px 0; }
+        html body .team-section .testimonials-section .redes-sociales {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 205px; }
+        html body .team-section .testimonials-section .redes-sociales-contenedores-foot {
+          width: 36px;
+          height: 36px;
+          background-color: #007bff;
+          border-radius: 50px;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center; }
+          html body .team-section .testimonials-section .redes-sociales-contenedores-foot:hover {
+            background-color: #004997; }
+          html body .team-section .testimonials-section .redes-sociales-contenedores-foot .redes-sociales-svg-foot {
+            width: 16.7px;
+            height: 18px;
+            color: white; }
+      html body .team-section .noticias {
+        width: 255px; }
+      html body .team-section .noticias-titulo {
         font-size: 14px;
         font-weight: bold;
         color: #fff;
         text-transform: uppercase;
         position: relative;
-        padding-bottom: 10px; }
-      html body .contacto-chico .texto-contacto-chico .contacto-chico-texto {
-        line-height: 26px;
+        padding-bottom: 40px; }
+      html body .team-section .noticias-texto {
         font-size: 14px;
-        padding: 0;
-        margin: 0 0 30px 0; }
-    html body .redes-sociales {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      width: 205px; }
-    html body .redes-sociales-contenedores-foot {
-      width: 36px;
-      height: 36px;
-      background-color: #007bff;
-      border-radius: 50px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center; }
-      html body .redes-sociales-contenedores-foot:hover {
-        background-color: #004997; }
-      html body .redes-sociales-contenedores-foot .redes-sociales-svg-foot {
-        width: 16.7px;
-        height: 18px;
-        color: white; }
-  html .noticias {
-    width: 255px; }
-  html .noticias-titulo {
+        padding: 0px;
+        margin: 0px 0px 20px; }
+  html .footer-email-sub {
+    display: flex;
+    flex-direction: row; }
+  html .email {
+    border: 0;
+    padding: 6px 8px;
+    width: 65%; }
+  html .sub {
+    background: #007bff;
+    border: 0;
+    width: 35%;
+    padding: 6px 0;
+    text-align: center;
+    color: #fff; }
+  html .footer-fondo {
+    background: #002f61;
+    padding: 0 0 30px 0;
+    color: #eee;
     font-size: 14px;
-    font-weight: bold;
-    color: #fff;
-    text-transform: uppercase;
-    position: relative;
-    padding-bottom: 40px; }
-  html .noticias-texto {
-    font-size: 14px;
-    padding: 0px;
-    margin: 0px 0px 20px; }
-
-.footer-email-sub {
-  display: flex;
-  flex-direction: row; }
-
-.email {
-  border: 0;
-  padding: 6px 8px;
-  width: 65%; }
-
-.sub {
-  background: #007bff;
-  border: 0;
-  width: 35%;
-  padding: 6px 0;
-  text-align: center;
-  color: #fff; }
-
-.footer-fondo {
-  background: #002f61;
-  padding: 0 0 30px 0;
-  color: #eee;
-  font-size: 14px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center; }
-  .footer-fondo .footer-contenedor {
-    width: 1140px;
-    font-family: "Montserrat", sans-serif; }
-    .footer-fondo .footer-contenedor .copy {
-      text-align: center;
-      padding-top: 30px; }
-    .footer-fondo .footer-contenedor .diseño {
-      text-align: center;
-      font-size: 13px;
-      color: #f1f7ff; }
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    html .footer-fondo .footer-contenedor {
+      width: 1140px;
+      font-family: "Montserrat", sans-serif; }
+      html .footer-fondo .footer-contenedor .copy {
+        text-align: center;
+        padding-top: 30px; }
+      html .footer-fondo .footer-contenedor .diseño {
+        text-align: center;
+        font-size: 13px;
+        color: #f1f7ff; }
