@@ -1,10 +1,11 @@
-<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans&display=swap");
 $fondo-ppal: #ffff;
 $fondo-ppal: #ffff;
 $fondo-header: #1445b3;
 $fondo-secundario: #ecf5ff;
 $fondo-chooseus: #004a99;
+$titulo-about: #283d50;
+$p-about: #556877;
 
 @mixin flex {
   display: flex;
@@ -40,23 +41,6 @@ $fondo-chooseus: #004a99;
   background-color: transparent;
   border: 2px solid white;
   color: #003b7a;
-=======
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans&display=swap");
-$fondo-ppal: #ffff;
-$fondo-header: #1445b3;
-$fondo-secundario: #ecf5ff;
-$fondo-chooseus: #004a99;
-$titulo-about: #283d50;
-$p-about: #556877;
-@mixin flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-@mixin nav {
-  color: #004829;
->>>>>>> meli
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
@@ -64,13 +48,10 @@ $p-about: #556877;
   width: 100%;
   height: auto;
 }
-<<<<<<< HEAD
 
 @mixin listas {
   list-style: none;
 }
-=======
->>>>>>> meli
 @mixin botonera-header {
   background-color: #007bff;
   color: white;
@@ -82,19 +63,11 @@ $p-about: #556877;
 @mixin botonera-header-hover {
   background-color: transparent;
   border: 2px solid white;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> sheldon
-=======
->>>>>>> meli
-=======
->>>>>>> 0079981ddd1571a2bff06ea76f8a880718626f91
 }
 /*titulos-secciones y descripciones-secciones sirven para los encabezados de casi todas las secciones*/
 @mixin titulos-secciones {
   font-family: "Montserrat", sans-serif;
   font-size: 36px;
-<<<<<<< HEAD
 }
 @mixin descripciones-secciones {
   font-family: "Open Sans", sans-serif;
@@ -127,30 +100,11 @@ $p-about: #556877;
   background-color: transparent;
   border-radius: 50px;
   border: 2px solid #007bff;
-=======
-}
-@mixin descripciones-secciones {
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
-}
-@mixin iconos-aboutus {
-  background-color: transparent;
-  border-radius: 50px;
-  border: 2px solid #007bff;
-}
-@mixin iconos-about-hover {
-  background-color: #007bff;
-  color: white;
->>>>>>> meli
 }
 /* titulos-iconos y texto-iconos sirve para About Us y Services (especificar color de titulo pq esto cambia segun la sección*/
 @mixin titulos-iconos {
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
-<<<<<<< HEAD
-=======
-  color: #283d50;
->>>>>>> meli
 }
 @mixin texto-iconos {
   font-family: "Open Sans", sans-serif;
@@ -163,28 +117,6 @@ $p-about: #556877;
   color: #444444;
 }
 @mixin texto-imagenes-aboutus {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    font-family: 'Open Sans', sans-serif;
-     font-size: 16px;
-    color: #444444;
-}
-@mixin cajas-services{
-background-color: #ffffff;
-height:168px;
-width:425px;
-border-radius:10px;
-}
-@mixin caja-why-choose{
-    background-color: #00458f;
-    height:295px;
-    width:320px;
-    border-radius:10px;
-=======
-=======
->>>>>>> meli
-=======
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #444444;
@@ -200,7 +132,6 @@ border-radius:10px;
   height: 295px;
   width: 320px;
   border-radius: 10px;
->>>>>>> 0079981ddd1571a2bff06ea76f8a880718626f91
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #444444;
@@ -216,21 +147,15 @@ border-radius:10px;
   height: 295px;
   width: 320px;
   border-radius: 50px;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> sheldon
-=======
->>>>>>> 0079981ddd1571a2bff06ea76f8a880718626f91
-}
-=======
 }
 
-@mixin card-batman {
-  background-position: center;
-  background-size: cover;
-  width: 255px;
-  height: 255px;
-  overflow: hidden;
-  border-radius: 130px;
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
->>>>>>> meli
+@mixin iconos-about-hover {
+  background-color: #007bff;
+  color: white;
+}
