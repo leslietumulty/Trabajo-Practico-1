@@ -897,6 +897,43 @@ html {
       width: 20px;
       height: 20px;
       color: white; }
+    html body .testimonials-section {
+      background-color: #ecf5ff;
+      box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1); }
+      html body .testimonials-section .testimonials-title {
+        font-family: "Montserrat", sans-serif;
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #283d50;
+        font-weight: 500; }
+      html body .testimonials-section .testimonials-cards ul {
+        list-style: none;
+        display: flex; }
+        html body .testimonials-section .testimonials-cards ul li .testimonials-img-client {
+          width: 120px;
+          border: 4px solid #fff;
+          float: left;
+          border-radius: 50%; }
+          html body .testimonials-section .testimonials-cards ul li .testimonials-img-client img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%; }
+        html body .testimonials-section .testimonials-cards ul li .testimonials-name-client {
+          font-family: "Montserrat", sans-serif;
+          font-size: 20px;
+          font-weight: bold;
+          color: #111; }
+        html body .testimonials-section .testimonials-cards ul li .testimonials-data-client {
+          font-family: "Montserrat", sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          color: #999; }
+        html body .testimonials-section .testimonials-cards ul li .testimonials-description-client {
+          font-style: italic;
+          font-family: "Open Sans", sans-serif; }
     html body .team-section {
       height: 563px; }
       html body .team-section .header-team {
