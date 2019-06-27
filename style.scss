@@ -1013,9 +1013,13 @@ html {
       width: 36px;
       height: 36px;
       background-color: #007bff;
+      &:hover {
+        background-color: #004997;
+      }
       border-radius: 50px;
       @include flex;
       @include centrar;
+
       .redes-sociales-svg-foot {
         @include iconos-footer;
       }

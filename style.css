@@ -892,6 +892,8 @@ html {
       flex-direction: row;
       align-items: center;
       justify-content: center; }
+      html body .redes-sociales-contenedores-foot:hover {
+        background-color: #004997; }
       html body .redes-sociales-contenedores-foot .redes-sociales-svg-foot {
         width: 16.7px;
         height: 18px;
