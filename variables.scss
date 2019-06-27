@@ -159,3 +159,11 @@ $p-about: #556877;
   background-color: #007bff;
   color: white;
 }
+@mixin card-batman {
+  background-position: center;
+  background-size: cover;
+  width: 255px;
+  height: 255px;
+  overflow: hidden;
+  border-radius: 130px;
+}
