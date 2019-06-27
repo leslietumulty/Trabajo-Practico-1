@@ -8,6 +8,7 @@ html {
     margin: 0;
     /* inicio botonera */
     /* inicio botonera */
+    /* inicio portfolio */
     /* fin portfolio */
     /* footer botonera */ }
     html body header {
@@ -565,9 +566,7 @@ html {
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        background-color: #ffff;
-        /* fin botonera */
-        /* inicio portfolio */ }
+        background-color: #ffff; }
         html body nav .contenedor-nav .contenedor-logo {
           height: 20px;
           width: 65px;
@@ -591,98 +590,98 @@ html {
             html body nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .desplegables .submenu-1,
             html body nav .contenedor-nav .contenedor-botonera-nav .botonera-nav .desplegables .submenu-2 {
               list-style: none; }
-          html body nav .contenedor-nav .contenedor-botonera-nav .contador {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            width: 940px;
-            height: 90px;
-            margin-bottom: 40px; }
-            html body nav .contenedor-nav .contenedor-botonera-nav .contador .clients {
-              text-align: center; }
-              html body nav .contenedor-nav .contenedor-botonera-nav .contador .clients .clients-nro {
-                font-family: "Montserrat", sans-serif;
-                font-size: 48px;
-                font-weight: bold;
-                color: white; }
-              html body nav .contenedor-nav .contenedor-botonera-nav .contador .clients .clients-texto {
-                font-family: "Montserrat", sans-serif;
-                font-size: 14px;
-                color: white;
-                margin-top: 8px; }
-            html body nav .contenedor-nav .contenedor-botonera-nav .contador .projects {
-              text-align: center; }
-              html body nav .contenedor-nav .contenedor-botonera-nav .contador .projects .projects-nro {
-                font-family: "Montserrat", sans-serif;
-                font-size: 48px;
-                font-weight: bold;
-                color: white; }
-              html body nav .contenedor-nav .contenedor-botonera-nav .contador .projects .projects-texto {
-                font-family: "Montserrat", sans-serif;
-                font-size: 14px;
-                color: white;
-                margin-top: 8px; }
-            html body nav .contenedor-nav .contenedor-botonera-nav .contador .hours {
-              text-align: center; }
-              html body nav .contenedor-nav .contenedor-botonera-nav .contador .hours .hours-nro {
-                font-family: "Montserrat", sans-serif;
-                font-size: 48px;
-                font-weight: bold;
-                color: white; }
-              html body nav .contenedor-nav .contenedor-botonera-nav .contador .hours .hours-texto {
-                font-family: "Montserrat", sans-serif;
-                font-size: 14px;
-                color: white;
-                margin-top: 8px; }
-            html body nav .contenedor-nav .contenedor-botonera-nav .contador .workers {
-              text-align: center; }
-              html body nav .contenedor-nav .contenedor-botonera-nav .contador .workers .workers-nro {
-                font-family: "Montserrat", sans-serif;
-                font-size: 48px;
-                font-weight: bold;
-                color: white; }
-              html body nav .contenedor-nav .contenedor-botonera-nav .contador .workers .workers-texto {
-                font-family: "Montserrat", sans-serif;
-                font-size: 14px;
-                color: white;
-                margin-top: 8px; }
-        html body nav .contenedor-nav .contenedor-porfolio .contenedor-titulo-botones {
+    html body .contador {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 940px;
+      height: 90px;
+      margin-bottom: 40px; }
+      html body .contador .clients {
+        text-align: center; }
+        html body .contador .clients .clients-nro {
+          font-family: "Montserrat", sans-serif;
+          font-size: 48px;
+          font-weight: bold;
+          color: white; }
+        html body .contador .clients .clients-texto {
+          font-family: "Montserrat", sans-serif;
+          font-size: 14px;
+          color: white;
+          margin-top: 8px; }
+      html body .contador .projects {
+        text-align: center; }
+        html body .contador .projects .projects-nro {
+          font-family: "Montserrat", sans-serif;
+          font-size: 48px;
+          font-weight: bold;
+          color: white; }
+        html body .contador .projects .projects-texto {
+          font-family: "Montserrat", sans-serif;
+          font-size: 14px;
+          color: white;
+          margin-top: 8px; }
+      html body .contador .hours {
+        text-align: center; }
+        html body .contador .hours .hours-nro {
+          font-family: "Montserrat", sans-serif;
+          font-size: 48px;
+          font-weight: bold;
+          color: white; }
+        html body .contador .hours .hours-texto {
+          font-family: "Montserrat", sans-serif;
+          font-size: 14px;
+          color: white;
+          margin-top: 8px; }
+      html body .contador .workers {
+        text-align: center; }
+        html body .contador .workers .workers-nro {
+          font-family: "Montserrat", sans-serif;
+          font-size: 48px;
+          font-weight: bold;
+          color: white; }
+        html body .contador .workers .workers-texto {
+          font-family: "Montserrat", sans-serif;
+          font-size: 14px;
+          color: white;
+          margin-top: 8px; }
+    html body .contenedor-porfolio .contenedor-titulo-botones {
+      display: flex;
+      flex-direction: row;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      html body .contenedor-porfolio .contenedor-titulo-botones .titulo-porfolio {
+        font-family: "Montserrat", sans-serif;
+        font-size: 36px; }
+      html body .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio {
+        width: 400px; }
+        html body .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio {
+          padding: 0 0 0 0;
+          list-style: none;
+          font-family: "Open Sans", sans-serif;
+          font-size: 12px;
           display: flex;
           flex-direction: row;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center; }
-          html body nav .contenedor-nav .contenedor-porfolio .contenedor-titulo-botones .titulo-porfolio {
-            font-family: "Montserrat", sans-serif;
-            font-size: 36px; }
-          html body nav .contenedor-nav .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio {
-            width: 400px; }
-            html body nav .contenedor-nav .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio {
-              padding: 0 0 0 0;
-              list-style: none;
-              font-family: "Open Sans", sans-serif;
-              font-size: 12px;
-              display: flex;
-              flex-direction: row;
-              justify-content: space-evenly;
-              color: #007bff; }
-              html body nav .contenedor-nav .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio :hover {
-                color: white; }
-              html body nav .contenedor-nav .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio .botones-porfolio {
-                background-color: #bbf7ff;
-                transition: transform;
-                line-height: 20px;
-                border-radius: 50px;
-                width: 60px;
-                height: 30px;
-                display: flex;
-                flex-direction: row;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center; }
-                html body nav .contenedor-nav .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio .botones-porfolio:hover {
-                  background-color: #003b7a;
-                  transition: all 0.5s ease-in-out; }
+          justify-content: space-evenly;
+          color: #007bff; }
+          html body .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio :hover {
+            color: white; }
+          html body .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio .botones-porfolio {
+            background-color: #bbf7ff;
+            transition: transform;
+            line-height: 20px;
+            border-radius: 50px;
+            width: 60px;
+            height: 30px;
+            display: flex;
+            flex-direction: row;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; }
+            html body .contenedor-porfolio .contenedor-titulo-botones .contenedor-botonera-porfolio .botonera-porfolio .botones-porfolio:hover {
+              background-color: #003b7a;
+              transition: all 0.5s ease-in-out; }
     html body .contenedor-imagenes-porfolio {
       display: flex;
       flex-direction: row;

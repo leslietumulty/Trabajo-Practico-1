@@ -1,8 +1,10 @@
 @import "./variables.scss";
 html {
   scroll-behavior: smooth;
+
   body {
     margin: 0;
+
     header {
       background-color: $fondo-header;
       height: 635px;
@@ -631,119 +633,119 @@ html {
               }
             }
           }
-          .contador {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            width: 940px;
-            height: 90px;
-            margin-bottom: 40px;
-            .clients {
-              text-align: center;
-              .clients-nro {
-                font-family: "Montserrat", sans-serif;
-                font-size: 48px;
-                font-weight: bold;
-                color: white;
-              }
-              .clients-texto {
-                font-family: "Montserrat", sans-serif;
-                font-size: 14px;
-                color: white;
-                margin-top: 8px;
-              }
-            }
-            .projects {
-              text-align: center;
-              .projects-nro {
-                font-family: "Montserrat", sans-serif;
-                font-size: 48px;
-                font-weight: bold;
-                color: white;
-              }
-              .projects-texto {
-                font-family: "Montserrat", sans-serif;
-                font-size: 14px;
-                color: white;
-                margin-top: 8px;
-              }
-            }
-            .hours {
-              text-align: center;
-              .hours-nro {
-                font-family: "Montserrat", sans-serif;
-                font-size: 48px;
-                font-weight: bold;
-                color: white;
-              }
-              .hours-texto {
-                font-family: "Montserrat", sans-serif;
-                font-size: 14px;
-                color: white;
-                margin-top: 8px;
-              }
-            }
-            .workers {
-              text-align: center;
-              .workers-nro {
-                font-family: "Montserrat", sans-serif;
-                font-size: 48px;
-                font-weight: bold;
-                color: white;
-              }
-              .workers-texto {
-                font-family: "Montserrat", sans-serif;
-                font-size: 14px;
-                color: white;
-                margin-top: 8px;
-              }
-            }
-          }
         }
-        /* fin botonera */
+      }
+    }
 
-        /* inicio portfolio */
+    .contador {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 940px;
+      height: 90px;
+      margin-bottom: 40px;
+      .clients {
+        text-align: center;
+        .clients-nro {
+          font-family: "Montserrat", sans-serif;
+          font-size: 48px;
+          font-weight: bold;
+          color: white;
+        }
+        .clients-texto {
+          font-family: "Montserrat", sans-serif;
+          font-size: 14px;
+          color: white;
+          margin-top: 8px;
+        }
+      }
+      .projects {
+        text-align: center;
+        .projects-nro {
+          font-family: "Montserrat", sans-serif;
+          font-size: 48px;
+          font-weight: bold;
+          color: white;
+        }
+        .projects-texto {
+          font-family: "Montserrat", sans-serif;
+          font-size: 14px;
+          color: white;
+          margin-top: 8px;
+        }
+      }
+      .hours {
+        text-align: center;
+        .hours-nro {
+          font-family: "Montserrat", sans-serif;
+          font-size: 48px;
+          font-weight: bold;
+          color: white;
+        }
+        .hours-texto {
+          font-family: "Montserrat", sans-serif;
+          font-size: 14px;
+          color: white;
+          margin-top: 8px;
+        }
+      }
+      .workers {
+        text-align: center;
+        .workers-nro {
+          font-family: "Montserrat", sans-serif;
+          font-size: 48px;
+          font-weight: bold;
+          color: white;
+        }
+        .workers-texto {
+          font-family: "Montserrat", sans-serif;
+          font-size: 14px;
+          color: white;
+          margin-top: 8px;
+        }
+      }
+    }
 
-        .contenedor-porfolio {
-          .contenedor-titulo-botones {
+    /* inicio portfolio */
+
+    .contenedor-porfolio {
+      .contenedor-titulo-botones {
+        @include flex;
+        @include columnas;
+        @include centrar;
+        .titulo-porfolio {
+          @include titulos-secciones;
+        }
+
+        .contenedor-botonera-porfolio {
+          width: 400px;
+
+          .botonera-porfolio {
+            padding: 0 0 0 0;
+            @include listas;
+            font-family: "Open Sans", sans-serif;
+            font-size: 12px;
             @include flex;
-            @include columnas;
-            @include centrar;
-            .titulo-porfolio {
-              @include titulos-secciones;
+            justify-content: space-evenly;
+            color: #007bff;
+            :hover {
+              color: white;
             }
+            .botones-porfolio {
+              background-color: rgb(187, 247, 255);
+              transition: transform;
 
-            .contenedor-botonera-porfolio {
-              width: 400px;
-
-              .botonera-porfolio {
-                padding: 0 0 0 0;
-                @include listas;
-                font-family: "Open Sans", sans-serif;
-                font-size: 12px;
-                @include flex;
-                justify-content: space-evenly;
-                color: #007bff;
-                :hover {
-                  color: white;
-                }
-                .botones-porfolio {
-                  background-color: rgb(187, 247, 255);
-                  transition: transform;
-
-                  &:hover {
-                    background-color: #003b7a;
-                    transition: all 0.5s ease-in-out;
-                  }
-                  line-height: 20px;
-                  border-radius: 50px;
-                  width: 60px;
-                  height: 30px;
-                  @include flex;
-                  @include columnas;
-                  @include centrar;
-                }
+              &:hover {
+                background-color: #003b7a;
+                transition: all 0.5s ease-in-out;
               }
+              line-height: 20px;
+              border-radius: 50px;
+              width: 60px;
+              height: 30px;
+              @include flex;
+              @include columnas;
+              @include centrar;
             }
           }
         }
