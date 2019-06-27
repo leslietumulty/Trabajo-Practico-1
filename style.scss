@@ -991,295 +991,295 @@ html {
     }
     // Fin de Portfolio
 
-// Team
-.team-section {
-  height: 563px;
-  .header-team {
-    @include flex-center;
-    .header-team-title {
-      @include titulos-secciones;
-      font-weight: 500;
-      margin-bottom: 0;
-    }
-    .header-team-description {
-      @include descripciones-secciones;
-      width: 555px;
-      text-align: center;
-      padding-bottom: 60px;
-    }
-  }
-  .member {
-    display: none;
-  }
-  .contenedor-team {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    .card-batman1 {
-      background-image: url(./Imagenes/Section5Team/team-01.jpg);
-      @include card-batman;
-      &:hover .member {
+    // Team
+    .team-section {
+      height: 563px;
+      .header-team {
+        @include flex-center;
+        .header-team-title {
+          @include titulos-secciones;
+          font-weight: 500;
+          margin-bottom: 0;
+        }
+        .header-team-description {
+          @include descripciones-secciones;
+          width: 555px;
+          text-align: center;
+          padding-bottom: 60px;
+        }
+      }
+      .member {
+        display: none;
+      }
+      .contenedor-team {
         display: flex;
-        background-color: rgba(0, 62, 128, 0.7);
-        opacity: 1;
-        @include flex-center;
-        text-align: center;
-        width: 255px;
-        height: 110%;
-      }
-      .member {
-        .info-member {
-          .info-member-title {
-            @include titulos-iconos;
-            color: #fff;
-            margin-bottom: 0;
-          }
-          .info-member-description {
-            font-family: "Open Sans", sans-serif;
-            font-style: italic;
-            font-size: 13px;
-            color: #fff;
-          }
-        }
-        .social-member {
-          margin-top: 20px;
-          .social-member-icon {
-            .google-team {
-              width: 25px;
-              height: 20px;
-              color: white;
-            }
-            .social-member-svg {
-              width: 18px;
-              height: 18px;
-              color: white;
-              &:hover {
-                color: #007bff;
-              }
-            }
-          }
-        }
-      }
-    }
-    .card-batman2 {
-      background-image: url(./Imagenes/Section5Team/team-02.jpg);
-      @include card-batman;
-      .member {
-        @include flex-center;
-        text-align: center;
-        width: 255px;
-        height: 255px;
-        &:hover {
-          background-color: rgba(0, 62, 128, 0.7);
-          opacity: 1;
-          transition: 0.4s;
-        }
-        .info-member {
-          .info-member-title {
-            @include titulos-iconos;
-            color: #fff;
-            margin-bottom: 0;
-          }
-          .info-member-description {
-            font-family: "Open Sans", sans-serif;
-            font-style: italic;
-            font-size: 13px;
-            color: #fff;
-          }
-        }
-        .social-member {
-          margin-top: 20px;
-          .social-member-icon {
-            .google-team {
-              width: 25px;
-              height: 20px;
-              color: white;
-            }
-            .social-member-svg {
-              width: 18px;
-              height: 18px;
-              color: white;
-              &:hover {
-                color: #007bff;
-              }
-            }
-          }
-        }
-      }
-    }
-    .card-batman3 {
-      background-image: url(./Imagenes/Section5Team/team-03.jpg);
-      @include card-batman;
-      .member {
-        @include flex-center;
-        text-align: center;
-        width: 255px;
-        height: 255px;
-        &:hover {
-          background-color: rgba(0, 62, 128, 0.7);
-          opacity: 1;
-          transition: 0.4s;
-        }
-        .info-member {
-          .info-member-title {
-            @include titulos-iconos;
-            color: #fff;
-            margin-bottom: 0;
-          }
-          .info-member-description {
-            font-family: "Open Sans", sans-serif;
-            font-style: italic;
-            font-size: 13px;
-            color: #fff;
-          }
-        }
-        .social-member {
-          margin-top: 20px;
-          .social-member-icon {
-            .google-team {
-              width: 25px;
-              height: 20px;
-              color: white;
-            }
-            .social-member-svg {
-              width: 18px;
-              height: 18px;
-              color: white;
-              &:hover {
-                color: #007bff;
-              }
-            }
-          }
-        }
-      }
-    }
-    .card-batman4 {
-      background-image: url(./Imagenes/Section5Team/team-04.jpg);
-      @include card-batman;
-      .member {
-        @include flex-center;
-        text-align: center;
-        width: 255px;
-        height: 255px;
-        &:hover {
-          background-color: rgba(0, 62, 128, 0.7);
-          opacity: 1;
-          transition: 0.4s;
-        }
-        .info-member {
-          .info-member-title {
-            @include titulos-iconos;
-            color: #fff;
-            margin-bottom: 0;
-          }
-          .info-member-description {
-            font-family: "Open Sans", sans-serif;
-            font-style: italic;
-            font-size: 13px;
-            color: #fff;
-          }
-        }
-        .social-member {
-          margin-top: 20px;
-          .social-member-icon {
-            .google-team {
-              width: 25px;
-              height: 20px;
-              color: white;
-            }
-            .social-member-svg {
-              width: 18px;
-              height: 18px;
-              color: white;
-              &:hover {
-                color: #007bff;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-// Fin de Team
-
-// Contact Us
-.contact-us-section {
-  height: 550px;
-  .contact-us-title {
-    @include flex-center;
-    @include titulos-secciones;
-    font-weight: 500;
-  }
-  .map-and-info {
-    display: flex;
-    padding: 0 15px 0 15px;
-    .contact-contenedor {
-      .contact-info {
-        width: 674px;
-        height: 96px;
-        display: flex;
-        justify-content: space-around;
-        .contact-info-data {
-          display: flex;
-          .contact-info-data-icon {
-            height: 32px;
-            width: 25px;
-            color: #007bff;
-          }
-          .contact-info-data-decription {
-            margin-top: 6px;
-            padding-left: 5px;
-            font-size: 14px;
-            color: #283d50;
-            font-family: "Open Sans", sans-serif;
-          }
-        }
-      }
-      .contact-form-container {
-        max-width: 644.5px;
-        padding: 0 15px 0 26px;
-        .contact-form {
-          .contact-button-container {
+        justify-content: space-evenly;
+        align-items: center;
+        .card-batman1 {
+          background-image: url(./Imagenes/Section5Team/team-01.jpg);
+          @include card-batman;
+          &:hover .member {
             display: flex;
-            justify-content: center;
-            .contact-button {
-              @include botonera-header;
-              padding: 8px 30px;
+            background-color: rgba(0, 62, 128, 0.7);
+            opacity: 1;
+            @include flex-center;
+            text-align: center;
+            width: 255px;
+            height: 110%;
+          }
+          .member {
+            .info-member {
+              .info-member-title {
+                @include titulos-iconos;
+                color: #fff;
+                margin-bottom: 0;
+              }
+              .info-member-description {
+                font-family: "Open Sans", sans-serif;
+                font-style: italic;
+                font-size: 13px;
+                color: #fff;
+              }
+            }
+            .social-member {
+              margin-top: 20px;
+              .social-member-icon {
+                .google-team {
+                  width: 25px;
+                  height: 20px;
+                  color: white;
+                }
+                .social-member-svg {
+                  width: 18px;
+                  height: 18px;
+                  color: white;
+                  &:hover {
+                    color: #007bff;
+                  }
+                }
+              }
             }
           }
-          .contact-input {
-            font-size: 14px;
-            border: 1px solid #ced4da;
-            padding-left: 7px;
-            &:focus {
-              border-color: #80bdff;
+        }
+        .card-batman2 {
+          background-image: url(./Imagenes/Section5Team/team-02.jpg);
+          @include card-batman;
+          .member {
+            @include flex-center;
+            text-align: center;
+            width: 255px;
+            height: 255px;
+            &:hover {
+              background-color: rgba(0, 62, 128, 0.7);
+              opacity: 1;
+              transition: 0.4s;
+            }
+            .info-member {
+              .info-member-title {
+                @include titulos-iconos;
+                color: #fff;
+                margin-bottom: 0;
+              }
+              .info-member-description {
+                font-family: "Open Sans", sans-serif;
+                font-style: italic;
+                font-size: 13px;
+                color: #fff;
+              }
+            }
+            .social-member {
+              margin-top: 20px;
+              .social-member-icon {
+                .google-team {
+                  width: 25px;
+                  height: 20px;
+                  color: white;
+                }
+                .social-member-svg {
+                  width: 18px;
+                  height: 18px;
+                  color: white;
+                  &:hover {
+                    color: #007bff;
+                  }
+                }
+              }
             }
           }
-          .contact-row {
-            width: 308px;
-            height: 30px;
-            font-size: 14px;
-            margin-bottom: 16px;
+        }
+        .card-batman3 {
+          background-image: url(./Imagenes/Section5Team/team-03.jpg);
+          @include card-batman;
+          .member {
+            @include flex-center;
+            text-align: center;
+            width: 255px;
+            height: 255px;
+            &:hover {
+              background-color: rgba(0, 62, 128, 0.7);
+              opacity: 1;
+              transition: 0.4s;
+            }
+            .info-member {
+              .info-member-title {
+                @include titulos-iconos;
+                color: #fff;
+                margin-bottom: 0;
+              }
+              .info-member-description {
+                font-family: "Open Sans", sans-serif;
+                font-style: italic;
+                font-size: 13px;
+                color: #fff;
+              }
+            }
+            .social-member {
+              margin-top: 20px;
+              .social-member-icon {
+                .google-team {
+                  width: 25px;
+                  height: 20px;
+                  color: white;
+                }
+                .social-member-svg {
+                  width: 18px;
+                  height: 18px;
+                  color: white;
+                  &:hover {
+                    color: #007bff;
+                  }
+                }
+              }
+            }
           }
-          .contact-subject {
-            width: 632px;
-            height: 30px;
-            font-size: 14px;
-            margin-bottom: 16px;
-          }
-          .contact-message {
-            width: 632px;
-            height: 136px;
-            font-size: 14px;
-            margin-bottom: 16px;
+        }
+        .card-batman4 {
+          background-image: url(./Imagenes/Section5Team/team-04.jpg);
+          @include card-batman;
+          .member {
+            @include flex-center;
+            text-align: center;
+            width: 255px;
+            height: 255px;
+            &:hover {
+              background-color: rgba(0, 62, 128, 0.7);
+              opacity: 1;
+              transition: 0.4s;
+            }
+            .info-member {
+              .info-member-title {
+                @include titulos-iconos;
+                color: #fff;
+                margin-bottom: 0;
+              }
+              .info-member-description {
+                font-family: "Open Sans", sans-serif;
+                font-style: italic;
+                font-size: 13px;
+                color: #fff;
+              }
+            }
+            .social-member {
+              margin-top: 20px;
+              .social-member-icon {
+                .google-team {
+                  width: 25px;
+                  height: 20px;
+                  color: white;
+                }
+                .social-member-svg {
+                  width: 18px;
+                  height: 18px;
+                  color: white;
+                  &:hover {
+                    color: #007bff;
+                  }
+                }
+              }
+            }
           }
         }
       }
     }
-  }
-}
-// Fin de Contact Us
+    // Fin de Team
+
+    // Contact Us
+    .contact-us-section {
+      height: 550px;
+      .contact-us-title {
+        @include flex-center;
+        @include titulos-secciones;
+        font-weight: 500;
+      }
+      .map-and-info {
+        display: flex;
+        padding: 0 15px 0 15px;
+        .contact-contenedor {
+          .contact-info {
+            width: 674px;
+            height: 96px;
+            display: flex;
+            justify-content: space-around;
+            .contact-info-data {
+              display: flex;
+              .contact-info-data-icon {
+                height: 32px;
+                width: 25px;
+                color: #007bff;
+              }
+              .contact-info-data-decription {
+                margin-top: 6px;
+                padding-left: 5px;
+                font-size: 14px;
+                color: #283d50;
+                font-family: "Open Sans", sans-serif;
+              }
+            }
+          }
+          .contact-form-container {
+            max-width: 644.5px;
+            padding: 0 15px 0 26px;
+            .contact-form {
+              .contact-button-container {
+                display: flex;
+                justify-content: center;
+                .contact-button {
+                  @include botonera-header;
+                  padding: 8px 30px;
+                }
+              }
+              .contact-input {
+                font-size: 14px;
+                border: 1px solid #ced4da;
+                padding-left: 7px;
+                &:focus {
+                  border-color: #80bdff;
+                }
+              }
+              .contact-row {
+                width: 308px;
+                height: 30px;
+                font-size: 14px;
+                margin-bottom: 16px;
+              }
+              .contact-subject {
+                width: 632px;
+                height: 30px;
+                font-size: 14px;
+                margin-bottom: 16px;
+              }
+              .contact-message {
+                width: 632px;
+                height: 136px;
+                font-size: 14px;
+                margin-bottom: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+    // Fin de Contact Us
 
     // Footer Botonera
     .datos {
@@ -1402,49 +1402,53 @@ html {
     color: #fff;
     text-transform: uppercase;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
   }
 
   .noticias-texto {
     font-size: 14px;
-    padding: 0;
-    margin: 0px 0px 30px;
+    padding: 0px;
+    margin: 0px 0px 20px;
   }
+}
 
-  .email {
-    border: 0;
-    padding: 6px 8px;
-    width: 65%;
-  }
-  .sub {
-    background: #007bff;
-    border: 0;
-    width: 35%;
-    padding: 6px 0;
-    text-align: center;
-    color: #fff;
-  }
+.footer-email-sub {
+  @include flex;
+}
 
-  .footer-fondo {
-    background: #002f61;
-    padding: 0 0 30px 0;
-    color: #eee;
-    font-size: 14px;
-    @include flex;
-    @include centrar;
-    .footer-contenedor {
-      width: 1140px;
-      font-family: "Montserrat", sans-serif;
-      .copy {
-        text-align: center;
-        padding-top: 30px;
-      }
+.email {
+  border: 0;
+  padding: 6px 8px;
+  width: 65%;
+}
+.sub {
+  background: #007bff;
+  border: 0;
+  width: 35%;
+  padding: 6px 0;
+  text-align: center;
+  color: #fff;
+}
 
-      .diseño {
-        text-align: center;
-        font-size: 13px;
-        color: #f1f7ff;
-      }
+.footer-fondo {
+  background: #002f61;
+  padding: 0 0 30px 0;
+  color: #eee;
+  font-size: 14px;
+  @include flex;
+  @include centrar;
+  .footer-contenedor {
+    width: 1140px;
+    font-family: "Montserrat", sans-serif;
+    .copy {
+      text-align: center;
+      padding-top: 30px;
+    }
+
+    .diseño {
+      text-align: center;
+      font-size: 13px;
+      color: #f1f7ff;
     }
   }
 }
