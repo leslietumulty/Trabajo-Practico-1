@@ -266,7 +266,7 @@ html {
           background-color: #ffffff;
           height: 168px;
           width: 425px;
-          border-radius: 50px;
+          border-radius: 10px;
           transition: all 0.3s; }
           html body #services .columnas-services .columna-iconos-1 .lorem-services:hover {
             transform: translateY(-6px); }
@@ -308,7 +308,7 @@ html {
           background-color: #ffffff;
           height: 168px;
           width: 425px;
-          border-radius: 50px;
+          border-radius: 10px;
           transition: all 0.3s; }
           html body #services .columnas-services .columna-iconos-1 .sed-services:hover {
             transform: translateY(-6px); }
@@ -350,7 +350,7 @@ html {
           background-color: #ffffff;
           height: 168px;
           width: 425px;
-          border-radius: 50px;
+          border-radius: 10px;
           transition: all 0.3s; }
           html body #services .columnas-services .columna-iconos-1 .nemo-services:hover {
             transform: translateY(-6px); }
@@ -392,7 +392,7 @@ html {
           background-color: #ffffff;
           height: 168px;
           width: 425px;
-          border-radius: 50px;
+          border-radius: 10px;
           transition: all 0.3s; }
           html body #services .columnas-services .columna-iconos-2 .dolor-services:hover {
             transform: translateY(-6px); }
@@ -434,7 +434,7 @@ html {
           background-color: #ffffff;
           height: 168px;
           width: 425px;
-          border-radius: 50px;
+          border-radius: 10px;
           transition: all 0.3s; }
           html body #services .columnas-services .columna-iconos-2 .magni-services:hover {
             transform: translateY(-6px); }
@@ -476,7 +476,7 @@ html {
           background-color: #ffffff;
           height: 168px;
           width: 425px;
-          border-radius: 50px;
+          border-radius: 10px;
           transition: all 0.3s; }
           html body #services .columnas-services .columna-iconos-2 .eiusmod-services:hover {
             transform: translateY(-6px); }
@@ -545,10 +545,11 @@ html {
         line-height: 22.5px;
         justify-content: space-evenly;
         flex-direction: column;
-        background-color: #003b7a;
+        transition: all 0.4s;
+        background-color: #00458f;
         height: 295px;
         width: 320px;
-        border-radius: 50px; }
+        border-radius: 10px; }
         html body .contenedor-cajas .caja-corporis:hover {
           background-color: #003b7a; }
         html body .contenedor-cajas .caja-corporis .icono-corporis {
@@ -589,10 +590,11 @@ html {
       justify-content: space-evenly;
       flex-direction: column;
       line-height: 22.5px;
-      background-color: #003b7a;
+      transition: all 0.4s;
+      background-color: #00458f;
       height: 295px;
       width: 320px;
-      border-radius: 50px; }
+      border-radius: 10px; }
       html body .caja-voluptates:hover {
         background-color: #003b7a; }
       html body .caja-voluptates .icono-voluptates {
@@ -633,10 +635,12 @@ html {
       justify-content: space-evenly;
       flex-direction: column;
       line-height: 22.5px;
-      background-color: #003b7a;
+      transition: all 0.4s;
+      background-color: #00458f;
       height: 295px;
       width: 320px;
-      border-radius: 50px; }
+      border-radius: 10px;
+      border-radius: 6px; }
       html body .caja-eum:hover {
         background-color: #003b7a; }
       html body .caja-eum .icono-eum {
@@ -1088,6 +1092,76 @@ html {
                 color: white; }
                 html body .team-section .contenedor-team .card-batman4 .member .social-member .social-member-icon .social-member-svg:hover {
                   color: #007bff; }
+    html body .our-clients {
+      height: 638px;
+      background-color: #ecf5ff;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column; }
+      html body .our-clients .encabezado-clients {
+        height: 220px;
+        text-align: center; }
+        html body .our-clients .encabezado-clients .titulo-encabezado-clients {
+          font-family: "Montserrat", sans-serif;
+          font-size: 36px;
+          color: #283d50; }
+        html body .our-clients .encabezado-clients .descripcion-encabezado-clients {
+          text-align: center;
+          height: 80px;
+          width: 555px;
+          font-family: "Open Sans", sans-serif;
+          font-size: 15px;
+          color: #556877;
+          margin-top: 20px; }
+      html body .our-clients .contenedor-clients {
+        flex-direction: column;
+        height: 300px;
+        width: 1140px;
+        margin-bottom: 40px; }
+        html body .our-clients .contenedor-clients .fila-logos-1 {
+          display: flex;
+          flex-direction: row;
+          height: 161px;
+          width: 1080; }
+          html body .our-clients .contenedor-clients .fila-logos-1 .contenedor-logo-clientes {
+            align-items: center;
+            justify-content: space-around;
+            height: 160px;
+            width: 267px;
+            border: 1px solid #d6eaff;
+            background-color: #ffffff; }
+            html body .our-clients .contenedor-clients .fila-logos-1 .contenedor-logo-clientes:hover .logo-clientes:hover {
+              transform: scale(1.25); }
+            html body .our-clients .contenedor-clients .fila-logos-1 .contenedor-logo-clientes .logo-clientes {
+              height: 64px;
+              width: 149px;
+              padding-top: 30px;
+              transition: all 0.8s; }
+              html body .our-clients .contenedor-clients .fila-logos-1 .contenedor-logo-clientes .logo-clientes img {
+                width: 100%;
+                height: auto; }
+        html body .our-clients .contenedor-clients .fila-logos-2 {
+          display: flex;
+          flex-direction: row;
+          height: 161px;
+          width: 1080; }
+          html body .our-clients .contenedor-clients .fila-logos-2 .contenedor-logo-clientes {
+            height: 160px;
+            width: 267px;
+            border: 1px solid #d6eaff;
+            margin: 0;
+            background-color: #ffffff; }
+          html body .our-clients .contenedor-clients .fila-logos-2 .logo-clientes {
+            height: 64px;
+            width: 149px;
+            transition: all 0.8s;
+            padding-top: 30px; }
+            html body .our-clients .contenedor-clients .fila-logos-2 .logo-clientes:hover {
+              transform: scale(1.25); }
+            html body .our-clients .contenedor-clients .fila-logos-2 .logo-clientes img {
+              width: 100%;
+              height: auto; }
     html body .contact-us-section {
       height: 550px; }
       html body .contact-us-section .contact-us-title {
@@ -1234,46 +1308,46 @@ html {
         width: 16.7px;
         height: 18px;
         color: white; }
-  html .noticias {
-    width: 255px; }
-  html .noticias-titulo {
-    font-size: 14px;
-    font-weight: bold;
-    color: #fff;
-    text-transform: uppercase;
-    position: relative;
-    padding-bottom: 10px; }
-  html .noticias-texto {
-    font-size: 14px;
-    padding: 0;
-    margin: 0px 0px 30px; }
-  html .email {
-    border: 0;
-    padding: 6px 8px;
-    width: 65%; }
-  html .sub {
-    background: #007bff;
-    border: 0;
-    width: 35%;
-    padding: 6px 0;
-    text-align: center;
-    color: #fff; }
-  html .footer-fondo {
-    background: #002f61;
-    padding: 0 0 30px 0;
-    color: #eee;
-    font-size: 14px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; }
-    html .footer-fondo .footer-contenedor {
-      width: 1140px;
-      font-family: "Montserrat", sans-serif; }
-      html .footer-fondo .footer-contenedor .copy {
-        text-align: center;
-        padding-top: 30px; }
-      html .footer-fondo .footer-contenedor .diseño {
-        text-align: center;
-        font-size: 13px;
-        color: #f1f7ff; }
+    html body .noticias {
+      width: 255px; }
+    html body .noticias-titulo {
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      text-transform: uppercase;
+      position: relative;
+      padding-bottom: 10px; }
+    html body .noticias-texto {
+      font-size: 14px;
+      padding: 0;
+      margin: 0px 0px 30px; }
+    html body .email {
+      border: 0;
+      padding: 6px 8px;
+      width: 65%; }
+    html body .sub {
+      background: #007bff;
+      border: 0;
+      width: 35%;
+      padding: 6px 0;
+      text-align: center;
+      color: #fff; }
+    html body .footer-fondo {
+      background: #002f61;
+      padding: 0 0 30px 0;
+      color: #eee;
+      font-size: 14px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center; }
+      html body .footer-fondo .footer-contenedor {
+        width: 1140px;
+        font-family: "Montserrat", sans-serif; }
+        html body .footer-fondo .footer-contenedor .copy {
+          text-align: center;
+          padding-top: 30px; }
+        html body .footer-fondo .footer-contenedor .diseño {
+          text-align: center;
+          font-size: 13px;
+          color: #f1f7ff; }
