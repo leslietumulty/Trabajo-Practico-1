@@ -1041,53 +1041,7 @@ html {
         }
         }
         }
-        .card-batman2 {
-          background-image: url(./Imagenes/Section5Team/team-02.jpg);
-          @include card-batman;
-          .member {
-            @include flex-center;
-            text-align: center;
-            width: 255px;
-            height: 255px;
-            &:hover {
-              background-color: rgba(0, 62, 128, 0.7);
-              opacity: 1;
-              transition: 0.4s;
-            }
-            .info-member {
-              .info-member-title {
-                @include titulos-iconos;
-                color: #fff;
-                margin-bottom: 0;
-              }
-              .info-member-description {
-                font-family: "Open Sans", sans-serif;
-                font-style: italic;
-                font-size: 13px;
-                color: #fff;
-              }
-            }
-            .social-member {
-              margin-top: 20px;
-              .social-member-icon {
-                .google-team {
-                  width: 25px;
-                  height: 20px;
-                  color: white;
-                }
-                .social-member-svg {
-                  width: 18px;
-                  height: 18px;
-                  color: white;
-                  &:hover {
-                    color: #007bff;
-                  }
-                }
-              }
-            }
-          }
-        }
-       
+        
     // Team
     .team-section {
       height: 563px;
