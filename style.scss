@@ -1459,6 +1459,10 @@ html {
   @include flex;
 }
 
+.sub-email {
+  @include flex;
+}
+
 .email {
   border: 0;
   padding: 6px 8px;

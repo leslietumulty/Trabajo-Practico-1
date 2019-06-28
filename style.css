@@ -1289,6 +1289,10 @@ html {
   display: flex;
   flex-direction: row; }
 
+.sub-email {
+  display: flex;
+  flex-direction: row; }
+
 .email {
   border: 0;
   padding: 6px 8px;
