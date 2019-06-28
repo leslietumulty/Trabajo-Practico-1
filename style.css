@@ -909,6 +909,11 @@ html {
         flex-direction: column;
         color: #283d50;
         font-weight: 500; }
+      html body .testimonials-section .testimonials-puntos a {
+        background-color: #ddd;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%; }
       html body .testimonials-section .testimonials-cards ul {
         list-style: none;
         display: flex; }
