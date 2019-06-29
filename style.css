@@ -1503,8 +1503,13 @@ html {
       html body header .foto-header img {
         width: 100%;
         height: auto; }
+<<<<<<< HEAD
   html body .testimonials-cards {
     width: 50px; }
+=======
+    html body header .testimonials-cards {
+      width: 50px; }
+>>>>>>> 13162d53f4e1816e50ab782028571a034f1293db
   html body .about-us-section {
     height: 2770px; }
     html body .about-us-section .header-about {
@@ -1591,12 +1596,40 @@ html {
         border-radius: 180px;
         margin-bottom: 20px; }
         html body .team-section .contenedor-team .card-batman4 .member {
+<<<<<<< HEAD
           width: 330px; } }
 
 .porfolio {
   height: 2000px; }
 
 /*
+=======
+          width: 330px; }
+  html body .contact-us-section {
+    height: 1050px; }
+    html body .contact-us-section .contact-us-title {
+      margin-top: 68px;
+      padding-bottom: 20px; }
+    html body .contact-us-section .map-and-info {
+      display: flex;
+      flex-direction: column; }
+      html body .contact-us-section .map-and-info .map-contact iframe {
+        width: 330px;
+        height: 312px; }
+      html body .contact-us-section .map-and-info .contact-contenedor .contact-info {
+        display: flex;
+        flex-direction: column;
+        margin: 68px 0 0 -16px; }
+        html body .contact-us-section .map-and-info .contact-contenedor .contact-info .contact-info-data {
+          margin: 20px; }
+      html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container {
+        margin: 68px 0 0 -30px; }
+        html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-input {
+          width: 330px; }
+  .porfolio {
+    height: 2000px; }
+  /*
+>>>>>>> 13162d53f4e1816e50ab782028571a034f1293db
   .contenedor-imagenes-porfolio {
     display: flex;
     @include columnas;
@@ -1614,3 +1647,13 @@ html {
     }
   }
 */
+<<<<<<< HEAD
+=======
+  .foto-header {
+    margin-bottom: 0;
+    height: 150px;
+    width: 264px; }
+    .foto-header img {
+      width: 100%;
+      height: auto; } }
+>>>>>>> 13162d53f4e1816e50ab782028571a034f1293db

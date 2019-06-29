@@ -1863,6 +1863,41 @@ html {
           }
         }
       }
+      .contact-us-section {
+        height: 1050px;
+        .contact-us-title {
+          margin-top: 68px;
+          padding-bottom: 20px;
+        }
+        .map-and-info {
+          display: flex;
+          flex-direction: column;
+          .map-contact {
+            iframe {
+              width: 330px;
+              height: 312px;
+            }
+          }
+          .contact-contenedor {
+            .contact-info {
+              display: flex;
+              flex-direction: column;
+              margin: 68px 0 0 -16px;
+              .contact-info-data {
+                margin: 20px;
+              }
+            }
+            .contact-form-container {
+              margin: 68px 0 0 -30px;
+              .contact-form {
+                .contact-input {
+                  width: 330px;
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
   }
