@@ -1745,75 +1745,76 @@ html {
         }
       
 
-      .about-us-section {
-        height: 2770px;
-        .header-about {
-          margin-top: -690px;
-          .header-about-description {
-            height: 127px;
-            width: 330px;
-            padding: 0;
-          }
-        }
-        .contenido-about {
-          display: flex;
-          flex-direction: column-reverse;
-          .contenido-iconos-about {
-            .caja-about {
+        .about-us-section {
+          height: 2770px;
+          .header-about {
+            margin-top: -690px;
+            .header-about-description {
+              height: 127px;
               width: 330px;
-              margin-right: 10px;
-              .contenido-iconos-description {
-                margin-right: 6px;
-                font-size: 14px;
+              padding: 0;
+            }
+          }
+          .contenido-about {
+            display: flex;
+            flex-direction: column-reverse;
+            .contenido-iconos-about {
+              .caja-about {
+                width: 330px;
+                margin-right: 10px;
+                .contenido-iconos-description {
+                  margin-right: 6px;
+                  font-size: 14px;
+                }
+              }
+              .magni {
+                padding-bottom: 20px;
+              }
+              .contenido-iconos-description-ppal {
+                height: 156px;
+                width: 330px;
               }
             }
-            .magni {
-              padding-bottom: 20px;
+            .contenido-img-about {
+              height: 249px;
+              width: 330px;
+              padding-left: 14px;
             }
-            .contenido-iconos-description-ppal {
-              height: 156px;
+          }
+          .text-about {
+            display: flex;
+            flex-direction: column;
+            .mobile-img-about-one {
+              height: 180px;
+              width: 330px;
+              margin-left: 539px;
+              padding-top: 150px;
+            }
+            .mobile-title-about {
+              width: 330px;
+              margin: 40px 0 0 540px;
+            }
+            .text-contenido-descripcion {
+              width: 330px;
+              margin-left: 544px;
+            }
+            .mobile-title-about-two {
+              margin-top: 738px;
+              margin-left: 547px;
               width: 330px;
             }
-          }
-          .contenido-img-about {
-            height: 249px;
-            width: 330px;
-            padding-left: 14px;
-          }
-        }
-        .text-about {
-          display: flex;
-          flex-direction: column;
-          .mobile-img-about-one {
-            height: 180px;
-            width: 330px;
-            margin-left: 539px;
-            padding-top: 150px;
-          }
-          .mobile-title-about {
-            width: 330px;
-            margin: 40px 0 0 540px;
-          }
-          .text-contenido-descripcion {
-            width: 330px;
-            margin-left: 544px;
-          }
-          .mobile-title-about-two {
-            margin-top: 738px;
-            margin-left: 547px;
-            width: 330px;
-          }
-          .description-mobile-about {
-            padding-top: 0;
-          }
-          .mobile-img-about-two {
-            height: 250px;
-            width: 330px;
-            margin-left: 543px;
-            margin-top: 130px;
+            .description-mobile-about {
+              padding-top: 0;
+            }
+            .mobile-img-about-two {
+              height: 250px;
+              width: 330px;
+              margin-left: 543px;
+              margin-top: 130px;
+            }
           }
         }
-      }
+          
       .team-section {
         height: 1668px;
         .header-team {
