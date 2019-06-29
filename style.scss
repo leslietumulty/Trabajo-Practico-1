@@ -1000,44 +1000,81 @@ html {
 
     // Testimonials
     .testimonials-section {
-      background-color: #ecf5ff;
+      background-color: #ecf5fff3;
       box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+      @include flex;
+      @include centrar;
+      @include columnas;
       .testimonials-title {
         @include titulos-secciones;
-        @include flex-center;
+
         color: #283d50;
         font-weight: 500;
       }
       .testimonials-cards {
+        width: 730px;
+        overflow: hidden;
+        @include flex;
         ul {
           list-style: none;
           display: flex;
+
           li {
             .testimonials-img-client {
-              width: 120px;
+              width: 300px;
               border: 4px solid #fff;
               float: left;
               border-radius: 50%;
-              img {
-                @include height-auto;
+              margin-top: 20px;
+              .testimonios-foto {
+                height: auto;
+                width: 100%;
                 border-radius: 50%;
               }
             }
             .testimonials-name-client {
               @include testimonials-nombre;
+              margin-bottom: 5px;
             }
             .testimonials-data-client {
               font-family: "Montserrat", sans-serif;
               font-weight: 400;
               font-size: 14px;
               color: #999;
+              margin-bottom: 5px;
+              margin-top: 0px;
             }
             .testimonials-description-client {
               font-style: italic;
               font-family: "Open Sans", sans-serif;
+              margin-top: 5px;
             }
           }
         }
+      }
+    }
+    .testimonios-lista {
+      @include flex;
+      width: 730px;
+    }
+
+    .testimonios-titulos-texto {
+      @include flex;
+      @include columnas;
+      margin-left: 20px;
+    }
+
+    .testimonios-circulos {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      @include flex;
+      width: 130px;
+      justify-content: space-evenly;
+      .circulos {
+        width: 12px;
+        height: 12px;
+        border-radius: 50px;
+        background-color: #005dc0;
       }
     }
 
@@ -1428,7 +1465,7 @@ html {
       color: white;
       font-family: "Montserrat", sans-serif;
       padding: 60px 0 30px 0;
-      @include flex;
+      display: flex;
       @include centrar;
 
       .wayne {
@@ -1595,22 +1632,58 @@ html {
     }
   }
 }
+
 @media (min-width: 360px) and (max-width: 768px) {
   html {
     body {
+      nav {
+        .contenedor-logo {
+          margin-left: -500px;
+        }
+        .contenedor-botonera-nav {
+          display: none;
+        }
+      }
       header {
         @include header-responsive;
         height: 813px;
-
-        .texto-header {
+      
+      .texto-header {
+        margin-top: 0;
+        .provide {
           margin-top: 0;
-          .provide {
-            margin-top: 0;
-          }
         }
-        .foto-header {
-          margin-bottom: 0;
+      }
+      .foto-header {
+        margin-bottom: 0;
+      }
+    }
+      .testimonials-cards {
+        width: 150px;
+      }
+
+      .testimonios-lista {
+        display: flex;
+        flex-direction: column;
+        @include centrar;
+        .testimonials-img-client {
+          width: 50px;
         }
+      }
+
+      .datos {
+        display: flex;
+        flex-direction: column;
+        .texto-wayne,
+        .links-utiles,
+        .contacto-chico,
+        .noticias {
+          margin-left: 10px;
+        }
+      }
+
+      .footer-contenedor {
+        padding: 20px;
       }
     }
   }
@@ -1619,6 +1692,15 @@ html {
 @media (max-width: 360px) {
   html {
     body {
+            
+      nav {
+        .contenedor-logo {
+          margin-left: -100px;
+        }
+        .contenedor-botonera-nav {
+          display: none;
+        }
+      }
       header {
         @include header-responsive;
         height: 454px;
@@ -1648,7 +1730,6 @@ html {
             }
           }
         }
-
         .foto-header {
           margin-bottom: 0;
           height: 150px;
@@ -1657,17 +1738,104 @@ html {
             @include height-auto;
           }
         }
-      }
+        }
+      
+        .testimonials-cards {
+          width: 50px;
+        }
+      
 
       .about-us-section {
-        height: 2882px;
+        height: 2770px;
         .header-about {
+          margin-top: -690px;
           .header-about-description {
             height: 127px;
             width: 330px;
+            padding: 0;
+          }
+        }
+        .contenido-about {
+          display: flex;
+          flex-direction: column-reverse;
+          .contenido-iconos-about {
+            .caja-about {
+              width: 330px;
+              margin-right: 10px;
+              .contenido-iconos-description {
+                margin-right: 6px;
+                font-size: 14px;
+              }
+            }
+            .magni {
+              padding-bottom: 20px;
+            }
+            .contenido-iconos-description-ppal {
+              height: 156px;
+              width: 330px;
+            }
+          }
+          .contenido-img-about {
+            height: 249px;
+            width: 330px;
+            padding-left: 14px;
+          }
+        }
+        .text-about {
+          display: flex;
+          flex-direction: column;
+          .mobile-img-about-one {
+            height: 180px;
+            width: 330px;
+            margin-left: 539px;
+            padding-top: 150px;
+          }
+          .mobile-title-about {
+            width: 330px;
+            margin: 40px 0 0 540px;
+          }
+          .text-contenido-descripcion {
+            width: 330px;
+            margin-left: 544px;
+          }
+          .mobile-title-about-two {
+            margin-top: 738px;
+            margin-left: 547px;
+            width: 330px;
+          }
+          .description-mobile-about {
+            padding-top: 0;
+          }
+          .mobile-img-about-two {
+            height: 250px;
+            width: 330px;
+            margin-left: 543px;
+            margin-top: 130px;
           }
         }
       }
     }
   }
-}
+  }
+
+  .porfolio {
+    height: 2000px;
+  }
+  /*
+  .contenedor-imagenes-porfolio {
+    display: flex;
+    @include columnas;
+    .tres-imagenes-porfolio-1 {
+      @include flex;
+      @include columnas;
+    }
+    .tres-imagenes-porfolio-2 {
+      @include flex;
+      @include columnas;
+    }
+    .tres-imagenes-porfolio-3 {
+      @include flex;
+      @include columnas;
+    }
+  }
+*/

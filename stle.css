@@ -905,74 +905,45 @@ html {
       height: 20px;
       color: white; }
     html body .testimonials-section {
-      background-color: #ecf5fff3;
-      box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column; }
+      background-color: #ecf5ff;
+      box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1); }
       html body .testimonials-section .testimonials-title {
         font-family: "Montserrat", sans-serif;
         font-size: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         color: #283d50;
         font-weight: 500; }
       html body .testimonials-section .testimonials-cards {
         width: 730px;
-        overflow: hidden;
-        display: flex;
-        flex-direction: row; }
+        overflow: hidden; }
         html body .testimonials-section .testimonials-cards ul {
           list-style: none;
           display: flex; }
           html body .testimonials-section .testimonials-cards ul li .testimonials-img-client {
-            width: 300px;
+            width: 120px;
             border: 4px solid #fff;
             float: left;
-            border-radius: 50%;
-            margin-top: 20px; }
-            html body .testimonials-section .testimonials-cards ul li .testimonials-img-client .testimonios-foto {
-              height: auto;
+            border-radius: 50%; }
+            html body .testimonials-section .testimonials-cards ul li .testimonials-img-client img {
               width: 100%;
+              height: auto;
               border-radius: 50%; }
           html body .testimonials-section .testimonials-cards ul li .testimonials-name-client {
             font-family: "Montserrat", sans-serif;
             font-size: 20px;
             font-weight: bold;
-            color: #111;
-            margin-bottom: 5px; }
+            color: #111; }
           html body .testimonials-section .testimonials-cards ul li .testimonials-data-client {
             font-family: "Montserrat", sans-serif;
             font-weight: 400;
             font-size: 14px;
-            color: #999;
-            margin-bottom: 5px;
-            margin-top: 0px; }
+            color: #999; }
           html body .testimonials-section .testimonials-cards ul li .testimonials-description-client {
             font-style: italic;
-            font-family: "Open Sans", sans-serif;
-            margin-top: 5px; }
-    html body .testimonios-lista {
-      display: flex;
-      flex-direction: row;
-      width: 730px; }
-    html body .testimonios-titulos-texto {
-      display: flex;
-      flex-direction: row;
-      flex-direction: column;
-      margin-left: 20px; }
-    html body .testimonios-circulos {
-      margin-top: 20px;
-      margin-bottom: 20px;
-      display: flex;
-      flex-direction: row;
-      width: 130px;
-      justify-content: space-evenly; }
-      html body .testimonios-circulos .circulos {
-        width: 12px;
-        height: 12px;
-        border-radius: 50px;
-        background-color: #005dc0; }
+            font-family: "Open Sans", sans-serif; }
     html body .team-section {
       height: 563px; }
       html body .team-section .header-team {
@@ -1308,6 +1279,7 @@ html {
       font-family: "Montserrat", sans-serif;
       padding: 60px 0 30px 0;
       display: flex;
+      flex-direction: row;
       align-items: center;
       justify-content: center; }
       html body .datos .wayne {
@@ -1433,151 +1405,41 @@ html {
           color: #f1f7ff; }
 
 @media (min-width: 360px) and (max-width: 768px) {
-  html body nav .contenedor-logo {
-    margin-left: -500px; }
-  html body nav .contenedor-botonera-nav {
-    display: none; }
   html body header {
     flex-direction: column-reverse;
     text-align: center;
     justify-content: space-evenly;
     height: 813px; }
-    html body header .texto-header {
+  html body .texto-header {
+    margin-top: 0; }
+    html body .texto-header .provide {
       margin-top: 0; }
-      html body header .texto-header .provide {
-        margin-top: 0; }
-    html body header .foto-header {
-      margin-bottom: 0; }
-  html body .testimonials-cards {
-    width: 150px; }
-  html body .testimonios-lista {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; }
-    html body .testimonios-lista .testimonials-img-client {
-      width: 50px; }
-  html body .datos {
-    display: flex;
-    flex-direction: column; }
-    html body .datos .texto-wayne,
-    html body .datos .links-utiles,
-    html body .datos .contacto-chico,
-    html body .datos .noticias {
-      margin-left: 10px; }
-  html body .footer-contenedor {
-    padding: 20px; } }
+  html body .foto-header {
+    margin-bottom: 0; } }
 
 @media (max-width: 360px) {
-  html body nav .contenedor-logo {
-    margin-left: -100px; }
-  html body nav .contenedor-botonera-nav {
-    display: none; }
   html body header {
     flex-direction: column-reverse;
     text-align: center;
     justify-content: space-evenly;
-    height: 454px;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 20px; }
+    height: 454px; }
     html body header .texto-header {
       margin-top: 0; }
       html body header .texto-header .provide {
         margin-top: 0;
-        font-size: 34px; }
-      html body header .texto-header .botones {
-        display: flex;
-        flex-direction: column;
-        margin-left: 65px; }
-        html body header .texto-header .botones .get-started {
-          height: 30px;
-          padding: 0;
-          padding-top: 13px;
-          margin-bottom: 10px; }
-        html body header .texto-header .botones .our-services {
-          height: 30px;
-          padding: 0;
-          padding-top: 13px; }
+        font-size: 34px;
+        height: 120px;
+        width: 330px; }
+    html body header .botones {
+      flex-direction: column; }
+      html body header .botones .get-started,
+      html body header .botones .our-services {
+        height: 45px;
+        width: 163px; }
     html body header .foto-header {
       margin-bottom: 0;
       height: 150px;
       width: 264px; }
       html body header .foto-header img {
         width: 100%;
-        height: auto; }
-  html body .testimonials-cards {
-    width: 50px; }
-  html body .about-us-section {
-    height: 2770px; }
-    html body .about-us-section .header-about {
-      margin-top: -690px; }
-      html body .about-us-section .header-about .header-about-description {
-        height: 127px;
-        width: 330px;
-        padding: 0; }
-    html body .about-us-section .contenido-about {
-      display: flex;
-      flex-direction: column-reverse; }
-      html body .about-us-section .contenido-about .contenido-iconos-about .caja-about {
-        width: 330px;
-        margin-right: 10px; }
-        html body .about-us-section .contenido-about .contenido-iconos-about .caja-about .contenido-iconos-description {
-          margin-right: 6px;
-          font-size: 14px; }
-      html body .about-us-section .contenido-about .contenido-iconos-about .magni {
-        padding-bottom: 20px; }
-      html body .about-us-section .contenido-about .contenido-iconos-about .contenido-iconos-description-ppal {
-        height: 156px;
-        width: 330px; }
-      html body .about-us-section .contenido-about .contenido-img-about {
-        height: 249px;
-        width: 330px;
-        padding-left: 14px; }
-    html body .about-us-section .text-about {
-      display: flex;
-      flex-direction: column; }
-      html body .about-us-section .text-about .mobile-img-about-one {
-        height: 180px;
-        width: 330px;
-        margin-left: 539px;
-        padding-top: 150px; }
-      html body .about-us-section .text-about .mobile-title-about {
-        width: 330px;
-        margin: 40px 0 0 540px; }
-      html body .about-us-section .text-about .text-contenido-descripcion {
-        width: 330px;
-        margin-left: 544px; }
-      html body .about-us-section .text-about .mobile-title-about-two {
-        margin-top: 738px;
-        margin-left: 547px;
-        width: 330px; }
-      html body .about-us-section .text-about .description-mobile-about {
-        padding-top: 0; }
-      html body .about-us-section .text-about .mobile-img-about-two {
-        height: 250px;
-        width: 330px;
-        margin-left: 543px;
-        margin-top: 130px; } }
-
-.porfolio {
-  height: 2000px; }
-
-/*
-  .contenedor-imagenes-porfolio {
-    display: flex;
-    @include columnas;
-    .tres-imagenes-porfolio-1 {
-      @include flex;
-      @include columnas;
-    }
-    .tres-imagenes-porfolio-2 {
-      @include flex;
-      @include columnas;
-    }
-    .tres-imagenes-porfolio-3 {
-      @include flex;
-      @include columnas;
-    }
-  }
-*/
+        height: auto; } }
