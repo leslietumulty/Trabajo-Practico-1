@@ -1686,6 +1686,31 @@ html {
           }
         }
       }
+<<<<<<< HEAD
     }
   }
 }
+=======
+.foto-header {
+  margin-bottom: 0;
+  height:150px;
+  width: 264px;
+  img{
+    @include height-auto;
+  }
+}
+} 
+
+      .about-us-section{
+        height: 2882px;
+        .header-about{
+          .header-about-description{
+            height: 127px ;
+            width: 330px;
+          }
+        }
+      }
+    }
+  }
+}
+>>>>>>> 93b1e2200db2d8f9bca2bad7d4b4a4936968b817

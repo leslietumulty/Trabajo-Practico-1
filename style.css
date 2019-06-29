@@ -1471,4 +1471,9 @@ html {
       width: 264px; }
       html body header .foto-header img {
         width: 100%;
-        height: auto; } }
+        height: auto; }
+  html body .about-us-section {
+    height: 2882px; }
+    html body .about-us-section .header-about .header-about-description {
+      height: 127px;
+      width: 330px; } }
