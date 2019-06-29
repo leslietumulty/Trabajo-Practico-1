@@ -1026,8 +1026,9 @@ html {
               float: left;
               border-radius: 50%;
               margin-top: 20px;
-              .terstimonios-foto {
-                @include height-auto;
+              .testimonios-foto {
+                height: auto;
+                width: 100%;
                 border-radius: 50%;
               }
             }
@@ -1465,7 +1466,7 @@ html {
       color: white;
       font-family: "Montserrat", sans-serif;
       padding: 60px 0 30px 0;
-      @include flex;
+      display: flex;
       @include centrar;
 
       .wayne {
@@ -1636,6 +1637,14 @@ html {
 @media (min-width: 360px) and (max-width: 768px) {
   html {
     body {
+      nav {
+        .contenedor-logo {
+          margin-left: -500px;
+        }
+        .contenedor-botonera-nav {
+          display: none;
+        }
+      }
       header {
         @include header-responsive;
         height: 813px;
@@ -1649,6 +1658,34 @@ html {
       .foto-header {
         margin-bottom: 0;
       }
+
+      .testimonials-cards {
+        width: 150px;
+      }
+
+      .testimonios-lista {
+        display: flex;
+        flex-direction: column;
+        @include centrar;
+        .testimonials-img-client {
+          width: 50px;
+        }
+      }
+
+      .datos {
+        display: flex;
+        flex-direction: column;
+        .texto-wayne,
+        .links-utiles,
+        .contacto-chico,
+        .noticias {
+          margin-left: 10px;
+        }
+      }
+
+      .footer-contenedor {
+        padding: 20px;
+      }
     }
   }
 }
@@ -1656,6 +1693,14 @@ html {
 @media (max-width: 360px) {
   html {
     body {
+      nav {
+        .contenedor-logo {
+          margin-left: -100px;
+        }
+        .contenedor-botonera-nav {
+          display: none;
+        }
+      }
       header {
         @include header-responsive;
         height: 454px;
@@ -1685,26 +1730,52 @@ html {
             @include height-auto;
           }
         }
+
+        .testimonials-cards {
+          width: 50px;
+        }
       }
     }
   }
-}
 
-.foto-header {
-  margin-bottom: 0;
-  height: 150px;
-  width: 264px;
-  img {
-    @include height-auto;
+  .porfolio {
+    height: 2000px;
   }
-}
+  /*
+  .contenedor-imagenes-porfolio {
+    display: flex;
+    @include columnas;
+    .tres-imagenes-porfolio-1 {
+      @include flex;
+      @include columnas;
+    }
+    .tres-imagenes-porfolio-2 {
+      @include flex;
+      @include columnas;
+    }
+    .tres-imagenes-porfolio-3 {
+      @include flex;
+      @include columnas;
+    }
+  }
+*/
 
-.about-us-section {
-  height: 2882px;
-  .header-about {
-    .header-about-description {
-      height: 127px;
-      width: 330px;
+  .foto-header {
+    margin-bottom: 0;
+    height: 150px;
+    width: 264px;
+    img {
+      @include height-auto;
+    }
+  }
+
+  .about-us-section {
+    height: 2882px;
+    .header-about {
+      .header-about-description {
+        height: 127px;
+        width: 330px;
+      }
     }
   }
 }

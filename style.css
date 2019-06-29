@@ -931,9 +931,9 @@ html {
             float: left;
             border-radius: 50%;
             margin-top: 20px; }
-            html body .testimonials-section .testimonials-cards ul li .testimonials-img-client .terstimonios-foto {
-              width: 100%;
+            html body .testimonials-section .testimonials-cards ul li .testimonials-img-client .testimonios-foto {
               height: auto;
+              width: 100%;
               border-radius: 50%; }
           html body .testimonials-section .testimonials-cards ul li .testimonials-name-client {
             font-family: "Montserrat", sans-serif;
@@ -1308,7 +1308,6 @@ html {
       font-family: "Montserrat", sans-serif;
       padding: 60px 0 30px 0;
       display: flex;
-      flex-direction: row;
       align-items: center;
       justify-content: center; }
       html body .datos .wayne {
@@ -1434,6 +1433,10 @@ html {
           color: #f1f7ff; }
 
 @media (min-width: 360px) and (max-width: 768px) {
+  html body nav .contenedor-logo {
+    margin-left: -500px; }
+  html body nav .contenedor-botonera-nav {
+    display: none; }
   html body header {
     flex-direction: column-reverse;
     text-align: center;
@@ -1444,9 +1447,32 @@ html {
     html body .texto-header .provide {
       margin-top: 0; }
   html body .foto-header {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+  html body .testimonials-cards {
+    width: 150px; }
+  html body .testimonios-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    html body .testimonios-lista .testimonials-img-client {
+      width: 50px; }
+  html body .datos {
+    display: flex;
+    flex-direction: column; }
+    html body .datos .texto-wayne,
+    html body .datos .links-utiles,
+    html body .datos .contacto-chico,
+    html body .datos .noticias {
+      margin-left: 10px; }
+  html body .footer-contenedor {
+    padding: 20px; } }
 
 @media (max-width: 360px) {
+  html body nav .contenedor-logo {
+    margin-left: -100px; }
+  html body nav .contenedor-botonera-nav {
+    display: none; }
   html body header {
     flex-direction: column-reverse;
     text-align: center;
@@ -1472,8 +1498,37 @@ html {
       html body header .foto-header img {
         width: 100%;
         height: auto; }
-  html body .about-us-section {
+    html body header .testimonials-cards {
+      width: 50px; }
+  .porfolio {
+    height: 2000px; }
+  /*
+  .contenedor-imagenes-porfolio {
+    display: flex;
+    @include columnas;
+    .tres-imagenes-porfolio-1 {
+      @include flex;
+      @include columnas;
+    }
+    .tres-imagenes-porfolio-2 {
+      @include flex;
+      @include columnas;
+    }
+    .tres-imagenes-porfolio-3 {
+      @include flex;
+      @include columnas;
+    }
+  }
+*/
+  .foto-header {
+    margin-bottom: 0;
+    height: 150px;
+    width: 264px; }
+    .foto-header img {
+      width: 100%;
+      height: auto; }
+  .about-us-section {
     height: 2882px; }
-    html body .about-us-section .header-about .header-about-description {
+    .about-us-section .header-about .header-about-description {
       height: 127px;
       width: 330px; } }
