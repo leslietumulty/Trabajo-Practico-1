@@ -1151,16 +1151,16 @@ html {
         .card-batman2 {
           background-image: url(./Imagenes/Section5Team/team-02.jpg);
           @include card-batman;
-          .member {
+          &:hover .member {
+            display: flex;
+            background-color: rgba(0, 62, 128, 0.7);
+            opacity: 1;
             @include flex-center;
             text-align: center;
             width: 255px;
-            height: 255px;
-            &:hover {
-              background-color: rgba(0, 62, 128, 0.7);
-              opacity: 1;
-              transition: 0.4s;
-            }
+            height: 110%;
+          }
+          .member {
             .info-member {
               .info-member-title {
                 @include titulos-iconos;
@@ -1198,16 +1198,16 @@ html {
       .card-batman3 {
         background-image: url(./Imagenes/Section5Team/team-03.jpg);
         @include card-batman;
-        .member {
+        &:hover .member {
+          display: flex;
+          background-color: rgba(0, 62, 128, 0.7);
+          opacity: 1;
           @include flex-center;
           text-align: center;
           width: 255px;
-          height: 255px;
-          &:hover {
-            background-color: rgba(0, 62, 128, 0.7);
-            opacity: 1;
-            transition: 0.4s;
-          }
+          height: 110%;
+        }
+        .member {
           .info-member {
             .info-member-title {
               @include titulos-iconos;
@@ -1244,16 +1244,16 @@ html {
       .card-batman4 {
         background-image: url(./Imagenes/Section5Team/team-04.jpg);
         @include card-batman;
-        .member {
+        &:hover .member {
+          display: flex;
+          background-color: rgba(0, 62, 128, 0.7);
+          opacity: 1;
           @include flex-center;
           text-align: center;
           width: 255px;
-          height: 255px;
-          &:hover {
-            background-color: rgba(0, 62, 128, 0.7);
-            opacity: 1;
-            transition: 0.4s;
-          }
+          height: 110%;
+        }
+        .member {
           .info-member {
             .info-member-title {
               @include titulos-iconos;
@@ -1811,6 +1811,55 @@ html {
             width: 330px;
             margin-left: 543px;
             margin-top: 130px;
+          }
+        }
+      }
+      .team-section {
+        height: 1668px;
+        .header-team {
+          .header-team-description {
+            width: 330px;
+          }
+        }
+        .contenedor-team {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .card-batman1 {
+            height: 330px;
+            width: 330px;
+            border-radius: 180px;
+            margin-bottom: 20px;
+            .member {
+              width: 330px;
+            }
+          }
+          .card-batman2 {
+            height: 330px;
+            width: 330px;
+            border-radius: 180px;
+            margin-bottom: 20px;
+            .member {
+              width: 330px;
+            }
+          }
+          .card-batman3 {
+            height: 330px;
+            width: 330px;
+            border-radius: 180px;
+            margin-bottom: 20px;
+            .member {
+              width: 330px;
+            }
+          }
+          .card-batman4 {
+            height: 330px;
+            width: 330px;
+            border-radius: 180px;
+            margin-bottom: 20px;
+            .member {
+              width: 330px;
+            }
           }
         }
       }
