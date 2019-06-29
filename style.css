@@ -1680,6 +1680,26 @@ html {
         margin-bottom: 20px; }
         html body .team-section .contenedor-team .card-batman4 .member {
           width: 330px; }
+  html body .our-clients {
+    height: 900px;
+    align-items: center;
+    justify-content: center; }
+    html body .our-clients .encabezado-clients {
+      margin-bottom: 20px;
+      align-items: center; }
+      html body .our-clients .encabezado-clients .descripcion-encabezado-clients {
+        width: 250px; }
+    html body .our-clients .contenedor-clients {
+      width: 490px;
+      height: 1100px;
+      margin: 0;
+      display: flex;
+      flex-direction: row; }
+      html body .our-clients .contenedor-clients .fila-logos-1, html body .our-clients .contenedor-clients .fila-logos-2 {
+        flex-direction: column;
+        width: 250px;
+        height: 645px;
+        margin: 0; }
   html body .contact-us-section {
     height: 937px; }
     html body .contact-us-section .contact-us-title {
@@ -1977,6 +1997,24 @@ html {
         margin-bottom: 20px; }
         html body .team-section .contenedor-team .card-batman4 .member {
           width: 330px; }
+  html body .our-clients {
+    height: 1700px;
+    align-items: space-evenly; }
+    html body .our-clients .encabezado-clients {
+      align-items: center; }
+      html body .our-clients .encabezado-clients .descripcion-encabezado-clients {
+        width: 250px; }
+    html body .our-clients .contenedor-clients {
+      width: 300px;
+      height: 1300px;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column; }
+      html body .our-clients .contenedor-clients .fila-logos-1, html body .our-clients .contenedor-clients .fila-logos-2 {
+        flex-direction: column;
+        width: 300px;
+        height: 645px;
+        margin: 0; }
   html body .contact-us-section {
     height: 1050px; }
     html body .contact-us-section .contact-us-title {
