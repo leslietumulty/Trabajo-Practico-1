@@ -557,7 +557,6 @@ html {
       align-items: center;
       justify-content: space-evenly;
       flex-direction: column;
-      flex-wrap: wrap;
       box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
       .encabezado-why {
         height: 220px;
@@ -732,64 +731,77 @@ html {
       width: 940px;
       height: 90px;
       margin-bottom: 40px;
-      .clients {
-        text-align: center;
-        .clients-nro {
-          font-family: "Montserrat", sans-serif;
-          font-size: 48px;
-          font-weight: bold;
-          color: white;
+      .contador-grupo1 {
+        width: 490px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        .clients {
+          text-align: center;
+          .clients-nro {
+            font-family: "Montserrat", sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+            color: white;
+          }
+          .clients-texto {
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+            color: white;
+            margin-top: 8px;
+          }
         }
-        .clients-texto {
-          font-family: "Montserrat", sans-serif;
-          font-size: 14px;
-          color: white;
-          margin-top: 8px;
-        }
-      }
-      .projects {
-        text-align: center;
-        .projects-nro {
-          font-family: "Montserrat", sans-serif;
-          font-size: 48px;
-          font-weight: bold;
-          color: white;
-        }
-        .projects-texto {
-          font-family: "Montserrat", sans-serif;
-          font-size: 14px;
-          color: white;
-          margin-top: 8px;
-        }
-      }
-      .hours {
-        text-align: center;
-        .hours-nro {
-          font-family: "Montserrat", sans-serif;
-          font-size: 48px;
-          font-weight: bold;
-          color: white;
-        }
-        .hours-texto {
-          font-family: "Montserrat", sans-serif;
-          font-size: 14px;
-          color: white;
-          margin-top: 8px;
+        .projects {
+          text-align: center;
+          .projects-nro {
+            font-family: "Montserrat", sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+            color: white;
+          }
+          .projects-texto {
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+            color: white;
+            margin-top: 8px;
+          }
         }
       }
-      .workers {
-        text-align: center;
-        .workers-nro {
-          font-family: "Montserrat", sans-serif;
-          font-size: 48px;
-          font-weight: bold;
-          color: white;
+      .contador-grupo2 {
+        width: 490px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        .hours {
+          text-align: center;
+          .hours-nro {
+            font-family: "Montserrat", sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+            color: white;
+          }
+          .hours-texto {
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+            color: white;
+            margin-top: 8px;
+          }
         }
-        .workers-texto {
-          font-family: "Montserrat", sans-serif;
-          font-size: 14px;
-          color: white;
-          margin-top: 8px;
+        .workers {
+          text-align: center;
+          .workers-nro {
+            font-family: "Montserrat", sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+            color: white;
+          }
+          .workers-texto {
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+            color: white;
+            margin-top: 8px;
+          }
         }
       }
     }
@@ -1647,17 +1659,17 @@ html {
       header {
         @include header-responsive;
         height: 813px;
-      
-      .texto-header {
-        margin-top: 0;
-        .provide {
+
+        .texto-header {
           margin-top: 0;
+          .provide {
+            margin-top: 0;
+          }
+        }
+        .foto-header {
+          margin-bottom: 0;
         }
       }
-      .foto-header {
-        margin-bottom: 0;
-      }
-    }
 
       .about-us-section {
         height: 3040px;
@@ -1734,48 +1746,93 @@ html {
         }
       }
 
-      #services{
+      #services {
         height: 1010px;
         .columnas-services {
           justify-content: center;
           align-items: center;
-         .columna-iconos-1{
-        width: 315px;
-         margin: 25px;
-        .lorem-services, .sed-services, .nemo-services {
-         height: 192px;
-         width: 310px;
-        .texto-services, .texto-sed, .texto-nemo{
-         height: 170px;
-         width: 200px;
-         margin-top:20px;
-         .descr-lorem, .descr-sed, .descr-nemo{
-           height: 96px;
-           width: 210px;
-         }
+          .columna-iconos-1 {
+            width: 315px;
+            margin: 25px;
+            .lorem-services,
+            .sed-services,
+            .nemo-services {
+              height: 192px;
+              width: 310px;
+              .texto-services,
+              .texto-sed,
+              .texto-nemo {
+                height: 170px;
+                width: 200px;
+                margin-top: 20px;
+                .descr-lorem,
+                .descr-sed,
+                .descr-nemo {
+                  height: 96px;
+                  width: 210px;
+                }
+              }
+            }
+          }
+          .columna-iconos-2 {
+            width: 315px;
+            margin: 25px;
+            .dolor-services,
+            .magni-services,
+            .eiusmod-services {
+              height: 192px;
+              width: 310px;
+              .texto-dolor,
+              .texto-magni,
+              .texto-eiusmod {
+                height: 170px;
+                width: 200px;
+                margin-top: 20px;
+
+                .descr-dolor,
+                .descr-magni,
+                .descr-eiusmod {
+                  height: 96px;
+                  width: 210px;
+                }
+              }
+            }
+          }
         }
-       } 
-       }
-       .columna-iconos-2{
-         width: 315px;
-       margin:25px;
-         .dolor-services, .magni-services, .eiusmod-services{
-           height: 192px;
-           width: 310px;
-           .texto-dolor, .texto-magni, .texto-eiusmod{
-             height: 170px;
-         width: 200px;
-         margin-top:20px;
-           
-         .descr-dolor, .descr-magni, .descr-eiusmod {
-           height: 96px;
-           width: 210px;
-         }
-       }
-       }
-     }
-     }
       }
+
+      .why-choose-us {
+        height: 1522px;
+        align-items: space-evenly;
+
+        .encabezado-why {
+          margin-top: 0;
+          width: 500px;
+          height: 100px;
+          .titulo-why {
+            margin-top: 0;
+          }
+          .descripcion-why {
+            margin-right: 50px;
+          }
+        }
+        .contenedor-cajas {
+          height: 1000px;
+          width: 600px;
+          margin-bottom: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .contador {
+          height: 200px;
+          width: 500px;
+          flex-direction: column;
+          align-items: space-evenly;
+          margin-top: 0;
+        }
+      }
+
       .testimonials-cards {
         width: 150px;
       }
@@ -1911,7 +1968,7 @@ html {
             height: 120px;
             width: 330px;
           }
-        
+
           .botones {
             display: flex;
             flex-direction: column;
@@ -1938,10 +1995,9 @@ html {
           }
         }
       }
-        .testimonials-cards {
-          width: 50px;
-        }
-      
+      .testimonials-cards {
+        width: 50px;
+      }
 
       .about-us-section {
         height: 2770px;
@@ -1963,7 +2019,7 @@ html {
               .contenido-iconos-description {
                 margin-right: 6px;
                 font-size: 14px;
-                width:290px;
+                width: 290px;
               }
             }
             .magni {
@@ -1980,7 +2036,7 @@ html {
             padding-left: 14px;
           }
         }
-          
+
         .text-about {
           display: flex;
           flex-direction: column;
@@ -2014,58 +2070,105 @@ html {
           }
         }
       }
-      #services{
+      #services {
         height: 1610px;
         justify-content: space-between;
         align-items: center;
-        .encabezado-services{
+        .encabezado-services {
           margin: 0;
-          .descripcion-services{
-            width:346px;
+          .descripcion-services {
+            width: 346px;
           }
         }
         .columnas-services {
-          
-           justify-content: center;
+          justify-content: center;
           align-items: center;
           flex-direction: column;
-          height:1400px;
-         .columna-iconos-1{
-        width: 315px;
-         margin-bottom:0;
-        .lorem-services, .sed-services, .nemo-services {
-         height: 192px;
-         width: 310px;
-        .texto-services, .texto-sed, .texto-nemo{
-         height: 170px;
-         width: 200px;
-         margin-top:20px;
-         .descr-lorem, .descr-sed, .descr-nemo{
-           height: 96px;
-           width: 210px;
-         }
+          height: 1400px;
+          .columna-iconos-1 {
+            width: 315px;
+            margin-bottom: 0;
+            .lorem-services,
+            .sed-services,
+            .nemo-services {
+              height: 192px;
+              width: 310px;
+              .texto-services,
+              .texto-sed,
+              .texto-nemo {
+                height: 170px;
+                width: 200px;
+                margin-top: 20px;
+                .descr-lorem,
+                .descr-sed,
+                .descr-nemo {
+                  height: 96px;
+                  width: 210px;
+                }
+              }
+            }
+          }
+          .columna-iconos-2 {
+            width: 315px;
+            margin-top: 0;
+            .dolor-services,
+            .magni-services,
+            .eiusmod-services {
+              height: 192px;
+              width: 310px;
+              .texto-dolor,
+              .texto-magni,
+              .texto-eiusmod {
+                height: 170px;
+                width: 200px;
+                margin-top: 20px;
+
+                .descr-dolor,
+                .descr-magni,
+                .descr-eiusmod {
+                  height: 96px;
+                  width: 210px;
+                }
+              }
+            }
+          }
         }
-       } 
-       }
-       .columna-iconos-2{
-         width: 315px;
-       margin-top:0;
-         .dolor-services, .magni-services, .eiusmod-services{
-           height: 192px;
-           width: 310px;
-           .texto-dolor, .texto-magni, .texto-eiusmod{
-             height: 170px;
-         width: 200px;
-         margin-top:20px;
-           
-         .descr-dolor, .descr-magni, .descr-eiusmod {
-           height: 96px;
-           width: 210px;
-         }
-       }
-       }
-     }
-     }
+      }
+      .why-choose-us {
+        height: 1522px;
+        align-items: space-evenly;
+
+        .encabezado-why {
+          margin-top: 0;
+          width: 300px;
+          height: 100px;
+          .titulo-why {
+            margin-top: 0;
+          }
+          .descripcion-why {
+            margin-right: 50px;
+            width: 290px;
+          }
+        }
+        .contenedor-cajas {
+          height: 1000px;
+          width: 300px;
+          margin-bottom: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .contador {
+          height: 200px;
+          width: 300px;
+          flex-direction: column;
+          align-items: space-evenly;
+          margin-top: 0;
+          .contador-grupo1,
+          .contador-grupo2 {
+            width: 280px;
+          }
+        }
       }
       .team-section {
         height: 1668px;
@@ -2154,10 +2257,10 @@ html {
     }
   }
 }
-  .porfolio {
-    height: 2000px;
-  }
-  /*
+.porfolio {
+  height: 2000px;
+}
+/*
   .contenedor-imagenes-porfolio {
     display: flex;
     @include columnas;
@@ -2175,6 +2278,3 @@ html {
     }
   }
 */
-
-  
-

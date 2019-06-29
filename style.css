@@ -516,7 +516,6 @@ html {
       align-items: center;
       justify-content: space-evenly;
       flex-direction: column;
-      flex-wrap: wrap;
       box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1); }
       html body .why-choose-us .encabezado-why {
         height: 220px;
@@ -684,54 +683,64 @@ html {
       width: 940px;
       height: 90px;
       margin-bottom: 40px; }
-      html body .contador .clients {
-        text-align: center; }
-        html body .contador .clients .clients-nro {
-          font-family: "Montserrat", sans-serif;
-          font-size: 48px;
-          font-weight: bold;
-          color: white; }
-        html body .contador .clients .clients-texto {
-          font-family: "Montserrat", sans-serif;
-          font-size: 14px;
-          color: white;
-          margin-top: 8px; }
-      html body .contador .projects {
-        text-align: center; }
-        html body .contador .projects .projects-nro {
-          font-family: "Montserrat", sans-serif;
-          font-size: 48px;
-          font-weight: bold;
-          color: white; }
-        html body .contador .projects .projects-texto {
-          font-family: "Montserrat", sans-serif;
-          font-size: 14px;
-          color: white;
-          margin-top: 8px; }
-      html body .contador .hours {
-        text-align: center; }
-        html body .contador .hours .hours-nro {
-          font-family: "Montserrat", sans-serif;
-          font-size: 48px;
-          font-weight: bold;
-          color: white; }
-        html body .contador .hours .hours-texto {
-          font-family: "Montserrat", sans-serif;
-          font-size: 14px;
-          color: white;
-          margin-top: 8px; }
-      html body .contador .workers {
-        text-align: center; }
-        html body .contador .workers .workers-nro {
-          font-family: "Montserrat", sans-serif;
-          font-size: 48px;
-          font-weight: bold;
-          color: white; }
-        html body .contador .workers .workers-texto {
-          font-family: "Montserrat", sans-serif;
-          font-size: 14px;
-          color: white;
-          margin-top: 8px; }
+      html body .contador .contador-grupo1 {
+        width: 490px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly; }
+        html body .contador .contador-grupo1 .clients {
+          text-align: center; }
+          html body .contador .contador-grupo1 .clients .clients-nro {
+            font-family: "Montserrat", sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+            color: white; }
+          html body .contador .contador-grupo1 .clients .clients-texto {
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+            color: white;
+            margin-top: 8px; }
+        html body .contador .contador-grupo1 .projects {
+          text-align: center; }
+          html body .contador .contador-grupo1 .projects .projects-nro {
+            font-family: "Montserrat", sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+            color: white; }
+          html body .contador .contador-grupo1 .projects .projects-texto {
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+            color: white;
+            margin-top: 8px; }
+      html body .contador .contador-grupo2 {
+        width: 490px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly; }
+        html body .contador .contador-grupo2 .hours {
+          text-align: center; }
+          html body .contador .contador-grupo2 .hours .hours-nro {
+            font-family: "Montserrat", sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+            color: white; }
+          html body .contador .contador-grupo2 .hours .hours-texto {
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+            color: white;
+            margin-top: 8px; }
+        html body .contador .contador-grupo2 .workers {
+          text-align: center; }
+          html body .contador .contador-grupo2 .workers .workers-nro {
+            font-family: "Montserrat", sans-serif;
+            font-size: 48px;
+            font-weight: bold;
+            color: white; }
+          html body .contador .contador-grupo2 .workers .workers-texto {
+            font-family: "Montserrat", sans-serif;
+            font-size: 14px;
+            color: white;
+            margin-top: 8px; }
     html body .contenedor-porfolio .contenedor-titulo-botones {
       display: flex;
       flex-direction: row;
@@ -1508,29 +1517,125 @@ html {
       html body #services .columnas-services .columna-iconos-1 {
         width: 315px;
         margin: 25px; }
-        html body #services .columnas-services .columna-iconos-1 .lorem-services, html body #services .columnas-services .columna-iconos-1 .sed-services, html body #services .columnas-services .columna-iconos-1 .nemo-services {
+        html body #services .columnas-services .columna-iconos-1 .lorem-services,
+        html body #services .columnas-services .columna-iconos-1 .sed-services,
+        html body #services .columnas-services .columna-iconos-1 .nemo-services {
           height: 192px;
           width: 310px; }
-          html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-sed, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-nemo, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-services, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-nemo, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-services, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-sed, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo {
+          html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services,
+          html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-sed,
+          html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-nemo,
+          html body #services .columnas-services .columna-iconos-1 .sed-services .texto-services,
+          html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed,
+          html body #services .columnas-services .columna-iconos-1 .sed-services .texto-nemo,
+          html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-services,
+          html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-sed,
+          html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo {
             height: 170px;
             width: 200px;
             margin-top: 20px; }
-            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services .descr-lorem, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services .descr-sed, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services .descr-nemo, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-sed .descr-lorem, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-sed .descr-sed, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-sed .descr-nemo, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-nemo .descr-lorem, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-nemo .descr-sed, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-nemo .descr-nemo, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-services .descr-lorem, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-services .descr-sed, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-services .descr-nemo, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed .descr-lorem, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed .descr-sed, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed .descr-nemo, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-nemo .descr-lorem, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-nemo .descr-sed, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-nemo .descr-nemo, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-services .descr-lorem, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-services .descr-sed, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-services .descr-nemo, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-sed .descr-lorem, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-sed .descr-sed, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-sed .descr-nemo, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo .descr-lorem, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo .descr-sed, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo .descr-nemo {
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services .descr-nemo,
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-sed .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-sed .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-sed .descr-nemo,
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-nemo .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-nemo .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-nemo .descr-nemo,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-services .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-services .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-services .descr-nemo,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed .descr-nemo,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-nemo .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-nemo .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-nemo .descr-nemo,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-services .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-services .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-services .descr-nemo,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-sed .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-sed .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-sed .descr-nemo,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo .descr-nemo {
               height: 96px;
               width: 210px; }
       html body #services .columnas-services .columna-iconos-2 {
         width: 315px;
         margin: 25px; }
-        html body #services .columnas-services .columna-iconos-2 .dolor-services, html body #services .columnas-services .columna-iconos-2 .magni-services, html body #services .columnas-services .columna-iconos-2 .eiusmod-services {
+        html body #services .columnas-services .columna-iconos-2 .dolor-services,
+        html body #services .columnas-services .columna-iconos-2 .magni-services,
+        html body #services .columnas-services .columna-iconos-2 .eiusmod-services {
           height: 192px;
           width: 310px; }
-          html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-magni, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-eiusmod, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-dolor, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-eiusmod, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-dolor, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-magni, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod {
+          html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor,
+          html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-magni,
+          html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-eiusmod,
+          html body #services .columnas-services .columna-iconos-2 .magni-services .texto-dolor,
+          html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni,
+          html body #services .columnas-services .columna-iconos-2 .magni-services .texto-eiusmod,
+          html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-dolor,
+          html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-magni,
+          html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod {
             height: 170px;
             width: 200px;
             margin-top: 20px; }
-            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor .descr-dolor, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor .descr-magni, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor .descr-eiusmod, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-magni .descr-dolor, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-magni .descr-magni, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-magni .descr-eiusmod, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-eiusmod .descr-dolor, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-eiusmod .descr-magni, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-eiusmod .descr-eiusmod, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-dolor .descr-dolor, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-dolor .descr-magni, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-dolor .descr-eiusmod, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni .descr-dolor, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni .descr-magni, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni .descr-eiusmod, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-eiusmod .descr-dolor, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-eiusmod .descr-magni, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-eiusmod .descr-eiusmod, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-dolor .descr-dolor, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-dolor .descr-magni, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-dolor .descr-eiusmod, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-magni .descr-dolor, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-magni .descr-magni, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-magni .descr-eiusmod, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod .descr-dolor, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod .descr-magni, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod .descr-eiusmod {
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor .descr-eiusmod,
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-magni .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-magni .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-magni .descr-eiusmod,
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-eiusmod .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-eiusmod .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-eiusmod .descr-eiusmod,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-dolor .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-dolor .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-dolor .descr-eiusmod,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni .descr-eiusmod,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-eiusmod .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-eiusmod .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-eiusmod .descr-eiusmod,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-dolor .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-dolor .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-dolor .descr-eiusmod,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-magni .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-magni .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-magni .descr-eiusmod,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod .descr-eiusmod {
               height: 96px;
               width: 210px; }
+  html body .why-choose-us {
+    height: 1522px;
+    align-items: space-evenly; }
+    html body .why-choose-us .encabezado-why {
+      margin-top: 0;
+      width: 500px;
+      height: 100px; }
+      html body .why-choose-us .encabezado-why .titulo-why {
+        margin-top: 0; }
+      html body .why-choose-us .encabezado-why .descripcion-why {
+        margin-right: 50px; }
+    html body .why-choose-us .contenedor-cajas {
+      height: 1000px;
+      width: 600px;
+      margin-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    html body .why-choose-us .contador {
+      height: 200px;
+      width: 500px;
+      flex-direction: column;
+      align-items: space-evenly;
+      margin-top: 0; }
   html body .testimonials-cards {
     width: 150px; }
   html body .testimonios-lista {
@@ -1713,29 +1818,129 @@ html {
       html body #services .columnas-services .columna-iconos-1 {
         width: 315px;
         margin-bottom: 0; }
-        html body #services .columnas-services .columna-iconos-1 .lorem-services, html body #services .columnas-services .columna-iconos-1 .sed-services, html body #services .columnas-services .columna-iconos-1 .nemo-services {
+        html body #services .columnas-services .columna-iconos-1 .lorem-services,
+        html body #services .columnas-services .columna-iconos-1 .sed-services,
+        html body #services .columnas-services .columna-iconos-1 .nemo-services {
           height: 192px;
           width: 310px; }
-          html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-sed, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-nemo, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-services, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-nemo, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-services, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-sed, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo {
+          html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services,
+          html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-sed,
+          html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-nemo,
+          html body #services .columnas-services .columna-iconos-1 .sed-services .texto-services,
+          html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed,
+          html body #services .columnas-services .columna-iconos-1 .sed-services .texto-nemo,
+          html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-services,
+          html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-sed,
+          html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo {
             height: 170px;
             width: 200px;
             margin-top: 20px; }
-            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services .descr-lorem, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services .descr-sed, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services .descr-nemo, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-sed .descr-lorem, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-sed .descr-sed, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-sed .descr-nemo, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-nemo .descr-lorem, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-nemo .descr-sed, html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-nemo .descr-nemo, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-services .descr-lorem, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-services .descr-sed, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-services .descr-nemo, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed .descr-lorem, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed .descr-sed, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed .descr-nemo, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-nemo .descr-lorem, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-nemo .descr-sed, html body #services .columnas-services .columna-iconos-1 .sed-services .texto-nemo .descr-nemo, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-services .descr-lorem, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-services .descr-sed, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-services .descr-nemo, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-sed .descr-lorem, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-sed .descr-sed, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-sed .descr-nemo, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo .descr-lorem, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo .descr-sed, html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo .descr-nemo {
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-services .descr-nemo,
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-sed .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-sed .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-sed .descr-nemo,
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-nemo .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-nemo .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .lorem-services .texto-nemo .descr-nemo,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-services .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-services .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-services .descr-nemo,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-sed .descr-nemo,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-nemo .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-nemo .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .sed-services .texto-nemo .descr-nemo,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-services .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-services .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-services .descr-nemo,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-sed .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-sed .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-sed .descr-nemo,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo .descr-lorem,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo .descr-sed,
+            html body #services .columnas-services .columna-iconos-1 .nemo-services .texto-nemo .descr-nemo {
               height: 96px;
               width: 210px; }
       html body #services .columnas-services .columna-iconos-2 {
         width: 315px;
         margin-top: 0; }
-        html body #services .columnas-services .columna-iconos-2 .dolor-services, html body #services .columnas-services .columna-iconos-2 .magni-services, html body #services .columnas-services .columna-iconos-2 .eiusmod-services {
+        html body #services .columnas-services .columna-iconos-2 .dolor-services,
+        html body #services .columnas-services .columna-iconos-2 .magni-services,
+        html body #services .columnas-services .columna-iconos-2 .eiusmod-services {
           height: 192px;
           width: 310px; }
-          html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-magni, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-eiusmod, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-dolor, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-eiusmod, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-dolor, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-magni, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod {
+          html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor,
+          html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-magni,
+          html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-eiusmod,
+          html body #services .columnas-services .columna-iconos-2 .magni-services .texto-dolor,
+          html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni,
+          html body #services .columnas-services .columna-iconos-2 .magni-services .texto-eiusmod,
+          html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-dolor,
+          html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-magni,
+          html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod {
             height: 170px;
             width: 200px;
             margin-top: 20px; }
-            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor .descr-dolor, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor .descr-magni, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor .descr-eiusmod, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-magni .descr-dolor, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-magni .descr-magni, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-magni .descr-eiusmod, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-eiusmod .descr-dolor, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-eiusmod .descr-magni, html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-eiusmod .descr-eiusmod, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-dolor .descr-dolor, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-dolor .descr-magni, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-dolor .descr-eiusmod, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni .descr-dolor, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni .descr-magni, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni .descr-eiusmod, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-eiusmod .descr-dolor, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-eiusmod .descr-magni, html body #services .columnas-services .columna-iconos-2 .magni-services .texto-eiusmod .descr-eiusmod, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-dolor .descr-dolor, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-dolor .descr-magni, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-dolor .descr-eiusmod, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-magni .descr-dolor, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-magni .descr-magni, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-magni .descr-eiusmod, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod .descr-dolor, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod .descr-magni, html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod .descr-eiusmod {
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-dolor .descr-eiusmod,
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-magni .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-magni .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-magni .descr-eiusmod,
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-eiusmod .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-eiusmod .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .dolor-services .texto-eiusmod .descr-eiusmod,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-dolor .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-dolor .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-dolor .descr-eiusmod,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-magni .descr-eiusmod,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-eiusmod .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-eiusmod .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .magni-services .texto-eiusmod .descr-eiusmod,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-dolor .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-dolor .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-dolor .descr-eiusmod,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-magni .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-magni .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-magni .descr-eiusmod,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod .descr-dolor,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod .descr-magni,
+            html body #services .columnas-services .columna-iconos-2 .eiusmod-services .texto-eiusmod .descr-eiusmod {
               height: 96px;
               width: 210px; }
+  html body .why-choose-us {
+    height: 1522px;
+    align-items: space-evenly; }
+    html body .why-choose-us .encabezado-why {
+      margin-top: 0;
+      width: 300px;
+      height: 100px; }
+      html body .why-choose-us .encabezado-why .titulo-why {
+        margin-top: 0; }
+      html body .why-choose-us .encabezado-why .descripcion-why {
+        margin-right: 50px;
+        width: 290px; }
+    html body .why-choose-us .contenedor-cajas {
+      height: 1000px;
+      width: 300px;
+      margin-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    html body .why-choose-us .contador {
+      height: 200px;
+      width: 300px;
+      flex-direction: column;
+      align-items: space-evenly;
+      margin-top: 0; }
+      html body .why-choose-us .contador .contador-grupo1,
+      html body .why-choose-us .contador .contador-grupo2 {
+        width: 280px; }
   html body .team-section {
     height: 1668px; }
     html body .team-section .header-team .header-team-description {
