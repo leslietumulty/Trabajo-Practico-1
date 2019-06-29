@@ -1545,14 +1545,11 @@ html {
     position: relative;
     padding-bottom: 40px;
   }
-
   .noticias-texto {
     font-size: 14px;
     padding: 0px;
     margin: 0px 0px 20px;
   }
-
-
 .footer-email-sub {
   @include flex;
 }
@@ -1598,4 +1595,62 @@ html {
   }
 }
 }
+}
+@media (min-width: 360px) and (max-width: 768px) {
+  html {
+    body{
+      header {
+        @include header-responsive;
+        height:813px;
+  }
+  .texto-header {
+    margin-top:0;
+    .provide {
+      margin-top:0;
+            }
+      }
+.foto-header {
+  margin-bottom: 0;
+}
+      }
+    }
+  }
+
+
+@media (max-width: 360px){
+  html {
+    body{
+      header {
+        @include header-responsive;
+        height:454px;
+  
+  .texto-header {
+    margin-top:0;
+    .provide {
+      margin-top:0;
+      font-size: 34px;
+      height:120px;
+      width:330px;
+                }
+              }
+      .botones{
+        flex-direction: column;
+        .get-started, .our-services{
+          height: 45px;
+          width:163px;
+        }
+      }
+.foto-header {
+  margin-bottom: 0;
+  height:150px;
+  width: 264px;
+  img{
+    @include height-auto;
+  }
+}
+} 
+    }
+  
+  }
+
 }

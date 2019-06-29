@@ -941,48 +941,6 @@ html {
         html body .testimonials-section .testimonials-cards ul li .testimonials-description-client {
           font-style: italic;
           font-family: "Open Sans", sans-serif; }
-    html body .card-batman2 {
-      background-image: url(./Imagenes/Section5Team/team-02.jpg);
-      background-position: center;
-      background-size: cover;
-      width: 255px;
-      height: 255px;
-      overflow: hidden;
-      border-radius: 130px; }
-      html body .card-batman2 .member {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        width: 255px;
-        height: 255px; }
-        html body .card-batman2 .member:hover {
-          background-color: rgba(0, 62, 128, 0.7);
-          opacity: 1;
-          transition: 0.4s; }
-        html body .card-batman2 .member .info-member .info-member-title {
-          font-family: "Montserrat", sans-serif;
-          font-size: 18px;
-          color: #fff;
-          margin-bottom: 0; }
-        html body .card-batman2 .member .info-member .info-member-description {
-          font-family: "Open Sans", sans-serif;
-          font-style: italic;
-          font-size: 13px;
-          color: #fff; }
-        html body .card-batman2 .member .social-member {
-          margin-top: 20px; }
-          html body .card-batman2 .member .social-member .social-member-icon .google-team {
-            width: 25px;
-            height: 20px;
-            color: white; }
-          html body .card-batman2 .member .social-member .social-member-icon .social-member-svg {
-            width: 18px;
-            height: 18px;
-            color: white; }
-            html body .card-batman2 .member .social-member .social-member-icon .social-member-svg:hover {
-              color: #007bff; }
     html body .team-section {
       height: 563px; }
       html body .team-section .header-team {
@@ -1442,3 +1400,42 @@ html {
           text-align: center;
           font-size: 13px;
           color: #f1f7ff; }
+
+@media (min-width: 360px) and (max-width: 768px) {
+  html body header {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 813px; }
+  html body .texto-header {
+    margin-top: 0; }
+    html body .texto-header .provide {
+      margin-top: 0; }
+  html body .foto-header {
+    margin-bottom: 0; } }
+
+@media (max-width: 360px) {
+  html body header {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 454px; }
+    html body header .texto-header {
+      margin-top: 0; }
+      html body header .texto-header .provide {
+        margin-top: 0;
+        font-size: 34px;
+        height: 120px;
+        width: 330px; }
+    html body header .botones {
+      flex-direction: column; }
+      html body header .botones .get-started, html body header .botones .our-services {
+        height: 45px;
+        width: 163px; }
+    html body header .foto-header {
+      margin-bottom: 0;
+      height: 150px;
+      width: 264px; }
+      html body header .foto-header img {
+        width: 100%;
+        height: auto; } }
