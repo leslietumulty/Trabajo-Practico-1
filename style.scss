@@ -1658,6 +1658,81 @@ html {
         margin-bottom: 0;
       }
 
+      .about-us-section {
+        height: 3040px;
+        .header-about {
+          margin-top: -690px;
+          .header-about-title {
+            margin-top: -294px;
+          }
+          .header-about-description {
+            height: 127px;
+            width: 345px;
+            padding: 0;
+          }
+        }
+        .contenido-about {
+          display: flex;
+          flex-direction: column-reverse;
+          .contenido-iconos-about {
+            .caja-about {
+              width: 330px;
+              margin-right: 10px;
+              .contenido-iconos-description {
+                margin-right: 6px;
+                font-size: 14px;
+                width: 610px;
+              }
+            }
+            .magni {
+              padding-bottom: 20px;
+              width: 610px;
+            }
+            .contenido-iconos-description-ppal {
+              width: 690px;
+            }
+          }
+          .contenido-img-about {
+            height: 521px;
+            width: 690px;
+            padding-left: 14px;
+            margin-top: -100px;
+          }
+        }
+        .text-about {
+          display: flex;
+          flex-direction: column;
+          .mobile-img-about-one {
+            height: 376px;
+            width: 690px;
+            margin-left: 351px;
+            padding-top: 398px;
+          }
+          .mobile-title-about {
+            width: 690px;
+            margin: 40px 0 0 351px;
+          }
+          .text-contenido-descripcion {
+            width: 690px;
+            margin-left: 351px;
+          }
+          .mobile-title-about-two {
+            width: 690px;
+            margin-left: 362px;
+            margin-top: 1500px;
+          }
+          .description-mobile-about {
+            padding-top: 0;
+          }
+          .mobile-img-about-two {
+            height: 524px;
+            width: 690px;
+            margin-left: 362px;
+            margin-top: 605px;
+          }
+        }
+      }
+
       .testimonials-cards {
         width: 150px;
       }
@@ -1670,7 +1745,88 @@ html {
           width: 50px;
         }
       }
-
+      .team-section {
+        height: 998px;
+        .header-team {
+          .header-team-description {
+            width: 330px;
+          }
+        }
+        .contenedor-team {
+          display: flex;
+          flex-wrap: wrap;
+          .card-batman1 {
+            height: 330px;
+            width: 330px;
+            border-radius: 180px;
+            margin-bottom: 20px;
+            .member {
+              width: 330px;
+            }
+          }
+          .card-batman2 {
+            height: 330px;
+            width: 330px;
+            border-radius: 180px;
+            margin-bottom: 20px;
+            .member {
+              width: 330px;
+            }
+          }
+          .card-batman3 {
+            height: 330px;
+            width: 330px;
+            border-radius: 180px;
+            margin-bottom: 20px;
+            .member {
+              width: 330px;
+            }
+          }
+          .card-batman4 {
+            height: 330px;
+            width: 330px;
+            border-radius: 180px;
+            margin-bottom: 20px;
+            .member {
+              width: 330px;
+            }
+          }
+        }
+      }
+      .contact-us-section {
+        height: 937px;
+        .contact-us-title {
+          margin-top: 68px;
+          padding-bottom: 20px;
+        }
+        .map-and-info {
+          display: flex;
+          flex-direction: column;
+          .map-contact {
+            iframe {
+              width: 738px;
+              height: 312px;
+            }
+          }
+          .contact-contenedor {
+            .contact-info {
+              display: flex;
+              justify-content: space-between;
+              .contact-info-data {
+                margin: 20px;
+              }
+            }
+            .contact-form-container {
+              margin: 0 0 0 -10px;
+              .contact-form {
+                .contact-input {
+                  width: 690px;
+                }
+              }
+            }
+          }
+        }
+      }
       .datos {
         display: flex;
         flex-direction: column;

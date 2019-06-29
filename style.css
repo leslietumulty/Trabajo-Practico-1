@@ -1445,6 +1445,61 @@ html {
       margin-top: 0; }
   html body .foto-header {
     margin-bottom: 0; }
+  html body .about-us-section {
+    height: 3040px; }
+    html body .about-us-section .header-about {
+      margin-top: -690px; }
+      html body .about-us-section .header-about .header-about-title {
+        margin-top: -294px; }
+      html body .about-us-section .header-about .header-about-description {
+        height: 127px;
+        width: 345px;
+        padding: 0; }
+    html body .about-us-section .contenido-about {
+      display: flex;
+      flex-direction: column-reverse; }
+      html body .about-us-section .contenido-about .contenido-iconos-about .caja-about {
+        width: 330px;
+        margin-right: 10px; }
+        html body .about-us-section .contenido-about .contenido-iconos-about .caja-about .contenido-iconos-description {
+          margin-right: 6px;
+          font-size: 14px;
+          width: 610px; }
+      html body .about-us-section .contenido-about .contenido-iconos-about .magni {
+        padding-bottom: 20px;
+        width: 610px; }
+      html body .about-us-section .contenido-about .contenido-iconos-about .contenido-iconos-description-ppal {
+        width: 690px; }
+      html body .about-us-section .contenido-about .contenido-img-about {
+        height: 521px;
+        width: 690px;
+        padding-left: 14px;
+        margin-top: -100px; }
+    html body .about-us-section .text-about {
+      display: flex;
+      flex-direction: column; }
+      html body .about-us-section .text-about .mobile-img-about-one {
+        height: 376px;
+        width: 690px;
+        margin-left: 351px;
+        padding-top: 398px; }
+      html body .about-us-section .text-about .mobile-title-about {
+        width: 690px;
+        margin: 40px 0 0 351px; }
+      html body .about-us-section .text-about .text-contenido-descripcion {
+        width: 690px;
+        margin-left: 351px; }
+      html body .about-us-section .text-about .mobile-title-about-two {
+        width: 690px;
+        margin-left: 362px;
+        margin-top: 1500px; }
+      html body .about-us-section .text-about .description-mobile-about {
+        padding-top: 0; }
+      html body .about-us-section .text-about .mobile-img-about-two {
+        height: 524px;
+        width: 690px;
+        margin-left: 362px;
+        margin-top: 605px; }
   html body .testimonials-cards {
     width: 150px; }
   html body .testimonios-lista {
@@ -1454,6 +1509,61 @@ html {
     justify-content: center; }
     html body .testimonios-lista .testimonials-img-client {
       width: 50px; }
+  html body .team-section {
+    height: 998px; }
+    html body .team-section .header-team .header-team-description {
+      width: 330px; }
+    html body .team-section .contenedor-team {
+      display: flex;
+      flex-wrap: wrap; }
+      html body .team-section .contenedor-team .card-batman1 {
+        height: 330px;
+        width: 330px;
+        border-radius: 180px;
+        margin-bottom: 20px; }
+        html body .team-section .contenedor-team .card-batman1 .member {
+          width: 330px; }
+      html body .team-section .contenedor-team .card-batman2 {
+        height: 330px;
+        width: 330px;
+        border-radius: 180px;
+        margin-bottom: 20px; }
+        html body .team-section .contenedor-team .card-batman2 .member {
+          width: 330px; }
+      html body .team-section .contenedor-team .card-batman3 {
+        height: 330px;
+        width: 330px;
+        border-radius: 180px;
+        margin-bottom: 20px; }
+        html body .team-section .contenedor-team .card-batman3 .member {
+          width: 330px; }
+      html body .team-section .contenedor-team .card-batman4 {
+        height: 330px;
+        width: 330px;
+        border-radius: 180px;
+        margin-bottom: 20px; }
+        html body .team-section .contenedor-team .card-batman4 .member {
+          width: 330px; }
+  html body .contact-us-section {
+    height: 937px; }
+    html body .contact-us-section .contact-us-title {
+      margin-top: 68px;
+      padding-bottom: 20px; }
+    html body .contact-us-section .map-and-info {
+      display: flex;
+      flex-direction: column; }
+      html body .contact-us-section .map-and-info .map-contact iframe {
+        width: 738px;
+        height: 312px; }
+      html body .contact-us-section .map-and-info .contact-contenedor .contact-info {
+        display: flex;
+        justify-content: space-between; }
+        html body .contact-us-section .map-and-info .contact-contenedor .contact-info .contact-info-data {
+          margin: 20px; }
+      html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container {
+        margin: 0 0 0 -10px; }
+        html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-input {
+          width: 690px; }
   html body .datos {
     display: flex;
     flex-direction: column; }
