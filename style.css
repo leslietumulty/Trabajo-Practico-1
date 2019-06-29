@@ -684,7 +684,7 @@ html {
       height: 90px;
       margin-bottom: 40px; }
       html body .contador .contador-grupo1 {
-        width: 490px;
+        width: 480px;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly; }
@@ -713,7 +713,7 @@ html {
             color: white;
             margin-top: 8px; }
       html body .contador .contador-grupo2 {
-        width: 490px;
+        width: 480px;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly; }
@@ -1681,11 +1681,11 @@ html {
         html body .team-section .contenedor-team .card-batman4 .member {
           width: 330px; }
   html body .our-clients {
-    height: 900px;
+    height: 950px;
     align-items: center;
     justify-content: center; }
     html body .our-clients .encabezado-clients {
-      margin-bottom: 20px;
+      margin-bottom: 25px;
       align-items: center; }
       html body .our-clients .encabezado-clients .descripcion-encabezado-clients {
         width: 250px; }
@@ -2036,9 +2036,6 @@ html {
         margin: 68px 0 0 -30px; }
         html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-input {
           width: 330px; } }
-
-.porfolio {
-  height: 2000px; }
 
 /*
   .contenedor-imagenes-porfolio {
