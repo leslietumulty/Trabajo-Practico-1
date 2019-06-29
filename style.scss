@@ -256,6 +256,7 @@ html {
       align-items: center;
       justify-content: space-evenly;
       flex-direction: column;
+      box-shadow: inset 0 0 12px 1px rgba(0, 0, 0, 0.1);
       .encabezado-services {
         height: 220px;
         text-align: center;
@@ -556,6 +557,8 @@ html {
       align-items: center;
       justify-content: space-evenly;
       flex-direction: column;
+      flex-wrap: wrap;
+      box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
       .encabezado-why {
         height: 220px;
         text-align: center;
@@ -589,6 +592,7 @@ html {
         line-height: 22.5px;
         justify-content: space-evenly;
         flex-direction: column;
+        transition: all 0.4s;
         @include caja-why-choose;
         &:hover {
           background-color: #003b7a;
@@ -635,6 +639,7 @@ html {
       justify-content: space-evenly;
       flex-direction: column;
       line-height: 22.5px;
+      transition: all 0.4s;
       @include caja-why-choose;
       &:hover {
         background-color: #003b7a;
@@ -680,7 +685,9 @@ html {
       justify-content: space-evenly;
       flex-direction: column;
       line-height: 22.5px;
+      transition: all 0.4s;
       @include caja-why-choose;
+      border-radius: 6px;
       &:hover {
         background-color: #003b7a;
       }
@@ -722,7 +729,7 @@ html {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      width: 940px;
+       width: 940px;
       height: 90px;
       margin-bottom: 40px;
       .clients {
@@ -991,6 +998,50 @@ html {
     }
     // Fin de Portfolio
 
+   
+    // Testimonials
+    .testimonials-section {
+      background-color: #ecf5ff;
+      box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+      .testimonials-title {
+        @include titulos-secciones;
+        @include flex-center;
+        color: #283d50;
+        font-weight: 500;
+      }
+      .testimonials-cards {
+        ul {
+          list-style: none;
+          display: flex;
+          li {
+            .testimonials-img-client {
+              width: 120px;
+              border: 4px solid #fff;
+              float: left;
+              border-radius: 50%;
+              img {
+                @include height-auto;
+                border-radius: 50%;
+              }
+            }
+            .testimonials-name-client {
+              @include testimonials-nombre;
+            }
+            .testimonials-data-client {
+              font-family: "Montserrat", sans-serif;
+              font-weight: 400;
+              font-size: 14px;
+              color: #999;
+            }
+            .testimonials-description-client {
+              font-style: italic;
+              font-family: "Open Sans", sans-serif;
+            }
+          }
+        }
+        }
+        }
+        
     // Team
     .team-section {
       height: 563px;
@@ -1061,7 +1112,7 @@ html {
             }
           }
         }
-        .card-batman2 {
+              .card-batman2 {
           background-image: url(./Imagenes/Section5Team/team-02.jpg);
           @include card-batman;
           .member {
@@ -1107,93 +1158,93 @@ html {
             }
           }
         }
-        .card-batman3 {
-          background-image: url(./Imagenes/Section5Team/team-03.jpg);
-          @include card-batman;
-          .member {
-            @include flex-center;
-            text-align: center;
-            width: 255px;
-            height: 255px;
-            &:hover {
-              background-color: rgba(0, 62, 128, 0.7);
-              opacity: 1;
-              transition: 0.4s;
+      }
+      .card-batman3 {
+        background-image: url(./Imagenes/Section5Team/team-03.jpg);
+        @include card-batman;
+        .member {
+          @include flex-center;
+          text-align: center;
+          width: 255px;
+          height: 255px;
+          &:hover {
+            background-color: rgba(0, 62, 128, 0.7);
+            opacity: 1;
+            transition: 0.4s;
+          }
+          .info-member {
+            .info-member-title {
+              @include titulos-iconos;
+              color: #fff;
+              margin-bottom: 0;
             }
-            .info-member {
-              .info-member-title {
-                @include titulos-iconos;
-                color: #fff;
-                margin-bottom: 0;
-              }
-              .info-member-description {
-                font-family: "Open Sans", sans-serif;
-                font-style: italic;
-                font-size: 13px;
-                color: #fff;
-              }
+            .info-member-description {
+              font-family: "Open Sans", sans-serif;
+              font-style: italic;
+              font-size: 13px;
+              color: #fff;
             }
-            .social-member {
-              margin-top: 20px;
-              .social-member-icon {
-                .google-team {
-                  width: 25px;
-                  height: 20px;
-                  color: white;
-                }
-                .social-member-svg {
-                  width: 18px;
-                  height: 18px;
-                  color: white;
-                  &:hover {
-                    color: #007bff;
-                  }
+          }
+          .social-member {
+            margin-top: 20px;
+            .social-member-icon {
+              .google-team {
+                width: 25px;
+                height: 20px;
+                color: white;
+              }
+              .social-member-svg {
+                width: 18px;
+                height: 18px;
+                color: white;
+                &:hover {
+                  color: #007bff;
                 }
               }
             }
           }
         }
-        .card-batman4 {
-          background-image: url(./Imagenes/Section5Team/team-04.jpg);
-          @include card-batman;
-          .member {
-            @include flex-center;
-            text-align: center;
-            width: 255px;
-            height: 255px;
-            &:hover {
-              background-color: rgba(0, 62, 128, 0.7);
-              opacity: 1;
-              transition: 0.4s;
+      }
+      .card-batman4 {
+        background-image: url(./Imagenes/Section5Team/team-04.jpg);
+        @include card-batman;
+        .member {
+          @include flex-center;
+          text-align: center;
+          width: 255px;
+          height: 255px;
+          &:hover {
+            background-color: rgba(0, 62, 128, 0.7);
+            opacity: 1;
+            transition: 0.4s;
+          }
+          .info-member {
+            .info-member-title {
+              @include titulos-iconos;
+              color: #fff;
+              margin-bottom: 0;
             }
-            .info-member {
-              .info-member-title {
-                @include titulos-iconos;
-                color: #fff;
-                margin-bottom: 0;
-              }
-              .info-member-description {
-                font-family: "Open Sans", sans-serif;
-                font-style: italic;
-                font-size: 13px;
-                color: #fff;
-              }
+            .info-member-description {
+              font-family: "Open Sans", sans-serif;
+              font-style: italic;
+              font-size: 13px;
+              color: #fff;
             }
-            .social-member {
-              margin-top: 20px;
-              .social-member-icon {
-                .google-team {
-                  width: 25px;
-                  height: 20px;
-                  color: white;
-                }
-                .social-member-svg {
-                  width: 18px;
-                  height: 18px;
-                  color: white;
-                  &:hover {
-                    color: #007bff;
-                  }
+          }
+          .social-member {
+            margin-top: 20px;
+            .social-member-icon {
+              .google-team {
+                width: 25px;
+                height: 20px;
+                color: white;
+              }
+              .social-member-svg {
+                width: 18px;
+                height: 18px;
+                color: white;
+                &:hover {
+                  color: #007bff;
                 }
               }
             }
@@ -1203,7 +1254,98 @@ html {
     }
     // Fin de Team
 
-    // Contact Us
+    // Our clients
+    .our-clients {
+      height: 638px;
+      background-color: $fondo-secundario;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+      .encabezado-clients {
+        height: 150px;
+        text-align: center;
+        margin-top:50px;
+        .titulo-encabezado-clients {
+          @include titulos-secciones;
+          color: #283d50;
+                 }
+        .descripcion-encabezado-clients {
+          text-align: center;
+          height: 80px;
+          width: 555px;
+          @include descripciones-secciones;
+          color: #556877;
+          margin-top: 20px;
+        }
+      }
+      .contenedor-clients {
+        flex-direction: column;
+        height: 300px;
+        width: 1140px;
+        margin-bottom: 60px;
+        margin-left:50px;
+
+        .fila-logos-1 {
+          display: flex;
+          flex-direction: row;
+          height: 161px;
+          width: 1080;
+          .contenedor-logo-clientes {
+            align-items: center;
+            justify-content: space-around;
+            height: 160px;
+            width: 267px;
+            border: 1px solid #d6eaff;
+            background-color: #ffffff;
+            &:hover {
+              .logo-clientes:hover{
+            transform: scale(1.25)
+            }
+            }
+            .logo-clientes {
+              height: 64px;
+              width: 149px;
+              padding-top: 30px;
+              transition: all 0.8s;
+                           img {
+                @include height-auto;
+                     }
+            }
+          }
+         }
+        .fila-logos-2 {
+          display: flex;
+          flex-direction: row;
+          height: 161px;
+          width: 1080;
+          .contenedor-logo-clientes {
+            height: 160px;
+            width: 267px;
+            border: 1px solid #d6eaff;
+            margin: 0;
+            background-color: #ffffff;
+          }
+          .logo-clientes {
+            height: 64px;
+            width: 149px;
+            transition: all 0.8s;
+            padding-top: 30px;
+            &:hover {
+              transform: scale(1.25);
+            }
+            img {
+              @include height-auto;
+            }
+          }
+        }
+      }
+    }
+  
+    // Fin de Our Clients
+ 
+        // Contact Us
     .contact-us-section {
       height: 550px;
       .contact-us-title {
@@ -1390,11 +1532,10 @@ html {
         @include iconos-footer;
       }
     }
-  }
 
-  .noticias {
-    width: 255px;
-  }
+    .noticias {
+      width: 255px;
+    }
 
   .noticias-titulo {
     font-size: 14px;
@@ -1404,15 +1545,16 @@ html {
     position: relative;
     padding-bottom: 40px;
   }
-
   .noticias-texto {
     font-size: 14px;
     padding: 0px;
     margin: 0px 0px 20px;
   }
+.footer-email-sub {
+  @include flex;
 }
 
-.footer-email-sub {
+.sub-email {
   @include flex;
 }
 
@@ -1449,6 +1591,74 @@ html {
       text-align: center;
       font-size: 13px;
       color: #f1f7ff;
+    }
+  }
+}
+}
+}
+@media (min-width: 360px) and (max-width: 768px) {
+  html {
+    body{
+      header {
+        @include header-responsive;
+        height:813px;
+  }
+  .texto-header {
+    margin-top:0;
+    .provide {
+      margin-top:0;
+            }
+      }
+.foto-header {
+  margin-bottom: 0;
+}
+      }
+    }
+  }
+
+
+@media (max-width: 360px){
+  html {
+    body{
+      header {
+        @include header-responsive;
+        height:454px;
+  
+  .texto-header {
+    margin-top:0;
+    .provide {
+      margin-top:0;
+      font-size: 34px;
+      height:120px;
+      width:330px;
+                }
+              }
+      .botones{
+        flex-direction: column;
+        .get-started, .our-services{
+          height: 45px;
+          width:163px;
+        }
+      }
+.foto-header {
+  margin-bottom: 0;
+  height:150px;
+  width: 264px;
+  img{
+    @include height-auto;
+  }
+}
+} 
+
+      .about-us-section{
+        height: 2882px;
+        .header-about{
+          .header-about-description{
+            height: 127px ;
+            width: 330px;
+          }
+        }
+      }
     }
   }
 }

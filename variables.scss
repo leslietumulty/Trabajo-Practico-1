@@ -121,6 +121,8 @@ $p-about: #556877;
   font-size: 16px;
   color: #444444;
 }
+
+
 @mixin cajas-services {
   background-color: #ffffff;
   height: 168px;
@@ -132,21 +134,6 @@ $p-about: #556877;
   height: 295px;
   width: 320px;
   border-radius: 10px;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  color: #444444;
-}
-@mixin cajas-services {
-  background-color: #ffffff;
-  height: 168px;
-  width: 425px;
-  border-radius: 50px;
-}
-@mixin caja-why-choose {
-  background-color: #003b7a;
-  height: 295px;
-  width: 320px;
-  border-radius: 50px;
 }
 
 @mixin flex-center {
@@ -172,4 +159,10 @@ $p-about: #556877;
   font-size: 20px;
   font-weight: bold;
   color: #111;
+}
+@mixin header-responsive {
+  flex-direction:column-reverse;
+text-align: center;
+justify-content: space-evenly;
+
 }
