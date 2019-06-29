@@ -1486,34 +1486,34 @@ html {
         margin-top: -100px; }
     html body .about-us-section .text-about {
       display: flex;
-      flex-direction: column; }
+      flex-direction: column;
+      width: 760px; }
       html body .about-us-section .text-about .mobile-img-about-one {
         height: 376px;
         width: 690px;
-        margin-left: 351px;
         padding-top: 398px; }
+        html body .about-us-section .text-about .mobile-img-about-one img {
+          height: 100%;
+          width: auto; }
       html body .about-us-section .text-about .mobile-title-about {
-        width: 690px;
-        margin: 40px 0 0 351px; }
+        width: 690px; }
       html body .about-us-section .text-about .text-contenido-descripcion {
-        width: 690px;
-        margin-left: 351px; }
+        width: 690px; }
       html body .about-us-section .text-about .mobile-title-about-two {
         width: 690px;
-        margin-left: 362px;
         margin-top: 1500px; }
       html body .about-us-section .text-about .description-mobile-about {
         padding-top: 0; }
       html body .about-us-section .text-about .mobile-img-about-two {
         height: 524px;
         width: 690px;
-        margin-left: 362px;
         margin-top: 605px; }
   html body #services {
     height: 1010px; }
     html body #services .columnas-services {
       justify-content: center;
-      align-items: center; }
+      align-items: center;
+      width: 700px; }
       html body #services .columnas-services .columna-iconos-1 {
         width: 315px;
         margin: 25px; }
@@ -1834,28 +1834,27 @@ html {
         padding-left: 14px; }
     html body .about-us-section .text-about {
       display: flex;
-      flex-direction: column; }
+      flex-direction: column;
+      width: 350px; }
       html body .about-us-section .text-about .mobile-img-about-one {
         height: 180px;
         width: 330px;
-        margin-left: 539px;
         padding-top: 150px; }
       html body .about-us-section .text-about .mobile-title-about {
-        width: 330px;
-        margin: 40px 0 0 540px; }
+        width: 300px;
+        margin: 0; }
       html body .about-us-section .text-about .text-contenido-descripcion {
         width: 330px;
-        margin-left: 544px; }
+        margin: 0; }
       html body .about-us-section .text-about .mobile-title-about-two {
         margin-top: 738px;
-        margin-left: 547px;
         width: 330px; }
       html body .about-us-section .text-about .description-mobile-about {
-        padding-top: 0; }
+        padding-top: 0;
+        width: 330px; }
       html body .about-us-section .text-about .mobile-img-about-two {
         height: 250px;
         width: 330px;
-        margin-left: 543px;
         margin-top: 130px; }
   html body #services {
     height: 1610px;
@@ -1869,7 +1868,8 @@ html {
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      height: 1400px; }
+      height: 1400px;
+      width: 340px; }
       html body #services .columnas-services .columna-iconos-1 {
         width: 315px;
         margin-bottom: 0; }

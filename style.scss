@@ -1715,24 +1715,28 @@ html {
         .text-about {
           display: flex;
           flex-direction: column;
+          width: 760px;
 
           .mobile-img-about-one {
             height: 376px;
             width: 690px;
-            margin-left: 351px;
             padding-top: 398px;
+            img {
+              height: 100%;
+              width: auto;
+            }
           }
           .mobile-title-about {
             width: 690px;
-            margin: 40px 0 0 351px;
+            
           }
           .text-contenido-descripcion {
             width: 690px;
-            margin-left: 351px;
+         
           }
           .mobile-title-about-two {
             width: 690px;
-            margin-left: 362px;
+           
             margin-top: 1500px;
           }
           .description-mobile-about {
@@ -1741,7 +1745,7 @@ html {
           .mobile-img-about-two {
             height: 524px;
             width: 690px;
-            margin-left: 362px;
+            
             margin-top: 605px;
           }
         }
@@ -1752,6 +1756,7 @@ html {
         .columnas-services {
           justify-content: center;
           align-items: center;
+          width:700px;
           .columna-iconos-1 {
             width: 315px;
             margin: 25px;
@@ -2109,33 +2114,33 @@ html {
         .text-about {
           display: flex;
           flex-direction: column;
+          width:350px;
           .mobile-img-about-one {
             height: 180px;
             width: 330px;
-            margin-left: 539px;
-            padding-top: 150px;
+           padding-top: 150px;
           }
+          
           .mobile-title-about {
-            width: 330px;
-            margin: 40px 0 0 540px;
-          }
+            width: 300px;
+            margin:0;
+            }
           .text-contenido-descripcion {
             width: 330px;
-            margin-left: 544px;
+            margin:0;
           }
           .mobile-title-about-two {
             margin-top: 738px;
-            margin-left: 547px;
             width: 330px;
           }
           .description-mobile-about {
             padding-top: 0;
+            width:330px;
           }
           .mobile-img-about-two {
             height: 250px;
             width: 330px;
-            margin-left: 543px;
-            margin-top: 130px;
+             margin-top: 130px;
           }
         }
       }
@@ -2154,6 +2159,7 @@ html {
           align-items: center;
           flex-direction: column;
           height: 1400px;
+          width: 340px;
           .columna-iconos-1 {
             width: 315px;
             margin-bottom: 0;
