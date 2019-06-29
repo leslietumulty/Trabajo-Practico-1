@@ -1498,6 +1498,7 @@ html {
       html body header .foto-header img {
         width: 100%;
         height: auto; }
+<<<<<<< HEAD
     html body header .testimonials-cards {
       width: 50px; }
   .porfolio {
@@ -1532,3 +1533,64 @@ html {
     .about-us-section .header-about .header-about-description {
       height: 127px;
       width: 330px; } }
+=======
+  html body .about-us-section {
+    height: 2770px; }
+    html body .about-us-section .header-about {
+      margin-top: -690px; }
+      html body .about-us-section .header-about .header-about-description {
+        height: 127px;
+        width: 330px;
+        padding: 0; }
+    html body .about-us-section .contenido-about {
+      display: flex;
+      flex-direction: column-reverse; }
+      html body .about-us-section .contenido-about .contenido-iconos-about .caja-about {
+        width: 330px;
+        margin-right: 10px; }
+        html body .about-us-section .contenido-about .contenido-iconos-about .caja-about .contenido-iconos-description {
+          margin-right: 6px;
+          font-size: 14px; }
+      html body .about-us-section .contenido-about .contenido-iconos-about .magni {
+        padding-bottom: 20px; }
+      html body .about-us-section .contenido-about .contenido-iconos-about .contenido-iconos-description-ppal {
+        height: 156px;
+        width: 330px; }
+      html body .about-us-section .contenido-about .contenido-img-about {
+        height: 249px;
+        width: 330px;
+        padding-left: 14px; }
+    html body .about-us-section .text-about {
+      display: flex;
+      flex-direction: column; }
+      html body .about-us-section .text-about .mobile-img-about-one {
+        height: 180px;
+        width: 330px;
+        margin-left: 539px;
+        padding-top: 150px; }
+      html body .about-us-section .text-about .mobile-title-about {
+        width: 330px;
+        margin: 40px 0 0 540px; }
+      html body .about-us-section .text-about .text-contenido-descripcion {
+        width: 330px;
+        margin-left: 544px; }
+      html body .about-us-section .text-about .mobile-title-about-two {
+        margin-top: 738px;
+        margin-left: 547px;
+        width: 330px; }
+      html body .about-us-section .text-about .description-mobile-about {
+        padding-top: 0; }
+      html body .about-us-section .text-about .mobile-img-about-two {
+        height: 250px;
+        width: 330px;
+        margin-left: 543px;
+        margin-top: 130px; } }
+
+.foto-header {
+  margin-bottom: 0;
+  height: 150px;
+  width: 264px; }
+  .foto-header img {
+    width: 100%;
+    height: auto; }
+>>>>>>> 3fb327328a08177141ab700b858e3570ff20aa43
