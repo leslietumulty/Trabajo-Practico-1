@@ -1601,17 +1601,17 @@ html {
       header {
         @include header-responsive;
         height: 813px;
-      
-      .texto-header {
-        margin-top: 0;
-        .provide {
+
+        .texto-header {
           margin-top: 0;
+          .provide {
+            margin-top: 0;
+          }
+        }
+        .foto-header {
+          margin-bottom: 0;
         }
       }
-      .foto-header {
-        margin-bottom: 0;
-      }
-    }
     }
   }
 }
@@ -1624,19 +1624,29 @@ html {
         height: 454px;
         justify-content: center;
         align-items: center;
-
+        padding-bottom: 20px;
         .texto-header {
           margin-top: 0;
           .provide {
             margin-top: 0;
             font-size: 34px;
-            height: 120px;
-            width: 330px;
           }
-        }
-        .botones {
-          display: flex;
-          flex-direction: column;
+          .botones {
+            display: flex;
+            flex-direction: column;
+            margin-left: 65px;
+            .get-started {
+              height: 30px;
+              padding: 0;
+              padding-top: 13px;
+              margin-bottom: 10px;
+            }
+            .our-services {
+              height: 30px;
+              padding: 0;
+              padding-top: 13px;
+            }
+          }
         }
 
         .foto-header {
@@ -1645,6 +1655,16 @@ html {
           width: 264px;
           img {
             @include height-auto;
+          }
+        }
+      }
+
+      .about-us-section {
+        height: 2882px;
+        .header-about {
+          .header-about-description {
+            height: 127px;
+            width: 330px;
           }
         }
       }

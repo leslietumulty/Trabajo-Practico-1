@@ -1421,21 +1421,35 @@ html {
     justify-content: space-evenly;
     height: 454px;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    padding-bottom: 20px; }
     html body header .texto-header {
       margin-top: 0; }
       html body header .texto-header .provide {
         margin-top: 0;
-        font-size: 34px;
-        height: 120px;
-        width: 330px; }
-    html body header .botones {
-      display: flex;
-      flex-direction: column; }
+        font-size: 34px; }
+      html body header .texto-header .botones {
+        display: flex;
+        flex-direction: column;
+        margin-left: 65px; }
+        html body header .texto-header .botones .get-started {
+          height: 30px;
+          padding: 0;
+          padding-top: 13px;
+          margin-bottom: 10px; }
+        html body header .texto-header .botones .our-services {
+          height: 30px;
+          padding: 0;
+          padding-top: 13px; }
     html body header .foto-header {
       margin-bottom: 0;
       height: 150px;
       width: 264px; }
       html body header .foto-header img {
         width: 100%;
-        height: auto; } }
+        height: auto; }
+  html body .about-us-section {
+    height: 2882px; }
+    html body .about-us-section .header-about .header-about-description {
+      height: 127px;
+      width: 330px; } }
