@@ -729,7 +729,7 @@ html {
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-       width: 940px;
+      width: 940px;
       height: 90px;
       margin-bottom: 40px;
       .clients {
@@ -998,7 +998,6 @@ html {
     }
     // Fin de Portfolio
 
-   
     // Testimonials
     .testimonials-section {
       background-color: #ecf5ff;
@@ -1039,9 +1038,9 @@ html {
             }
           }
         }
-        }
-        }
-        
+      }
+    }
+
     // Team
     .team-section {
       height: 563px;
@@ -1112,7 +1111,7 @@ html {
             }
           }
         }
-              .card-batman2 {
+        .card-batman2 {
           background-image: url(./Imagenes/Section5Team/team-02.jpg);
           @include card-batman;
           .member {
@@ -1266,11 +1265,11 @@ html {
       .encabezado-clients {
         height: 150px;
         text-align: center;
-        margin-top:50px;
+        margin-top: 50px;
         .titulo-encabezado-clients {
           @include titulos-secciones;
           color: #283d50;
-                 }
+        }
         .descripcion-encabezado-clients {
           text-align: center;
           height: 80px;
@@ -1285,7 +1284,7 @@ html {
         height: 300px;
         width: 1140px;
         margin-bottom: 60px;
-        margin-left:50px;
+        margin-left: 50px;
 
         .fila-logos-1 {
           display: flex;
@@ -1300,21 +1299,21 @@ html {
             border: 1px solid #d6eaff;
             background-color: #ffffff;
             &:hover {
-              .logo-clientes:hover{
-            transform: scale(1.25)
-            }
+              .logo-clientes:hover {
+                transform: scale(1.25);
+              }
             }
             .logo-clientes {
               height: 64px;
               width: 149px;
               padding-top: 30px;
               transition: all 0.8s;
-                           img {
+              img {
                 @include height-auto;
-                     }
+              }
             }
           }
-         }
+        }
         .fila-logos-2 {
           display: flex;
           flex-direction: row;
@@ -1342,10 +1341,10 @@ html {
         }
       }
     }
-  
+
     // Fin de Our Clients
- 
-        // Contact Us
+
+    // Contact Us
     .contact-us-section {
       height: 550px;
       .contact-us-title {
@@ -1537,120 +1536,118 @@ html {
       width: 255px;
     }
 
-  .noticias-titulo {
-    font-size: 14px;
-    font-weight: bold;
-    color: #fff;
-    text-transform: uppercase;
-    position: relative;
-    padding-bottom: 40px;
-  }
-  .noticias-texto {
-    font-size: 14px;
-    padding: 0px;
-    margin: 0px 0px 20px;
-  }
-.footer-email-sub {
-  @include flex;
-}
-
-.sub-email {
-  @include flex;
-}
-
-.email {
-  border: 0;
-  padding: 6px 8px;
-  width: 65%;
-}
-.sub {
-  background: #007bff;
-  border: 0;
-  width: 35%;
-  padding: 6px 0;
-  text-align: center;
-  color: #fff;
-}
-
-.footer-fondo {
-  background: #002f61;
-  padding: 0 0 30px 0;
-  color: #eee;
-  font-size: 14px;
-  @include flex;
-  @include centrar;
-  .footer-contenedor {
-    width: 1140px;
-    font-family: "Montserrat", sans-serif;
-    .copy {
-      text-align: center;
-      padding-top: 30px;
+    .noticias-titulo {
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      text-transform: uppercase;
+      position: relative;
+      padding-bottom: 40px;
+    }
+    .noticias-texto {
+      font-size: 14px;
+      padding: 0px;
+      margin: 0px 0px 20px;
+    }
+    .footer-email-sub {
+      @include flex;
     }
 
-    .diseño {
+    .sub-email {
+      @include flex;
+    }
+
+    .email {
+      border: 0;
+      padding: 6px 8px;
+      width: 65%;
+    }
+    .sub {
+      background: #007bff;
+      border: 0;
+      width: 35%;
+      padding: 6px 0;
       text-align: center;
-      font-size: 13px;
-      color: #f1f7ff;
+      color: #fff;
+    }
+
+    .footer-fondo {
+      background: #002f61;
+      padding: 0 0 30px 0;
+      color: #eee;
+      font-size: 14px;
+      @include flex;
+      @include centrar;
+      .footer-contenedor {
+        width: 1140px;
+        font-family: "Montserrat", sans-serif;
+        .copy {
+          text-align: center;
+          padding-top: 30px;
+        }
+
+        .diseño {
+          text-align: center;
+          font-size: 13px;
+          color: #f1f7ff;
+        }
+      }
     }
   }
-}
-}
 }
 @media (min-width: 360px) and (max-width: 768px) {
   html {
-    body{
+    body {
       header {
         @include header-responsive;
-        height:813px;
-  }
-  .texto-header {
-    margin-top:0;
-    .provide {
-      margin-top:0;
-            }
-      }
-.foto-header {
-  margin-bottom: 0;
-}
-      }
-    }
-  }
-
-
-@media (max-width: 360px){
-  html {
-    body{
-      header {
-        @include header-responsive;
-        height:454px;
-  
-  .texto-header {
-    margin-top:0;
-    .provide {
-      margin-top:0;
-      font-size: 34px;
-      height:120px;
-      width:330px;
-                }
-              }
-      .botones{
-        flex-direction: column;
-        .get-started, .our-services{
-          height: 45px;
-          width:163px;
+        height: 813px;
+      
+      .texto-header {
+        margin-top: 0;
+        .provide {
+          margin-top: 0;
         }
       }
-.foto-header {
-  margin-bottom: 0;
-  height:150px;
-  width: 264px;
-  img{
-    @include height-auto;
+      .foto-header {
+        margin-bottom: 0;
+      }
+    }
+    }
   }
 }
-} 
-    }
-  
-  }
 
+@media (max-width: 360px) {
+  html {
+    body {
+      header {
+        @include header-responsive;
+        height: 454px;
+        justify-content: center;
+        align-items: center;
+
+        .texto-header {
+          margin-top: 0;
+          .provide {
+            margin-top: 0;
+            font-size: 34px;
+            height: 120px;
+            width: 330px;
+          }
+        }
+        .botones {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .foto-header {
+          margin-bottom: 0;
+          height: 150px;
+          width: 264px;
+          img {
+            @include height-auto;
+          }
+        }
+      }
+    }
+  }
 }

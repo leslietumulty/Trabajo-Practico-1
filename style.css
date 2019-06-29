@@ -1407,19 +1407,21 @@ html {
     text-align: center;
     justify-content: space-evenly;
     height: 813px; }
-  html body .texto-header {
-    margin-top: 0; }
-    html body .texto-header .provide {
+    html body header .texto-header {
       margin-top: 0; }
-  html body .foto-header {
-    margin-bottom: 0; } }
+      html body header .texto-header .provide {
+        margin-top: 0; }
+    html body header .foto-header {
+      margin-bottom: 0; } }
 
 @media (max-width: 360px) {
   html body header {
     flex-direction: column-reverse;
     text-align: center;
     justify-content: space-evenly;
-    height: 454px; }
+    height: 454px;
+    justify-content: center;
+    align-items: center; }
     html body header .texto-header {
       margin-top: 0; }
       html body header .texto-header .provide {
@@ -1428,10 +1430,8 @@ html {
         height: 120px;
         width: 330px; }
     html body header .botones {
+      display: flex;
       flex-direction: column; }
-      html body header .botones .get-started, html body header .botones .our-services {
-        height: 45px;
-        width: 163px; }
     html body header .foto-header {
       margin-bottom: 0;
       height: 150px;
