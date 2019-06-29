@@ -1439,10 +1439,9 @@ html {
     text-align: center;
     justify-content: space-evenly;
     height: 813px; }
-  html body .texto-header {
-    margin-top: 0; }
-    html body .texto-header .provide {
+    html body header .texto-header {
       margin-top: 0; }
+<<<<<<< HEAD
   html body .foto-header {
     margin-bottom: 0; }
   html body .about-us-section {
@@ -1500,6 +1499,12 @@ html {
         width: 690px;
         margin-left: 362px;
         margin-top: 605px; }
+=======
+      html body header .texto-header .provide {
+        margin-top: 0; }
+    html body header .foto-header {
+      margin-bottom: 0; }
+>>>>>>> 543a215fb72002cc1543e8315dc882622e5798ed
   html body .testimonials-cards {
     width: 150px; }
   html body .testimonios-lista {
@@ -1584,20 +1589,28 @@ html {
     flex-direction: column-reverse;
     text-align: center;
     justify-content: space-evenly;
-    height: 454px; }
+    height: 454px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px; }
     html body header .texto-header {
       margin-top: 0; }
       html body header .texto-header .provide {
         margin-top: 0;
-        font-size: 34px;
-        height: 120px;
-        width: 330px; }
-    html body header .botones {
-      flex-direction: column; }
-      html body header .botones .get-started,
-      html body header .botones .our-services {
-        height: 45px;
-        width: 163px; }
+        font-size: 34px; }
+      html body header .texto-header .botones {
+        display: flex;
+        flex-direction: column;
+        margin-left: 65px; }
+        html body header .texto-header .botones .get-started {
+          height: 30px;
+          padding: 0;
+          padding-top: 13px;
+          margin-bottom: 10px; }
+        html body header .texto-header .botones .our-services {
+          height: 30px;
+          padding: 0;
+          padding-top: 13px; }
     html body header .foto-header {
       margin-bottom: 0;
       height: 150px;
@@ -1605,8 +1618,8 @@ html {
       html body header .foto-header img {
         width: 100%;
         height: auto; }
-    html body header .testimonials-cards {
-      width: 50px; }
+  html body .testimonials-cards {
+    width: 50px; }
   html body .about-us-section {
     height: 2770px; }
     html body .about-us-section .header-about {
@@ -1714,10 +1727,12 @@ html {
       html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container {
         margin: 68px 0 0 -30px; }
         html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-input {
-          width: 330px; }
-  .porfolio {
-    height: 2000px; }
-  /*
+          width: 330px; } }
+
+.porfolio {
+  height: 2000px; }
+
+/*
   .contenedor-imagenes-porfolio {
     display: flex;
     @include columnas;
@@ -1735,10 +1750,3 @@ html {
     }
   }
 */
-  .foto-header {
-    margin-bottom: 0;
-    height: 150px;
-    width: 264px; }
-    .foto-header img {
-      width: 100%;
-      height: auto; } }
