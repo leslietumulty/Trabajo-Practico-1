@@ -1658,6 +1658,48 @@ html {
         margin-bottom: 0;
       }
     }
+     #services{
+       height: 1010px;
+       .columnas-services {
+         justify-content: center;
+         align-items: center;
+        .columna-iconos-1{
+       width: 315px;
+        margin: 25px;
+       .lorem-services, .sed-services, .nemo-services {
+        height: 192px;
+        width: 310px;
+       .texto-services, .texto-sed, .texto-nemo{
+        height: 170px;
+        width: 200px;
+        margin-top:20px;
+        .descr-lorem, .descr-sed, .descr-nemo{
+          height: 96px;
+          width: 210px;
+        }
+       }
+      } 
+      }
+      .columna-iconos-2{
+        width: 315px;
+      margin:25px;
+        .dolor-services, .magni-services, .eiusmod-services{
+          height: 192px;
+          width: 310px;
+          .texto-dolor, .texto-magni, .texto-eiusmod{
+            height: 170px;
+        width: 200px;
+        margin-top:20px;
+          
+        .descr-dolor, .descr-magni, .descr-eiusmod {
+          height: 96px;
+          width: 210px;
+        }
+      }
+      }
+    }
+    }
+     }
       .testimonials-cards {
         width: 150px;
       }
@@ -1815,6 +1857,59 @@ html {
           }
         }
           
+        #services{
+          height: 1610px;
+          justify-content: space-between;
+          align-items: center;
+          .encabezado-services{
+            margin: 0;
+            .descripcion-services{
+              width:346px;
+            }
+          }
+          .columnas-services {
+            
+             justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height:1400px;
+           .columna-iconos-1{
+          width: 315px;
+           margin-bottom:0;
+          .lorem-services, .sed-services, .nemo-services {
+           height: 192px;
+           width: 310px;
+          .texto-services, .texto-sed, .texto-nemo{
+           height: 170px;
+           width: 200px;
+           margin-top:20px;
+           .descr-lorem, .descr-sed, .descr-nemo{
+             height: 96px;
+             width: 210px;
+           }
+          }
+         } 
+         }
+         .columna-iconos-2{
+           width: 315px;
+         margin-top:0
+           .dolor-services, .magni-services, .eiusmod-services{
+             height: 192px;
+             width: 310px;
+             .texto-dolor, .texto-magni, .texto-eiusmod{
+               height: 170px;
+           width: 200px;
+           margin-top:20px;
+             
+           .descr-dolor, .descr-magni, .descr-eiusmod {
+             height: 96px;
+             width: 210px;
+           }
+         }
+         }
+       }
+       }
+        }
       .team-section {
         height: 1668px;
         .header-team {
