@@ -1715,6 +1715,7 @@ html {
         .text-about {
           display: flex;
           flex-direction: column;
+
           .mobile-img-about-one {
             height: 376px;
             width: 690px;
@@ -1955,6 +1956,46 @@ html {
           }
         }
       }
+
+      .porfolio {
+        height: 2800px;
+      }
+      .contenedor-imagenes-porfolio {
+        height: 2700px;
+        display: flex;
+        @include columnas;
+        .tres-imagenes-porfolio-1 {
+          @include flex;
+          @include columnas;
+          margin-bottom: 30px;
+          width: 768px;
+        }
+        .tres-imagenes-porfolio-2 {
+          @include flex;
+          @include columnas;
+          margin-bottom: 30px;
+          width: 768px;
+        }
+        .tres-imagenes-porfolio-3 {
+          @include flex;
+          @include columnas;
+          margin-bottom: 30px;
+          width: 768px;
+        }
+      }
+
+      .porfolio-imagen-1,
+      .porfolio-imagen-2,
+      .porfolio-imagen-3,
+      .porfolio-imagen-4,
+      .porfolio-imagen-5,
+      .porfolio-imagen-6,
+      .porfolio-imagen-7,
+      .porfolio-imagen-8,
+      .porfolio-imagen-9 {
+        margin-bottom: 30px;
+      }
+
       .datos {
         display: flex;
         flex-direction: column;
@@ -2198,6 +2239,30 @@ html {
           }
         }
       }
+
+      .testimonials-section {
+        height: 1000px;
+        width: 360px;
+        overflow: hidden;
+      }
+
+      .testimonials-cards,
+      .testimonios-titulos-texto {
+        width: 360px;
+        overflow: hidden;
+      }
+
+      .testimonios-lista {
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 500px;
+
+        @include centrar;
+        .testimonials-img-client {
+          width: 50px;
+        }
+      }
       .team-section {
         height: 1668px;
         .header-team {
@@ -2309,25 +2374,41 @@ html {
           }
         }
       }
+      .porfolio {
+        height: 2800px;
+      }
+      .contenedor-imagenes-porfolio {
+        height: 2700px;
+        display: flex;
+        @include columnas;
+        .tres-imagenes-porfolio-1 {
+          @include flex;
+          @include columnas;
+          margin-bottom: 30px;
+        }
+        .tres-imagenes-porfolio-2 {
+          @include flex;
+          @include columnas;
+          margin-bottom: 30px;
+        }
+        .tres-imagenes-porfolio-3 {
+          @include flex;
+          @include columnas;
+          margin-bottom: 30px;
+        }
+      }
+
+      .porfolio-imagen-1,
+      .porfolio-imagen-2,
+      .porfolio-imagen-3,
+      .porfolio-imagen-4,
+      .porfolio-imagen-5,
+      .porfolio-imagen-6,
+      .porfolio-imagen-7,
+      .porfolio-imagen-8,
+      .porfolio-imagen-9 {
+        margin-bottom: 30px;
+      }
     }
   }
 }
-
-/*
-  .contenedor-imagenes-porfolio {
-    display: flex;
-    @include columnas;
-    .tres-imagenes-porfolio-1 {
-      @include flex;
-      @include columnas;
-    }
-    .tres-imagenes-porfolio-2 {
-      @include flex;
-      @include columnas;
-    }
-    .tres-imagenes-porfolio-3 {
-      @include flex;
-      @include columnas;
-    }
-  }
-*/

@@ -1721,6 +1721,40 @@ html {
         margin: 0 0 0 -10px; }
         html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-input {
           width: 690px; }
+  html body .porfolio {
+    height: 2800px; }
+  html body .contenedor-imagenes-porfolio {
+    height: 2700px;
+    display: flex;
+    flex-direction: column; }
+    html body .contenedor-imagenes-porfolio .tres-imagenes-porfolio-1 {
+      display: flex;
+      flex-direction: row;
+      flex-direction: column;
+      margin-bottom: 30px;
+      width: 768px; }
+    html body .contenedor-imagenes-porfolio .tres-imagenes-porfolio-2 {
+      display: flex;
+      flex-direction: row;
+      flex-direction: column;
+      margin-bottom: 30px;
+      width: 768px; }
+    html body .contenedor-imagenes-porfolio .tres-imagenes-porfolio-3 {
+      display: flex;
+      flex-direction: row;
+      flex-direction: column;
+      margin-bottom: 30px;
+      width: 768px; }
+  html body .porfolio-imagen-1,
+  html body .porfolio-imagen-2,
+  html body .porfolio-imagen-3,
+  html body .porfolio-imagen-4,
+  html body .porfolio-imagen-5,
+  html body .porfolio-imagen-6,
+  html body .porfolio-imagen-7,
+  html body .porfolio-imagen-8,
+  html body .porfolio-imagen-9 {
+    margin-bottom: 30px; }
   html body .datos {
     display: flex;
     flex-direction: column; }
@@ -1962,6 +1996,23 @@ html {
       html body .why-choose-us .contador .contador-grupo1,
       html body .why-choose-us .contador .contador-grupo2 {
         width: 280px; }
+  html body .testimonials-section {
+    height: 1000px;
+    width: 360px;
+    overflow: hidden; }
+  html body .testimonials-cards,
+  html body .testimonios-titulos-texto {
+    width: 360px;
+    overflow: hidden; }
+  html body .testimonios-lista {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 500px;
+    align-items: center;
+    justify-content: center; }
+    html body .testimonios-lista .testimonials-img-client {
+      width: 50px; }
   html body .team-section {
     height: 1668px; }
     html body .team-section .header-team .header-team-description {
@@ -2037,23 +2088,35 @@ html {
       html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container {
         margin: 68px 0 0 -30px; }
         html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-input {
-          width: 330px; } }
-
-/*
-  .contenedor-imagenes-porfolio {
+          width: 330px; }
+  html body .porfolio {
+    height: 2800px; }
+  html body .contenedor-imagenes-porfolio {
+    height: 2700px;
     display: flex;
-    @include columnas;
-    .tres-imagenes-porfolio-1 {
-      @include flex;
-      @include columnas;
-    }
-    .tres-imagenes-porfolio-2 {
-      @include flex;
-      @include columnas;
-    }
-    .tres-imagenes-porfolio-3 {
-      @include flex;
-      @include columnas;
-    }
-  }
-*/
+    flex-direction: column; }
+    html body .contenedor-imagenes-porfolio .tres-imagenes-porfolio-1 {
+      display: flex;
+      flex-direction: row;
+      flex-direction: column;
+      margin-bottom: 30px; }
+    html body .contenedor-imagenes-porfolio .tres-imagenes-porfolio-2 {
+      display: flex;
+      flex-direction: row;
+      flex-direction: column;
+      margin-bottom: 30px; }
+    html body .contenedor-imagenes-porfolio .tres-imagenes-porfolio-3 {
+      display: flex;
+      flex-direction: row;
+      flex-direction: column;
+      margin-bottom: 30px; }
+  html body .porfolio-imagen-1,
+  html body .porfolio-imagen-2,
+  html body .porfolio-imagen-3,
+  html body .porfolio-imagen-4,
+  html body .porfolio-imagen-5,
+  html body .porfolio-imagen-6,
+  html body .porfolio-imagen-7,
+  html body .porfolio-imagen-8,
+  html body .porfolio-imagen-9 {
+    margin-bottom: 30px; } }
