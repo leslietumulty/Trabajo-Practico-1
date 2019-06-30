@@ -1842,10 +1842,9 @@ html {
         padding-top: 150px; }
       html body .about-us-section .text-about .mobile-title-about {
         width: 300px;
-        margin: 0; }
+        margin-right: 0; }
       html body .about-us-section .text-about .text-contenido-descripcion {
-        width: 330px;
-        margin: 0; }
+        width: 330px; }
       html body .about-us-section .text-about .mobile-title-about-two {
         margin-top: 738px;
         width: 330px; }
@@ -1856,6 +1855,8 @@ html {
         height: 250px;
         width: 330px;
         margin-top: 130px; }
+      html body .about-us-section .text-about .text-contenido-about {
+        width: 350px; }
   html body #services {
     height: 1610px;
     justify-content: space-between;
@@ -2000,19 +2001,28 @@ html {
     height: 1000px;
     width: 360px;
     overflow: hidden; }
-  html body .testimonials-cards,
-  html body .testimonios-titulos-texto {
-    width: 360px;
-    overflow: hidden; }
-  html body .testimonios-lista {
-    display: flex;
-    flex-direction: column;
-    height: 800px;
-    width: 500px;
-    align-items: center;
-    justify-content: center; }
-    html body .testimonios-lista .testimonials-img-client {
-      width: 50px; }
+    html body .testimonials-section .testimonials-cards,
+    html body .testimonials-section .testimonios-titulos-texto {
+      align-items: center;
+      justify-content: center;
+      width: 350px;
+      overflow: hidden;
+      margin: 0; }
+    html body .testimonials-section .ul-testimonials {
+      width: 360px; }
+      html body .testimonials-section .ul-testimonials .testimonios-lista {
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 350px;
+        align-items: center;
+        justify-content: center;
+        margin: 0; }
+        html body .testimonials-section .ul-testimonials .testimonios-lista .testimonials-img-client {
+          width: 50px; }
+        html body .testimonials-section .ul-testimonials .testimonios-lista .testimonials-description-client {
+          width: 350px;
+          margin-left: 0; }
   html body .team-section {
     height: 1668px; }
     html body .team-section .header-team .header-team-description {
@@ -2082,9 +2092,11 @@ html {
       html body .contact-us-section .map-and-info .contact-contenedor .contact-info {
         display: flex;
         flex-direction: column;
-        margin: 68px 0 0 -16px; }
+        margin: 68px 0 0 -16px;
+        width: 350px; }
         html body .contact-us-section .map-and-info .contact-contenedor .contact-info .contact-info-data {
-          margin: 20px; }
+          margin: 20px;
+          width: 350px; }
       html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container {
         margin: 68px 0 0 -30px; }
         html body .contact-us-section .map-and-info .contact-contenedor .contact-form-container .contact-form .contact-input {
@@ -2099,17 +2111,20 @@ html {
       display: flex;
       flex-direction: row;
       flex-direction: column;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      width: 350px; }
     html body .contenedor-imagenes-porfolio .tres-imagenes-porfolio-2 {
       display: flex;
       flex-direction: row;
       flex-direction: column;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      width: 350px; }
     html body .contenedor-imagenes-porfolio .tres-imagenes-porfolio-3 {
       display: flex;
       flex-direction: row;
       flex-direction: column;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      width: 350px; }
   html body .porfolio-imagen-1,
   html body .porfolio-imagen-2,
   html body .porfolio-imagen-3,

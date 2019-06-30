@@ -2118,16 +2118,17 @@ html {
           .mobile-img-about-one {
             height: 180px;
             width: 330px;
-           padding-top: 150px;
+           
+            padding-top: 150px;
           }
-          
           .mobile-title-about {
             width: 300px;
-            margin:0;
-            }
+            margin-right: 0;
+           
+          }
           .text-contenido-descripcion {
             width: 330px;
-            margin:0;
+           
           }
           .mobile-title-about-two {
             margin-top: 738px;
@@ -2140,7 +2141,11 @@ html {
           .mobile-img-about-two {
             height: 250px;
             width: 330px;
-             margin-top: 130px;
+            
+            margin-top: 130px;
+          }
+          .text-contenido-about {
+            width:350px;
           }
         }
       }
@@ -2250,25 +2255,36 @@ html {
         height: 1000px;
         width: 360px;
         overflow: hidden;
-      }
+      
 
       .testimonials-cards,
       .testimonios-titulos-texto {
-        width: 360px;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
         overflow: hidden;
+        margin: 0;
       }
-
+.ul-testimonials{
+  width:360px;
       .testimonios-lista {
         display: flex;
         flex-direction: column;
         height: 800px;
-        width: 500px;
-
+        width: 350px;
         @include centrar;
+        margin:0;
         .testimonials-img-client {
           width: 50px;
         }
+        .testimonials-description-client{
+          width: 350px;
+          margin-left: 0;
+        }
       }
+    }
+    
+}
       .team-section {
         height: 1668px;
         .header-team {
@@ -2365,8 +2381,10 @@ html {
               display: flex;
               flex-direction: column;
               margin: 68px 0 0 -16px;
+              width:350px;
               .contact-info-data {
                 margin: 20px;
+                width:350px;
               }
             }
             .contact-form-container {
@@ -2391,16 +2409,19 @@ html {
           @include flex;
           @include columnas;
           margin-bottom: 30px;
+          width: 350px;
         }
         .tres-imagenes-porfolio-2 {
           @include flex;
           @include columnas;
           margin-bottom: 30px;
+          width: 350px;
         }
         .tres-imagenes-porfolio-3 {
           @include flex;
           @include columnas;
           margin-bottom: 30px;
+          width: 350px;
         }
       }
 
