@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700%7COpen+Sans&display=swap");
+$fondo-ppal: #ffff;
+$fondo-ppal: #ffff;
+$fondo-header: #1445b3;
+$fondo-secundario: #ecf5ff;
+$fondo-chooseus: #004a99;
+$titulo-about: #283d50;
+$p-about: #556877;
+
+@mixin flex {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin columnas {
+  flex-direction: column;
+}
+
+@mixin centrar {
+  align-items: center;
+  justify-content: center;
+}
+@mixin nav {
+  color: #003b7a;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+@mixin height-auto {
+  width: 100%;
+  height: auto;
+}
+@mixin botonera-header {
+  background-color: #007bff;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  border: 2px solid #007bff;
+  border-radius: 50px;
+}
+@mixin botonera-header-hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: #003b7a;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+@mixin height-auto {
+  width: 100%;
+  height: auto;
+}
+
+@mixin listas {
+  list-style: none;
+}
+@mixin botonera-header {
+  background-color: #007bff;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  border: 2px solid #007bff;
+  border-radius: 50px;
+}
+@mixin botonera-header-hover {
+  background-color: transparent;
+  border: 2px solid white;
+}
+/*titulos-secciones y descripciones-secciones sirven para los encabezados de casi todas las secciones*/
+@mixin titulos-secciones {
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+}
+@mixin descripciones-secciones {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+@mixin imagenes-porfolio {
+  width: 350px;
+  height: 250px;
+}
+
+@mixin imagenes-fondo {
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin iconos-porfolio {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+@mixin iconos-footer {
+  width: 16.7px;
+  height: 18px;
+  color: white;
+}
+
+@mixin iconos-aboutus {
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #007bff;
+}
+/* titulos-iconos y texto-iconos sirve para About Us y Services (especificar color de titulo pq esto cambia segun la sección*/
+@mixin titulos-iconos {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+@mixin texto-iconos {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #444444;
+}
+@mixin titulos-imagenes-aboutus {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  color: #444444;
+}
+@mixin texto-imagenes-aboutus {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #444444;
+}
+
+
+@mixin cajas-services {
+  background-color: #ffffff;
+  height: 168px;
+  width: 425px;
+  border-radius: 10px;
+}
+@mixin caja-why-choose {
+  background-color: #00458f;
+  height: 295px;
+  width: 320px;
+  border-radius: 10px;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@mixin iconos-about-hover {
+  background-color: #007bff;
+  color: white;
+}
+@mixin card-batman {
+  background-position: center;
+  background-size: cover;
+  width: 255px;
+  height: 255px;
+  overflow: hidden;
+  border-radius: 130px;
+}
+@mixin testimonials-nombre {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #111;
+}
+@mixin header-responsive {
+  flex-direction:column-reverse;
+text-align: center;
+justify-content: space-evenly;
+
+}
